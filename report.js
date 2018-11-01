@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6777403214,
+  "duration": 7381167826,
   "status": "passed"
 });
 formatter.scenario({
@@ -100,21 +100,21 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 22845423538,
+  "duration": 34354744728,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1264379337,
+  "duration": 1173941433,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:12"
+  "location": "shoppingcartpage.groovy:13"
 });
 formatter.result({
-  "duration": 39321022252,
+  "duration": 71038913076,
   "status": "passed"
 });
 formatter.match({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 36565547243,
+  "duration": 40090328705,
   "status": "passed"
 });
 formatter.match({
@@ -144,7 +144,7 @@ formatter.match({
   "location": "itemdetailspage.groovy:77"
 });
 formatter.result({
-  "duration": 11185142580,
+  "duration": 30619224578,
   "status": "passed"
 });
 formatter.match({
@@ -154,10 +154,10 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1165762374,
+  "duration": 933712022,
   "status": "passed"
 });
 formatter.match({
@@ -175,10 +175,10 @@ formatter.match({
       "offset": 67
     }
   ],
-  "location": "common_csp.groovy:263"
+  "location": "common_csp.groovy:264"
 });
 formatter.result({
-  "duration": 939497306,
+  "duration": 1928868840,
   "status": "passed"
 });
 formatter.match({
@@ -199,15 +199,15 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1340224155,
+  "duration": 1490205407,
   "status": "passed"
 });
 formatter.after({
-  "duration": 9281503,
+  "duration": 5964642,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33193986,
+  "duration": 22008434,
   "status": "passed"
 });
 formatter.scenario({
@@ -262,7 +262,7 @@ formatter.step({
 });
 formatter.step({
   "line": 30,
-  "name": "I select \"O.R. \u0026 Surgical\" from products dropdown",
+  "name": "I select \"surgical gloves\" from products dropdown",
   "keyword": "And "
 });
 formatter.step({
@@ -305,27 +305,27 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 25850286433,
+  "duration": 27016129576,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 928266511,
+  "duration": 731083173,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "O.R. \u0026 Surgical",
+      "val": "surgical gloves",
       "offset": 10
     }
   ],
-  "location": "categorynavigation.groovy:291"
+  "location": "categorynavigation.groovy:293"
 });
 formatter.result({
-  "duration": 30366347428,
+  "duration": 31661571643,
   "status": "passed"
 });
 formatter.match({
@@ -335,18 +335,18 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1297806850,
-  "status": "passed"
+  "duration": 181478570100,
+  "error_message": "geb.waiting.WaitTimeoutException: condition did not pass in 180.0 seconds (failed with exception)\n\tat geb.waiting.Wait.waitFor(Wait.groovy:138)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)\n\tat geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:46)\n\tat geb.waiting.WaitingSupport$waitFor.call(Unknown Source)\n\tat geb.waiting.WaitingSupport$waitFor.call(Unknown Source)\n\tat geb.Page.waitFor(Page.groovy:516)\n\tat geb.Page.waitFor(Page.groovy)\n\tat pages.CategoryLandingPage$__clinit__closure1.doCall(CategoryLandingPage.groovy:10)\n\tat pages.CategoryLandingPage$__clinit__closure1.doCall(CategoryLandingPage.groovy)\n\tat geb.Page.verifyThisPageAtOnly(Page.groovy:228)\n\tat geb.Page.verifyAt(Page.groovy:182)\n\tat geb.Page$verifyAt$4.call(Unknown Source)\n\tat geb.Page$verifyAt$4.call(Unknown Source)\n\tat geb.Browser.doAt(Browser.groovy:454)\n\tat geb.Browser.at(Browser.groovy:336)\n\tat geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:73)\n\tat steps.basepage.basepage$_run_closure31.doCall(basepage.groovy:203)\n\tat ✽.And I must be taken to an \u0027CategoryLandingPage\u0027(navigation/Common.feature:31)\nCaused by: Assertion failed: \n\n$(\u0027div\u0027, \u0027data-id\u0027: \u0027clpCategoryName\u0027) || $(\u0027#categoryLandingPageContainer\u0027) || $(\"div\", class: \"subCategoryGridWrapper\")\n|                                      |  |                                  |  |\n[]                                     |  []                                 |  []\n                                       false                                 false\n\n\tat pages.CategoryLandingPage$__clinit__closure1$_closure3.doCall(CategoryLandingPage.groovy:11)\n\tat pages.CategoryLandingPage$__clinit__closure1$_closure3.doCall(CategoryLandingPage.groovy)\n\tat geb.waiting.Wait.waitFor(Wait.groovy:127)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)\n\tat geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:46)\n\tat geb.waiting.WaitingSupport$waitFor.call(Unknown Source)\n\tat geb.waiting.WaitingSupport$waitFor.call(Unknown Source)\n\tat geb.Page.waitFor(Page.groovy:516)\n\tat geb.Page.waitFor(Page.groovy)\n\tat pages.CategoryLandingPage$__clinit__closure1.doCall(CategoryLandingPage.groovy:10)\n\tat pages.CategoryLandingPage$__clinit__closure1.doCall(CategoryLandingPage.groovy)\n\tat geb.Page.verifyThisPageAtOnly(Page.groovy:228)\n\tat geb.Page.verifyAt(Page.groovy:182)\n\tat geb.Page$verifyAt$4.call(Unknown Source)\n\tat geb.Page$verifyAt$4.call(Unknown Source)\n\tat geb.Browser.doAt(Browser.groovy:454)\n\tat geb.Browser.at(Browser.groovy:336)\n\tat geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:73)\n\tat steps.basepage.basepage$_run_closure31.doCall(basepage.groovy:203)\n\tat cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)\n\tat cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\n\tat cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:299)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.runtime.Runtime.run(Runtime.java:121)\n\tat cucumber.runtime.Runtime$run.call(Unknown Source)\n\tat com.cardinalhealth.market.config.CucumberRunner.run(CucumberRunner.groovy:29)\n\tat com.cardinalhealth.market.config.CucumberRunner$run$0.callStatic(Unknown Source)\n\tat com.cardinalhealth.market.config.CucumberRunner.runCucumber(CucumberRunner.groovy:19)\n\tat com.cardinalhealth.market.config.CucumberRunner$runCucumber.call(Unknown Source)\n\tat com.cardinalhealth.market.TestRunner.main(TestRunner.groovy:31)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 47052716692,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -362,8 +362,7 @@ formatter.match({
   "location": "itemdetailspage.groovy:77"
 });
 formatter.result({
-  "duration": 12289489669,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -372,11 +371,10 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 945263156,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -396,8 +394,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1168883988,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -414,18 +411,18 @@ formatter.match({
       "offset": 67
     }
   ],
-  "location": "common_csp.groovy:263"
+  "location": "common_csp.groovy:264"
 });
 formatter.result({
-  "duration": 1121834862,
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 937100,
+  "duration": 1385720160,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26869164,
+  "duration": 49334427,
   "status": "passed"
 });
 formatter.scenario({
@@ -433,9 +430,13 @@ formatter.scenario({
     {
       "line": 38,
       "value": "#hardcoded"
+    },
+    {
+      "line": 39,
+      "value": "#orig_prod_product not present in stage (under additional details)"
     }
   ],
-  "line": 45,
+  "line": 44,
   "name": "Catg : Alternatives ; Open Alternative option and Verify details of ORIGINAL products",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-alternatives-;-open-alternative-option-and-verify-details-of-original-products",
@@ -443,12 +444,8 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 39,
-      "name": "@market_smoke"
-    },
-    {
       "line": 40,
-      "name": "@market_smoke_prod1"
+      "name": "@market_smoke"
     },
     {
       "line": 41,
@@ -456,66 +453,62 @@ formatter.scenario({
     },
     {
       "line": 42,
-      "name": "@market_smoke_prod"
-    },
-    {
-      "line": 43,
       "name": "@alternative"
     },
     {
-      "line": 44,
+      "line": 43,
       "name": "@alternativeproducts_orig_prod_details"
     }
   ]
 });
 formatter.step({
-  "line": 46,
+  "line": 45,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 47,
+  "line": 46,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 48,
+  "line": 47,
   "name": "Delete any existing products in cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 49,
+  "line": 48,
   "name": "Search product by word \"DRAINAGE POUCH ONE-PIECE ACTIVELIFE OPEN PRE-CUT\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 50,
+  "line": 49,
   "name": "I am on the \"SearchResultPage\" Page and click at item \"SearchViewAlternativeLink\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 51,
+  "line": 50,
   "name": "I must be taken to an \u0027ShopAlternativesPage\u0027",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 52,
+  "line": 51,
   "name": "Element \"alternativesTitle\" has value \"Shop Alternatives\" in page \"ShopAlternativesPage\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 53,
+  "line": 52,
   "name": "Make sure element \"no_alternatives_present\" is not present in page \"\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 54,
+  "line": 53,
   "name": "Make sure elements \"orig_prod_manufacturername,orig_prod_material,orig_prod_title,orig_prod_selectbutton\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 55,
-  "name": "Make sure elements \"orig_prod_price,orig_prod_availibity,orig_prod_description,orig_prod_manufacturernumber,orig_prod_product\" are present",
+  "line": 54,
+  "name": "Make sure elements \"orig_prod_price,orig_prod_availibity,orig_prod_description,orig_prod_manufacturernumber\" are present",
   "keyword": "And "
 });
 formatter.match({
@@ -528,21 +521,21 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 22826781342,
+  "duration": 30407221561,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 839192606,
+  "duration": 640650669,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:12"
+  "location": "shoppingcartpage.groovy:13"
 });
 formatter.result({
-  "duration": 12889855772,
+  "duration": 9744071159,
   "status": "passed"
 });
 formatter.match({
@@ -555,7 +548,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 28632308900,
+  "duration": 31611577426,
   "status": "passed"
 });
 formatter.match({
@@ -572,7 +565,7 @@ formatter.match({
   "location": "itemdetailspage.groovy:77"
 });
 formatter.result({
-  "duration": 8649984082,
+  "duration": 11003385330,
   "status": "passed"
 });
 formatter.match({
@@ -582,10 +575,10 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1574502376,
+  "duration": 3272491239,
   "status": "passed"
 });
 formatter.match({
@@ -603,10 +596,10 @@ formatter.match({
       "offset": 67
     }
   ],
-  "location": "common_csp.groovy:263"
+  "location": "common_csp.groovy:264"
 });
 formatter.result({
-  "duration": 1070887486,
+  "duration": 2347919553,
   "status": "passed"
 });
 formatter.match({
@@ -627,7 +620,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 2393999760,
+  "duration": 1724131097,
   "status": "passed"
 });
 formatter.match({
@@ -641,47 +634,45 @@ formatter.match({
       "offset": 110
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 8327852933,
+  "duration": 8497906693,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "orig_prod_price,orig_prod_availibity,orig_prod_description,orig_prod_manufacturernumber,orig_prod_product",
+      "val": "orig_prod_price,orig_prod_availibity,orig_prod_description,orig_prod_manufacturernumber",
       "offset": 20
     },
     {
       "val": "present",
-      "offset": 131
+      "offset": 113
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 317863514861,
-  "error_message": "geb.waiting.WaitTimeoutException: condition did not pass in 300.0 seconds (failed with exception)\n\tat geb.waiting.Wait.waitFor(Wait.groovy:138)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.content.PageContentTemplate.create(PageContentTemplate.groovy:74)\n\tat geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)\n\tat geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)\n\tat geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)\n\tat geb.content.PageContentSupport$propertyMissing.call(Unknown Source)\n\tat geb.Page.propertyMissing(Page.groovy:99)\n\tat geb.Page.getProperty(Page.groovy)\n\tat functionlib.Elements.elementexists(Elements.groovy:309)\n\tat steps.common_csp.common_csp$_run_closure26$_closure90.doCall(common_csp.groovy:315)\n\tat ✽.And Make sure elements \"orig_prod_price,orig_prod_availibity,orig_prod_description,orig_prod_manufacturernumber,orig_prod_product\" are present(navigation/Common.feature:55)\nCaused by: Assertion failed: \n\noriginal_product.$(\"div\",class:\"section-cell-dynamic\").$(\"span\",class:\"column-name\",text:\"PRODUCT\").parent().$(\"span\")[1]\n|                |                                     |                                            |        |        |\n|                |                                     []                                           []       []       []\n|                [[[[[RemoteWebDriver: chrome on XP (c5e19bbd640b4f5fbc9633f68623ff55)] -\u003e css selector: div.alt-original-product]] -\u003e css selector: div.section-cell-dynamic], [[[[RemoteWebDriver: chrome on XP (c5e19bbd640b4f5fbc9633f68623ff55)] -\u003e css selector: div.alt-original-product]] -\u003e css selector: div.section-cell-dynamic], [[[[RemoteWebDriver: chrome on XP (c5e19bbd640b4f5fbc9633f68623ff55)] -\u003e css selector: div.alt-original-product]] -\u003e css selector: div.section-cell-dynamic], [[[[RemoteWebDriver: chrome on XP (c5e19bbd640b4f5fbc9633f68623ff55)] -\u003e css selector: div.alt-original-product]] -\u003e css selector: div.section-cell-dynamic]]\npages.ShopAlternativesPage -\u003e original_product: geb.navigator.NonEmptyNavigator\n\n\tat pages.ShopAlternativesPage$__clinit__closure2$_closure16.doCall(ShopAlternativesPage.groovy:29)\n\tat pages.ShopAlternativesPage$__clinit__closure2$_closure16.doCall(ShopAlternativesPage.groovy)\n\tat geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)\n\tat geb.content.PageContentTemplate$_create_closure1.doCall(PageContentTemplate.groovy:59)\n\tat geb.content.PageContentTemplate$_create_closure1.doCall(PageContentTemplate.groovy)\n\tat geb.waiting.Wait.waitFor(Wait.groovy:127)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.content.PageContentTemplate.create(PageContentTemplate.groovy:74)\n\tat geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)\n\tat geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)\n\tat geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)\n\tat geb.content.PageContentSupport$propertyMissing.call(Unknown Source)\n\tat geb.Page.propertyMissing(Page.groovy:99)\n\tat geb.Page.getProperty(Page.groovy)\n\tat functionlib.Elements.elementexists(Elements.groovy:309)\n\tat steps.common_csp.common_csp$_run_closure26$_closure90.doCall(common_csp.groovy:315)\n\tat steps.common_csp.common_csp$_run_closure26.doCall(common_csp.groovy:310)\n\tat cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)\n\tat cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\n\tat cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:299)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.runtime.Runtime.run(Runtime.java:121)\n\tat cucumber.runtime.Runtime$run.call(Unknown Source)\n\tat com.cardinalhealth.market.config.CucumberRunner.run(CucumberRunner.groovy:29)\n\tat com.cardinalhealth.market.config.CucumberRunner$run$0.callStatic(Unknown Source)\n\tat com.cardinalhealth.market.config.CucumberRunner.runCucumber(CucumberRunner.groovy:19)\n\tat com.cardinalhealth.market.config.CucumberRunner$runCucumber.call(Unknown Source)\n\tat com.cardinalhealth.market.TestRunner.main(TestRunner.groovy:31)\n",
-  "status": "failed"
+  "duration": 22340494457,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 1005299083,
+  "duration": 547950,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31792183,
+  "duration": 21799620,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
     {
-      "line": 57,
+      "line": 74,
       "value": "#hardcoded"
     }
   ],
-  "line": 64,
+  "line": 81,
   "name": "Catg : Alternatives ; Search for alternative option and Verify details of ALTERNATIVE products",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-alternatives-;-search-for-alternative-option-and-verify-details-of-alternative-products",
@@ -689,78 +680,78 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 58,
+      "line": 75,
       "name": "@market_smoke"
     },
     {
-      "line": 59,
+      "line": 76,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 60,
+      "line": 77,
       "name": "@market_smoke1"
     },
     {
-      "line": 61,
+      "line": 78,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 62,
+      "line": 79,
       "name": "@alternative"
     },
     {
-      "line": 63,
+      "line": 80,
       "name": "@alternativeproducts_alternative_prod_details"
     }
   ]
 });
 formatter.step({
-  "line": 65,
+  "line": 82,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 66,
+  "line": 83,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 67,
+  "line": 84,
   "name": "Delete any existing products in cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 68,
+  "line": 85,
   "name": "Search product by word \"DRAINAGE POUCH ONE-PIECE ACTIVELIFE OPEN PRE-CUT\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 69,
+  "line": 86,
   "name": "I am on the \"SearchResultPage\" Page and click at item \"SearchViewAlternativeLink\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 70,
+  "line": 87,
   "name": "I must be taken to an \u0027ShopAlternativesPage\u0027",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 71,
+  "line": 88,
   "name": "Element \"alternativesTitle\" has value \"Shop Alternatives\" in page \"ShopAlternativesPage\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 72,
+  "line": 89,
   "name": "Make sure element \"no_alternatives_present\" is not present in page \"\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 73,
+  "line": 90,
   "name": "Make sure elements \"all_alternatives,each_alternative,each_alternative_image,each_alternative_product,each_alternative_price,each_alternative_availibity,each_alternative_manufacturernumber\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 74,
+  "line": 91,
   "name": "Make sure elements \"each_alternative_manufacturername,each_alternative_material,each_alternative_title,each_alternative_selectbutton,each_alternative_description\" are present",
   "keyword": "And "
 });
@@ -774,21 +765,21 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 29250592893,
+  "duration": 24224538271,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 847614744,
+  "duration": 640448952,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:12"
+  "location": "shoppingcartpage.groovy:13"
 });
 formatter.result({
-  "duration": 9711297016,
+  "duration": 10712905537,
   "status": "passed"
 });
 formatter.match({
@@ -801,7 +792,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 32797646811,
+  "duration": 26071088729,
   "status": "passed"
 });
 formatter.match({
@@ -818,7 +809,7 @@ formatter.match({
   "location": "itemdetailspage.groovy:77"
 });
 formatter.result({
-  "duration": 13862989809,
+  "duration": 10801798532,
   "status": "passed"
 });
 formatter.match({
@@ -828,10 +819,10 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 896032402,
+  "duration": 850279989,
   "status": "passed"
 });
 formatter.match({
@@ -849,10 +840,10 @@ formatter.match({
       "offset": 67
     }
   ],
-  "location": "common_csp.groovy:263"
+  "location": "common_csp.groovy:264"
 });
 formatter.result({
-  "duration": 951142832,
+  "duration": 1025673692,
   "status": "passed"
 });
 formatter.match({
@@ -873,7 +864,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1362020460,
+  "duration": 4493155963,
   "status": "passed"
 });
 formatter.match({
@@ -887,10 +878,10 @@ formatter.match({
       "offset": 194
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 8230670575,
+  "duration": 10215161986,
   "status": "passed"
 });
 formatter.match({
@@ -904,22 +895,22 @@ formatter.match({
       "offset": 167
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 6053054301,
+  "duration": 7587015031,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1077915,
+  "duration": 669894,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31469591,
+  "duration": 25963915,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 83,
+  "line": 100,
   "name": "Catg : Compare : Add items to compare not more than 4 items /check for clear all/try",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-compare-:-add-items-to-compare-not-more-than-4-items-/check-for-clear-all/try",
@@ -927,188 +918,188 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 77,
+      "line": 94,
       "name": "@market_smoke"
     },
     {
-      "line": 78,
+      "line": 95,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 79,
+      "line": 96,
       "name": "@market_smoke1"
     },
     {
-      "line": 80,
+      "line": 97,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 81,
+      "line": 98,
       "name": "@compare"
     },
     {
-      "line": 82,
+      "line": 99,
       "name": "@add_items_to_compare"
     }
   ]
 });
 formatter.step({
-  "line": 84,
+  "line": 101,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 85,
+  "line": 102,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 86,
+  "line": 103,
   "name": "Search product by word \"surgical gloves\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 87,
+  "line": 104,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 88,
+  "line": 105,
   "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
   "keyword": "And "
 });
 formatter.step({
-  "line": 89,
-  "name": "I must not see compare tray items",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 90,
-  "name": "Add \"4\" items to compare and make sure compare tray appears",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 91,
-  "name": "The count of element \"CompareTrayItem\" is \u00274\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 92,
-  "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 93,
-  "name": "Make sure elements \"CompareTrayTitle\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 94,
-  "name": "Make sure elements \"CompareTrayMessage\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 95,
-  "name": "Make sure elements \"CompareTrayClearAll\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 96,
-  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 97,
-  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemImage\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 98,
-  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemNum\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 99,
-  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 100,
-  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayRemoveItem\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 101,
-  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayItemImage\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 102,
-  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayItemNum\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 103,
-  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayRemoveItem\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 104,
-  "name": "I must see compare tray item \u00273\u0027 has \u0027CompareTrayRemoveItem\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 105,
-  "name": "I must see compare tray item \u00273\u0027 has \u0027CompareTrayItemImage\u0027",
-  "keyword": "And "
-});
-formatter.step({
   "line": 106,
-  "name": "I must see compare tray item \u00273\u0027 has \u0027CompareTrayItemNum\u0027",
+  "name": "I must not see compare tray items",
   "keyword": "And "
 });
 formatter.step({
   "line": 107,
-  "name": "I must see compare tray item \u00273\u0027 has \u0027CompareTrayRemoveItem\u0027",
-  "keyword": "And "
+  "name": "Add \"4\" items to compare and make sure compare tray appears",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 108,
-  "name": "I must see compare tray item \u00274\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "name": "The count of element \"CompareTrayItem\" is \u00274\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 109,
-  "name": "I must see compare tray item \u00274\u0027 has \u0027CompareTrayItemImage\u0027",
+  "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "keyword": "And "
 });
 formatter.step({
   "line": 110,
-  "name": "I must see compare tray item \u00274\u0027 has \u0027CompareTrayItemNum\u0027",
+  "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
   "line": 111,
-  "name": "I must see compare tray item \u00274\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
   "line": 112,
-  "name": "Log out of Market application",
+  "name": "Make sure elements \"CompareTrayClearAll\" are present",
   "keyword": "And "
 });
 formatter.step({
   "line": 113,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 114,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemImage\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 115,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemNum\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 116,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 117,
+  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 118,
+  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayItemImage\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 119,
+  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayItemNum\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 120,
+  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 121,
+  "name": "I must see compare tray item \u00273\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 122,
+  "name": "I must see compare tray item \u00273\u0027 has \u0027CompareTrayItemImage\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 123,
+  "name": "I must see compare tray item \u00273\u0027 has \u0027CompareTrayItemNum\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 124,
+  "name": "I must see compare tray item \u00273\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 125,
+  "name": "I must see compare tray item \u00274\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 126,
+  "name": "I must see compare tray item \u00274\u0027 has \u0027CompareTrayItemImage\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 127,
+  "name": "I must see compare tray item \u00274\u0027 has \u0027CompareTrayItemNum\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 128,
+  "name": "I must see compare tray item \u00274\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 129,
+  "name": "Log out of Market application",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 130,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "When "
 });
 formatter.step({
-  "line": 114,
+  "line": 131,
   "name": "I must not see compare tray items",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 115,
+  "line": 132,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -1122,14 +1113,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 27139861911,
+  "duration": 38045579260,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1014554091,
+  "duration": 673389064,
   "status": "passed"
 });
 formatter.match({
@@ -1142,7 +1133,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 32895156232,
+  "duration": 36651177716,
   "status": "passed"
 });
 formatter.match({
@@ -1152,10 +1143,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 493226341,
+  "duration": 473092712,
   "status": "passed"
 });
 formatter.match({
@@ -1169,17 +1160,17 @@ formatter.match({
       "offset": 52
     }
   ],
-  "location": "common_csp.groovy:349"
+  "location": "common_csp.groovy:351"
 });
 formatter.result({
-  "duration": 860078274,
+  "duration": 2450158859,
   "status": "passed"
 });
 formatter.match({
   "location": "searchresultpage.groovy:761"
 });
 formatter.result({
-  "duration": 5410548792,
+  "duration": 8824483477,
   "status": "passed"
 });
 formatter.match({
@@ -1192,7 +1183,7 @@ formatter.match({
   "location": "searchresultpage.groovy:579"
 });
 formatter.result({
-  "duration": 55817636021,
+  "duration": 52251081405,
   "status": "passed"
 });
 formatter.match({
@@ -1209,7 +1200,7 @@ formatter.match({
   "location": "searchresultpage.groovy:716"
 });
 formatter.result({
-  "duration": 307576862,
+  "duration": 280643417,
   "status": "passed"
 });
 formatter.match({
@@ -1226,7 +1217,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 2926763192,
+  "duration": 5059165683,
   "status": "passed"
 });
 formatter.match({
@@ -1240,10 +1231,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1333886369,
+  "duration": 723180086,
   "status": "passed"
 });
 formatter.match({
@@ -1257,10 +1248,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 815831904,
+  "duration": 887046537,
   "status": "passed"
 });
 formatter.match({
@@ -1274,10 +1265,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 989736195,
+  "duration": 831865728,
   "status": "passed"
 });
 formatter.match({
@@ -1294,7 +1285,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 452003822,
+  "duration": 1876622988,
   "status": "passed"
 });
 formatter.match({
@@ -1311,7 +1302,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 440509765,
+  "duration": 445195960,
   "status": "passed"
 });
 formatter.match({
@@ -1328,7 +1319,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 445591639,
+  "duration": 568325165,
   "status": "passed"
 });
 formatter.match({
@@ -1345,7 +1336,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 439464815,
+  "duration": 428200005,
   "status": "passed"
 });
 formatter.match({
@@ -1362,7 +1353,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 463761683,
+  "duration": 370497263,
   "status": "passed"
 });
 formatter.match({
@@ -1379,7 +1370,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 397485386,
+  "duration": 550650459,
   "status": "passed"
 });
 formatter.match({
@@ -1396,7 +1387,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 434582318,
+  "duration": 373310799,
   "status": "passed"
 });
 formatter.match({
@@ -1413,7 +1404,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 413199938,
+  "duration": 1761346747,
   "status": "passed"
 });
 formatter.match({
@@ -1430,7 +1421,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 2089314166,
+  "duration": 409582840,
   "status": "passed"
 });
 formatter.match({
@@ -1447,7 +1438,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 471189494,
+  "duration": 3005876101,
   "status": "passed"
 });
 formatter.match({
@@ -1464,7 +1455,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 816582898,
+  "duration": 447947798,
   "status": "passed"
 });
 formatter.match({
@@ -1481,7 +1472,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 834130267,
+  "duration": 475672608,
   "status": "passed"
 });
 formatter.match({
@@ -1498,7 +1489,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 425325474,
+  "duration": 429272514,
   "status": "passed"
 });
 formatter.match({
@@ -1515,7 +1506,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 436169743,
+  "duration": 402747340,
   "status": "passed"
 });
 formatter.match({
@@ -1532,7 +1523,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 1002911383,
+  "duration": 368880342,
   "status": "passed"
 });
 formatter.match({
@@ -1549,14 +1540,14 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 473440784,
+  "duration": 407453255,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 6535476432,
+  "duration": 8263386164,
   "status": "passed"
 });
 formatter.match({
@@ -1569,29 +1560,29 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 23018577072,
+  "duration": 23975054695,
   "status": "passed"
 });
 formatter.match({
   "location": "searchresultpage.groovy:761"
 });
 formatter.result({
-  "duration": 5881305147,
+  "duration": 7376297159,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 8690166757,
+  "duration": 10272872489,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1163498,
+  "duration": 1174570,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 123,
+  "line": 140,
   "name": "Catg : Compare : Repeat 4times..(based on item ctn# 1-4)-Compare tray persist after 2nd search/page up/down \u0026 button disabled/enabled as expected",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected",
@@ -1599,163 +1590,163 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 117,
+      "line": 134,
       "name": "@market_smoke"
     },
     {
-      "line": 118,
+      "line": 135,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 119,
+      "line": 136,
       "name": "@market_smoke1"
     },
     {
-      "line": 120,
+      "line": 137,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 121,
+      "line": 138,
       "name": "@compare"
     },
     {
-      "line": 122,
+      "line": 139,
       "name": "@compare_two_four_items"
     }
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 141,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 125,
+  "line": 142,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 126,
+  "line": 143,
   "name": "Search product by word \"surgical gloves\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 127,
-  "name": "I am on \"SearchResultPage\" page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 128,
-  "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 129,
-  "name": "I must not see compare tray items",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 130,
-  "name": "Add \"\u003ccompare_items\u003e\" items to compare and make sure compare tray appears",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 131,
-  "name": "The count of element \"CompareTrayItem\" is \u0027\u003ccompare_items\u003e\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 132,
-  "name": "I see that the \"CompareTrayButton\" button is displayed as \u003cenabled_disabled\u003e",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 133,
-  "name": "Make sure elements \"CompareTrayTitle\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 134,
-  "name": "Make sure elements \"CompareTrayMessage\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 135,
-  "name": "Search product by word \"P50\" and get list of related products",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 136,
-  "name": "I am on \"SearchResultPage\" page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 137,
-  "name": "I see that the \"CompareTrayButton\" button is displayed as \u003cenabled_disabled\u003e",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 138,
-  "name": "Make sure elements \"CompareTrayTitle\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 139,
-  "name": "Make sure elements \"CompareTrayMessage\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 140,
-  "name": "Navigate to element \"LoadMoreBtn\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 141,
-  "name": "Make sure elements \"CompareTrayTitle\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 142,
-  "name": "Make sure elements \"CompareTrayMessage\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 143,
-  "name": "I am on \"BasePage\" page",
-  "keyword": "And "
-});
-formatter.step({
   "line": 144,
-  "name": "Navigate to element module \"Logo\" on module \"globalHeader\"",
+  "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
   "line": 145,
-  "name": "I am on \"SearchResultPage\" page",
+  "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
   "keyword": "And "
 });
 formatter.step({
   "line": 146,
-  "name": "I see that the \"CompareTrayButton\" button is displayed as \u003cenabled_disabled\u003e",
+  "name": "I must not see compare tray items",
   "keyword": "And "
 });
 formatter.step({
   "line": 147,
-  "name": "Make sure elements \"CompareTrayTitle\" are present",
-  "keyword": "And "
+  "name": "Add \"\u003ccompare_items\u003e\" items to compare and make sure compare tray appears",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 148,
-  "name": "Make sure elements \"CompareTrayMessage\" are present",
+  "name": "The count of element \"CompareTrayItem\" is \u0027\u003ccompare_items\u003e\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 149,
+  "name": "I see that the \"CompareTrayButton\" button is displayed as \u003cenabled_disabled\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 150,
+  "name": "Make sure elements \"CompareTrayTitle\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 151,
+  "name": "Make sure elements \"CompareTrayMessage\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 152,
+  "name": "Search product by word \"P50\" and get list of related products",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 153,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 154,
+  "name": "I see that the \"CompareTrayButton\" button is displayed as \u003cenabled_disabled\u003e",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 155,
+  "name": "Make sure elements \"CompareTrayTitle\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 156,
+  "name": "Make sure elements \"CompareTrayMessage\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 157,
+  "name": "Navigate to element \"LoadMoreBtn\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 158,
+  "name": "Make sure elements \"CompareTrayTitle\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 159,
+  "name": "Make sure elements \"CompareTrayMessage\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 160,
+  "name": "I am on \"BasePage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 161,
+  "name": "Navigate to element module \"Logo\" on module \"globalHeader\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 162,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 163,
+  "name": "I see that the \"CompareTrayButton\" button is displayed as \u003cenabled_disabled\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 164,
+  "name": "Make sure elements \"CompareTrayTitle\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 165,
+  "name": "Make sure elements \"CompareTrayMessage\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 166,
   "name": "Log out of Market application",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 151,
+  "line": 168,
   "name": "",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;",
@@ -1765,7 +1756,7 @@ formatter.examples({
         "compare_items",
         "enabled_disabled"
       ],
-      "line": 152,
+      "line": 169,
       "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;;1"
     },
     {
@@ -1773,7 +1764,7 @@ formatter.examples({
         "1",
         "disabled"
       ],
-      "line": 153,
+      "line": 170,
       "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;;2"
     },
     {
@@ -1781,7 +1772,7 @@ formatter.examples({
         "2",
         "enabled"
       ],
-      "line": 154,
+      "line": 171,
       "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;;3"
     },
     {
@@ -1789,7 +1780,7 @@ formatter.examples({
         "3",
         "enabled"
       ],
-      "line": 155,
+      "line": 172,
       "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;;4"
     },
     {
@@ -1797,18 +1788,18 @@ formatter.examples({
         "4",
         "enabled"
       ],
-      "line": 156,
+      "line": 173,
       "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;;5"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 29284072,
+  "duration": 21727857,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 153,
+  "line": 170,
   "name": "Catg : Compare : Repeat 4times..(based on item ctn# 1-4)-Compare tray persist after 2nd search/page up/down \u0026 button disabled/enabled as expected",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;;2",
@@ -1816,63 +1807,63 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 118,
+      "line": 135,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 117,
+      "line": 134,
       "name": "@market_smoke"
     },
     {
-      "line": 120,
+      "line": 137,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 121,
+      "line": 138,
       "name": "@compare"
     },
     {
-      "line": 122,
+      "line": 139,
       "name": "@compare_two_four_items"
     },
     {
-      "line": 119,
+      "line": 136,
       "name": "@market_smoke1"
     }
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 141,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 125,
+  "line": 142,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 126,
+  "line": 143,
   "name": "Search product by word \"surgical gloves\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 127,
+  "line": 144,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 128,
+  "line": 145,
   "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
   "keyword": "And "
 });
 formatter.step({
-  "line": 129,
+  "line": 146,
   "name": "I must not see compare tray items",
   "keyword": "And "
 });
 formatter.step({
-  "line": 130,
+  "line": 147,
   "name": "Add \"1\" items to compare and make sure compare tray appears",
   "matchedColumns": [
     0
@@ -1880,7 +1871,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 131,
+  "line": 148,
   "name": "The count of element \"CompareTrayItem\" is \u00271\u0027",
   "matchedColumns": [
     0
@@ -1888,7 +1879,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 132,
+  "line": 149,
   "name": "I see that the \"CompareTrayButton\" button is displayed as disabled",
   "matchedColumns": [
     1
@@ -1896,27 +1887,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 133,
+  "line": 150,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 134,
+  "line": 151,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 135,
+  "line": 152,
   "name": "Search product by word \"P50\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 136,
+  "line": 153,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 137,
+  "line": 154,
   "name": "I see that the \"CompareTrayButton\" button is displayed as disabled",
   "matchedColumns": [
     1
@@ -1924,47 +1915,47 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 138,
+  "line": 155,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 139,
+  "line": 156,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 140,
+  "line": 157,
   "name": "Navigate to element \"LoadMoreBtn\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 141,
+  "line": 158,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 142,
+  "line": 159,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 143,
+  "line": 160,
   "name": "I am on \"BasePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 144,
+  "line": 161,
   "name": "Navigate to element module \"Logo\" on module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 145,
+  "line": 162,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 146,
+  "line": 163,
   "name": "I see that the \"CompareTrayButton\" button is displayed as disabled",
   "matchedColumns": [
     1
@@ -1972,17 +1963,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 147,
+  "line": 164,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 148,
+  "line": 165,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 149,
+  "line": 166,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -1996,14 +1987,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 23570883098,
+  "duration": 37377373526,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1419360143,
+  "duration": 1496132408,
   "status": "passed"
 });
 formatter.match({
@@ -2016,7 +2007,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 26159321713,
+  "duration": 33074758374,
   "status": "passed"
 });
 formatter.match({
@@ -2026,10 +2017,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 636856922,
+  "duration": 427432254,
   "status": "passed"
 });
 formatter.match({
@@ -2043,17 +2034,17 @@ formatter.match({
       "offset": 52
     }
   ],
-  "location": "common_csp.groovy:349"
+  "location": "common_csp.groovy:351"
 });
 formatter.result({
-  "duration": 862165211,
+  "duration": 1058015839,
   "status": "passed"
 });
 formatter.match({
   "location": "searchresultpage.groovy:761"
 });
 formatter.result({
-  "duration": 4612432714,
+  "duration": 5957627570,
   "status": "passed"
 });
 formatter.match({
@@ -2066,7 +2057,7 @@ formatter.match({
   "location": "searchresultpage.groovy:579"
 });
 formatter.result({
-  "duration": 11871826006,
+  "duration": 12617185745,
   "status": "passed"
 });
 formatter.match({
@@ -2083,7 +2074,7 @@ formatter.match({
   "location": "searchresultpage.groovy:716"
 });
 formatter.result({
-  "duration": 296548778,
+  "duration": 330698059,
   "status": "passed"
 });
 formatter.match({
@@ -2100,7 +2091,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 5973752319,
+  "duration": 2696978588,
   "status": "passed"
 });
 formatter.match({
@@ -2114,10 +2105,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2225672248,
+  "duration": 723865702,
   "status": "passed"
 });
 formatter.match({
@@ -2131,10 +2122,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1096284412,
+  "duration": 1437763885,
   "status": "passed"
 });
 formatter.match({
@@ -2147,7 +2138,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 38802896615,
+  "duration": 37653055791,
   "status": "passed"
 });
 formatter.match({
@@ -2157,10 +2148,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 428398419,
+  "duration": 1751150596,
   "status": "passed"
 });
 formatter.match({
@@ -2177,7 +2168,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 2963598081,
+  "duration": 3528013415,
   "status": "passed"
 });
 formatter.match({
@@ -2191,10 +2182,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 3353228309,
+  "duration": 1425519264,
   "status": "passed"
 });
 formatter.match({
@@ -2208,10 +2199,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 905782601,
+  "duration": 752648073,
   "status": "passed"
 });
 formatter.match({
@@ -2221,10 +2212,10 @@ formatter.match({
       "offset": 21
     }
   ],
-  "location": "common_csp.groovy:356"
+  "location": "common_csp.groovy:358"
 });
 formatter.result({
-  "duration": 2823496734,
+  "duration": 4640341827,
   "status": "passed"
 });
 formatter.match({
@@ -2238,10 +2229,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1744112203,
+  "duration": 2553363222,
   "status": "passed"
 });
 formatter.match({
@@ -2255,10 +2246,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1662182746,
+  "duration": 874520156,
   "status": "passed"
 });
 formatter.match({
@@ -2268,10 +2259,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 885129728,
+  "duration": 1029591418,
   "status": "passed"
 });
 formatter.match({
@@ -2285,10 +2276,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:360"
+  "location": "common_csp.groovy:362"
 });
 formatter.result({
-  "duration": 7105754714,
+  "duration": 6716914358,
   "status": "passed"
 });
 formatter.match({
@@ -2298,10 +2289,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 516773772,
+  "duration": 575600026,
   "status": "passed"
 });
 formatter.match({
@@ -2318,7 +2309,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 3051920739,
+  "duration": 3995321924,
   "status": "passed"
 });
 formatter.match({
@@ -2332,10 +2323,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 3509626790,
+  "duration": 722061279,
   "status": "passed"
 });
 formatter.match({
@@ -2349,29 +2340,29 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1614459677,
+  "duration": 2709391601,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 10079049781,
+  "duration": 8469050957,
   "status": "passed"
 });
 formatter.after({
-  "duration": 922678,
+  "duration": 655841,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30828841,
+  "duration": 51539190,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 154,
+  "line": 171,
   "name": "Catg : Compare : Repeat 4times..(based on item ctn# 1-4)-Compare tray persist after 2nd search/page up/down \u0026 button disabled/enabled as expected",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;;3",
@@ -2379,63 +2370,63 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 118,
+      "line": 135,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 117,
+      "line": 134,
       "name": "@market_smoke"
     },
     {
-      "line": 120,
+      "line": 137,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 121,
+      "line": 138,
       "name": "@compare"
     },
     {
-      "line": 122,
+      "line": 139,
       "name": "@compare_two_four_items"
     },
     {
-      "line": 119,
+      "line": 136,
       "name": "@market_smoke1"
     }
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 141,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 125,
+  "line": 142,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 126,
+  "line": 143,
   "name": "Search product by word \"surgical gloves\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 127,
+  "line": 144,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 128,
+  "line": 145,
   "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
   "keyword": "And "
 });
 formatter.step({
-  "line": 129,
+  "line": 146,
   "name": "I must not see compare tray items",
   "keyword": "And "
 });
 formatter.step({
-  "line": 130,
+  "line": 147,
   "name": "Add \"2\" items to compare and make sure compare tray appears",
   "matchedColumns": [
     0
@@ -2443,7 +2434,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 131,
+  "line": 148,
   "name": "The count of element \"CompareTrayItem\" is \u00272\u0027",
   "matchedColumns": [
     0
@@ -2451,7 +2442,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 132,
+  "line": 149,
   "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "matchedColumns": [
     1
@@ -2459,27 +2450,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 133,
+  "line": 150,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 134,
+  "line": 151,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 135,
+  "line": 152,
   "name": "Search product by word \"P50\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 136,
+  "line": 153,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 137,
+  "line": 154,
   "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "matchedColumns": [
     1
@@ -2487,47 +2478,47 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 138,
+  "line": 155,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 139,
+  "line": 156,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 140,
+  "line": 157,
   "name": "Navigate to element \"LoadMoreBtn\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 141,
+  "line": 158,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 142,
+  "line": 159,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 143,
+  "line": 160,
   "name": "I am on \"BasePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 144,
+  "line": 161,
   "name": "Navigate to element module \"Logo\" on module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 145,
+  "line": 162,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 146,
+  "line": 163,
   "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "matchedColumns": [
     1
@@ -2535,17 +2526,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 147,
+  "line": 164,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 148,
+  "line": 165,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 149,
+  "line": 166,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -2559,14 +2550,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 21207088498,
+  "duration": 26968191794,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 2584429271,
+  "duration": 1562218231,
   "status": "passed"
 });
 formatter.match({
@@ -2579,7 +2570,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 26158940604,
+  "duration": 34504304484,
   "status": "passed"
 });
 formatter.match({
@@ -2589,10 +2580,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 2207437339,
+  "duration": 393300834,
   "status": "passed"
 });
 formatter.match({
@@ -2606,17 +2597,17 @@ formatter.match({
       "offset": 52
     }
   ],
-  "location": "common_csp.groovy:349"
+  "location": "common_csp.groovy:351"
 });
 formatter.result({
-  "duration": 2366950498,
+  "duration": 1648163816,
   "status": "passed"
 });
 formatter.match({
   "location": "searchresultpage.groovy:761"
 });
 formatter.result({
-  "duration": 5662641395,
+  "duration": 6217827255,
   "status": "passed"
 });
 formatter.match({
@@ -2629,7 +2620,7 @@ formatter.match({
   "location": "searchresultpage.groovy:579"
 });
 formatter.result({
-  "duration": 25238550753,
+  "duration": 21960786625,
   "status": "passed"
 });
 formatter.match({
@@ -2646,7 +2637,7 @@ formatter.match({
   "location": "searchresultpage.groovy:716"
 });
 formatter.result({
-  "duration": 314216518,
+  "duration": 255621772,
   "status": "passed"
 });
 formatter.match({
@@ -2663,7 +2654,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 5931776256,
+  "duration": 3330139375,
   "status": "passed"
 });
 formatter.match({
@@ -2677,10 +2668,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 914905405,
+  "duration": 715776637,
   "status": "passed"
 });
 formatter.match({
@@ -2694,10 +2685,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 988643815,
+  "duration": 1371707819,
   "status": "passed"
 });
 formatter.match({
@@ -2710,7 +2701,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 31522213930,
+  "duration": 26811267746,
   "status": "passed"
 });
 formatter.match({
@@ -2720,10 +2711,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 1066458479,
+  "duration": 406289252,
   "status": "passed"
 });
 formatter.match({
@@ -2740,7 +2731,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 3618284839,
+  "duration": 3061289109,
   "status": "passed"
 });
 formatter.match({
@@ -2754,10 +2745,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1345487435,
+  "duration": 807316136,
   "status": "passed"
 });
 formatter.match({
@@ -2771,10 +2762,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2154895146,
+  "duration": 788302245,
   "status": "passed"
 });
 formatter.match({
@@ -2784,10 +2775,10 @@ formatter.match({
       "offset": 21
     }
   ],
-  "location": "common_csp.groovy:356"
+  "location": "common_csp.groovy:358"
 });
 formatter.result({
-  "duration": 2252417627,
+  "duration": 4629791972,
   "status": "passed"
 });
 formatter.match({
@@ -2801,10 +2792,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 943086028,
+  "duration": 770874623,
   "status": "passed"
 });
 formatter.match({
@@ -2818,10 +2809,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 933696980,
+  "duration": 738302441,
   "status": "passed"
 });
 formatter.match({
@@ -2831,10 +2822,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 2472537480,
+  "duration": 1882215691,
   "status": "passed"
 });
 formatter.match({
@@ -2848,10 +2839,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:360"
+  "location": "common_csp.groovy:362"
 });
 formatter.result({
-  "duration": 6717057668,
+  "duration": 6422940709,
   "status": "passed"
 });
 formatter.match({
@@ -2861,10 +2852,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 465884105,
+  "duration": 1670006744,
   "status": "passed"
 });
 formatter.match({
@@ -2881,7 +2872,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 2444126838,
+  "duration": 2708111186,
   "status": "passed"
 });
 formatter.match({
@@ -2895,10 +2886,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 3176948170,
+  "duration": 891367198,
   "status": "passed"
 });
 formatter.match({
@@ -2912,29 +2903,29 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1022588803,
+  "duration": 802992294,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9685318410,
+  "duration": 14020541520,
   "status": "passed"
 });
 formatter.after({
-  "duration": 664580,
+  "duration": 468307,
   "status": "passed"
 });
 formatter.before({
-  "duration": 29841515,
+  "duration": 22550506,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 155,
+  "line": 172,
   "name": "Catg : Compare : Repeat 4times..(based on item ctn# 1-4)-Compare tray persist after 2nd search/page up/down \u0026 button disabled/enabled as expected",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;;4",
@@ -2942,63 +2933,63 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 118,
+      "line": 135,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 117,
+      "line": 134,
       "name": "@market_smoke"
     },
     {
-      "line": 120,
+      "line": 137,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 121,
+      "line": 138,
       "name": "@compare"
     },
     {
-      "line": 122,
+      "line": 139,
       "name": "@compare_two_four_items"
     },
     {
-      "line": 119,
+      "line": 136,
       "name": "@market_smoke1"
     }
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 141,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 125,
+  "line": 142,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 126,
+  "line": 143,
   "name": "Search product by word \"surgical gloves\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 127,
+  "line": 144,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 128,
+  "line": 145,
   "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
   "keyword": "And "
 });
 formatter.step({
-  "line": 129,
+  "line": 146,
   "name": "I must not see compare tray items",
   "keyword": "And "
 });
 formatter.step({
-  "line": 130,
+  "line": 147,
   "name": "Add \"3\" items to compare and make sure compare tray appears",
   "matchedColumns": [
     0
@@ -3006,7 +2997,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 131,
+  "line": 148,
   "name": "The count of element \"CompareTrayItem\" is \u00273\u0027",
   "matchedColumns": [
     0
@@ -3014,7 +3005,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 132,
+  "line": 149,
   "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "matchedColumns": [
     1
@@ -3022,27 +3013,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 133,
+  "line": 150,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 134,
+  "line": 151,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 135,
+  "line": 152,
   "name": "Search product by word \"P50\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 136,
+  "line": 153,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 137,
+  "line": 154,
   "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "matchedColumns": [
     1
@@ -3050,47 +3041,47 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 138,
+  "line": 155,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 139,
+  "line": 156,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 140,
+  "line": 157,
   "name": "Navigate to element \"LoadMoreBtn\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 141,
+  "line": 158,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 142,
+  "line": 159,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 143,
+  "line": 160,
   "name": "I am on \"BasePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 144,
+  "line": 161,
   "name": "Navigate to element module \"Logo\" on module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 145,
+  "line": 162,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 146,
+  "line": 163,
   "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "matchedColumns": [
     1
@@ -3098,17 +3089,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 147,
+  "line": 164,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 148,
+  "line": 165,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 149,
+  "line": 166,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -3122,14 +3113,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 20687241524,
+  "duration": 28224313984,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 915814184,
+  "duration": 950758490,
   "status": "passed"
 });
 formatter.match({
@@ -3142,7 +3133,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 27064087313,
+  "duration": 24834803452,
   "status": "passed"
 });
 formatter.match({
@@ -3152,10 +3143,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 476465489,
+  "duration": 496147991,
   "status": "passed"
 });
 formatter.match({
@@ -3169,17 +3160,17 @@ formatter.match({
       "offset": 52
     }
   ],
-  "location": "common_csp.groovy:349"
+  "location": "common_csp.groovy:351"
 });
 formatter.result({
-  "duration": 2403535440,
+  "duration": 2200538570,
   "status": "passed"
 });
 formatter.match({
   "location": "searchresultpage.groovy:761"
 });
 formatter.result({
-  "duration": 5242575730,
+  "duration": 5148504530,
   "status": "passed"
 });
 formatter.match({
@@ -3192,7 +3183,7 @@ formatter.match({
   "location": "searchresultpage.groovy:579"
 });
 formatter.result({
-  "duration": 35960196303,
+  "duration": 43369828666,
   "status": "passed"
 });
 formatter.match({
@@ -3209,7 +3200,7 @@ formatter.match({
   "location": "searchresultpage.groovy:716"
 });
 formatter.result({
-  "duration": 251705559,
+  "duration": 271164346,
   "status": "passed"
 });
 formatter.match({
@@ -3226,7 +3217,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 3011188192,
+  "duration": 2746945800,
   "status": "passed"
 });
 formatter.match({
@@ -3240,10 +3231,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1508933580,
+  "duration": 818176643,
   "status": "passed"
 });
 formatter.match({
@@ -3257,10 +3248,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1844832616,
+  "duration": 769557768,
   "status": "passed"
 });
 formatter.match({
@@ -3273,7 +3264,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 31133204074,
+  "duration": 39890833593,
   "status": "passed"
 });
 formatter.match({
@@ -3283,10 +3274,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 455244145,
+  "duration": 448880934,
   "status": "passed"
 });
 formatter.match({
@@ -3303,7 +3294,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 4534902622,
+  "duration": 3557893347,
   "status": "passed"
 });
 formatter.match({
@@ -3317,10 +3308,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1177625755,
+  "duration": 1670488085,
   "status": "passed"
 });
 formatter.match({
@@ -3334,10 +3325,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 956929751,
+  "duration": 896576876,
   "status": "passed"
 });
 formatter.match({
@@ -3347,10 +3338,10 @@ formatter.match({
       "offset": 21
     }
   ],
-  "location": "common_csp.groovy:356"
+  "location": "common_csp.groovy:358"
 });
 formatter.result({
-  "duration": 2626277060,
+  "duration": 3308582504,
   "status": "passed"
 });
 formatter.match({
@@ -3364,10 +3355,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1455990969,
+  "duration": 713269519,
   "status": "passed"
 });
 formatter.match({
@@ -3381,10 +3372,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 704968414,
+  "duration": 765924657,
   "status": "passed"
 });
 formatter.match({
@@ -3394,10 +3385,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 862658591,
+  "duration": 1468187992,
   "status": "passed"
 });
 formatter.match({
@@ -3411,10 +3402,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:360"
+  "location": "common_csp.groovy:362"
 });
 formatter.result({
-  "duration": 6610108439,
+  "duration": 4879766666,
   "status": "passed"
 });
 formatter.match({
@@ -3424,10 +3415,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 362584277,
+  "duration": 472509751,
   "status": "passed"
 });
 formatter.match({
@@ -3444,7 +3435,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 4420561164,
+  "duration": 3364297306,
   "status": "passed"
 });
 formatter.match({
@@ -3458,10 +3449,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 780400305,
+  "duration": 871202904,
   "status": "passed"
 });
 formatter.match({
@@ -3475,29 +3466,29 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 876106518,
+  "duration": 1689764556,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9271906729,
+  "duration": 10200886784,
   "status": "passed"
 });
 formatter.after({
-  "duration": 640723,
+  "duration": 494529,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31548521,
+  "duration": 22792193,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 156,
+  "line": 173,
   "name": "Catg : Compare : Repeat 4times..(based on item ctn# 1-4)-Compare tray persist after 2nd search/page up/down \u0026 button disabled/enabled as expected",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-compare-:-repeat-4times..(based-on-item-ctn#-1-4)-compare-tray-persist-after-2nd-search/page-up/down-\u0026-button-disabled/enabled-as-expected;;5",
@@ -3505,63 +3496,63 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 118,
+      "line": 135,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 117,
+      "line": 134,
       "name": "@market_smoke"
     },
     {
-      "line": 120,
+      "line": 137,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 121,
+      "line": 138,
       "name": "@compare"
     },
     {
-      "line": 122,
+      "line": 139,
       "name": "@compare_two_four_items"
     },
     {
-      "line": 119,
+      "line": 136,
       "name": "@market_smoke1"
     }
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 141,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 125,
+  "line": 142,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 126,
+  "line": 143,
   "name": "Search product by word \"surgical gloves\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 127,
+  "line": 144,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 128,
+  "line": 145,
   "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
   "keyword": "And "
 });
 formatter.step({
-  "line": 129,
+  "line": 146,
   "name": "I must not see compare tray items",
   "keyword": "And "
 });
 formatter.step({
-  "line": 130,
+  "line": 147,
   "name": "Add \"4\" items to compare and make sure compare tray appears",
   "matchedColumns": [
     0
@@ -3569,7 +3560,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 131,
+  "line": 148,
   "name": "The count of element \"CompareTrayItem\" is \u00274\u0027",
   "matchedColumns": [
     0
@@ -3577,7 +3568,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 132,
+  "line": 149,
   "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "matchedColumns": [
     1
@@ -3585,27 +3576,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 133,
+  "line": 150,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 134,
+  "line": 151,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 135,
+  "line": 152,
   "name": "Search product by word \"P50\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 136,
+  "line": 153,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 137,
+  "line": 154,
   "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "matchedColumns": [
     1
@@ -3613,47 +3604,47 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 138,
+  "line": 155,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 139,
+  "line": 156,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 140,
+  "line": 157,
   "name": "Navigate to element \"LoadMoreBtn\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 141,
+  "line": 158,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 142,
+  "line": 159,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 143,
+  "line": 160,
   "name": "I am on \"BasePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 144,
+  "line": 161,
   "name": "Navigate to element module \"Logo\" on module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 145,
+  "line": 162,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 146,
+  "line": 163,
   "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
   "matchedColumns": [
     1
@@ -3661,17 +3652,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 147,
+  "line": 164,
   "name": "Make sure elements \"CompareTrayTitle\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 148,
+  "line": 165,
   "name": "Make sure elements \"CompareTrayMessage\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 149,
+  "line": 166,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -3685,14 +3676,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 21242016306,
+  "duration": 29404474801,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1042653302,
+  "duration": 1784986929,
   "status": "passed"
 });
 formatter.match({
@@ -3705,7 +3696,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 33820654286,
+  "duration": 26207363266,
   "status": "passed"
 });
 formatter.match({
@@ -3715,10 +3706,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 530287870,
+  "duration": 735627746,
   "status": "passed"
 });
 formatter.match({
@@ -3732,17 +3723,17 @@ formatter.match({
       "offset": 52
     }
   ],
-  "location": "common_csp.groovy:349"
+  "location": "common_csp.groovy:351"
 });
 formatter.result({
-  "duration": 1120342691,
+  "duration": 1157736381,
   "status": "passed"
 });
 formatter.match({
   "location": "searchresultpage.groovy:761"
 });
 formatter.result({
-  "duration": 6865510628,
+  "duration": 6892916271,
   "status": "passed"
 });
 formatter.match({
@@ -3755,7 +3746,7 @@ formatter.match({
   "location": "searchresultpage.groovy:579"
 });
 formatter.result({
-  "duration": 53577022276,
+  "duration": 47499025371,
   "status": "passed"
 });
 formatter.match({
@@ -3772,7 +3763,7 @@ formatter.match({
   "location": "searchresultpage.groovy:716"
 });
 formatter.result({
-  "duration": 259582562,
+  "duration": 298674990,
   "status": "passed"
 });
 formatter.match({
@@ -3789,7 +3780,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 3912103291,
+  "duration": 2840613200,
   "status": "passed"
 });
 formatter.match({
@@ -3803,10 +3794,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 814803884,
+  "duration": 722937864,
   "status": "passed"
 });
 formatter.match({
@@ -3820,10 +3811,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 852581412,
+  "duration": 1575270227,
   "status": "passed"
 });
 formatter.match({
@@ -3836,7 +3827,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 30154419625,
+  "duration": 28285154438,
   "status": "passed"
 });
 formatter.match({
@@ -3846,10 +3837,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 484586959,
+  "duration": 463598515,
   "status": "passed"
 });
 formatter.match({
@@ -3866,7 +3857,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 3357814084,
+  "duration": 4121462871,
   "status": "passed"
 });
 formatter.match({
@@ -3880,10 +3871,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 953702303,
+  "duration": 717224963,
   "status": "passed"
 });
 formatter.match({
@@ -3897,10 +3888,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2490281880,
+  "duration": 793751128,
   "status": "passed"
 });
 formatter.match({
@@ -3910,10 +3901,10 @@ formatter.match({
       "offset": 21
     }
   ],
-  "location": "common_csp.groovy:356"
+  "location": "common_csp.groovy:358"
 });
 formatter.result({
-  "duration": 2857205738,
+  "duration": 5004178432,
   "status": "passed"
 });
 formatter.match({
@@ -3927,10 +3918,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2646327586,
+  "duration": 1015076660,
   "status": "passed"
 });
 formatter.match({
@@ -3944,10 +3935,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 818166346,
+  "duration": 725221522,
   "status": "passed"
 });
 formatter.match({
@@ -3957,10 +3948,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 973467410,
+  "duration": 2003688824,
   "status": "passed"
 });
 formatter.match({
@@ -3974,10 +3965,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:360"
+  "location": "common_csp.groovy:362"
 });
 formatter.result({
-  "duration": 9495936692,
+  "duration": 4168784979,
   "status": "passed"
 });
 formatter.match({
@@ -3987,10 +3978,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 543770935,
+  "duration": 2503676141,
   "status": "passed"
 });
 formatter.match({
@@ -4007,7 +3998,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 3169548877,
+  "duration": 5267527340,
   "status": "passed"
 });
 formatter.match({
@@ -4021,10 +4012,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2244653899,
+  "duration": 3174604251,
   "status": "passed"
 });
 formatter.match({
@@ -4038,29 +4029,29 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1782802365,
+  "duration": 1454310018,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9578559539,
+  "duration": 10020333768,
   "status": "passed"
 });
 formatter.after({
-  "duration": 572461,
+  "duration": 500925,
   "status": "passed"
 });
 formatter.before({
-  "duration": 24407520,
+  "duration": 23046771,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 164,
+  "line": 181,
   "name": "Catg : Compare : Add items to compare which not remained after log out",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-compare-:-add-items-to-compare-which-not-remained-after-log-out",
@@ -4068,158 +4059,158 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 158,
+      "line": 175,
       "name": "@market_smoke"
     },
     {
-      "line": 159,
+      "line": 176,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 160,
+      "line": 177,
       "name": "@market_smoke1"
     },
     {
-      "line": 161,
+      "line": 178,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 162,
+      "line": 179,
       "name": "@compare"
     },
     {
-      "line": 163,
+      "line": 180,
       "name": "@compare_tray_notafter_logout"
     }
   ]
 });
 formatter.step({
-  "line": 165,
+  "line": 182,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 166,
+  "line": 183,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 167,
-  "name": "Search product by word \"surgical gloves\" and get list of related products",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 168,
-  "name": "I am on \"SearchResultPage\" page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 169,
-  "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 170,
-  "name": "I must not see compare tray items",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 171,
-  "name": "Add \"2\" items to compare and make sure compare tray appears",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 172,
-  "name": "The count of element \"CompareTrayItem\" is \u00272\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 173,
-  "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 174,
-  "name": "Make sure elements \"CompareTrayTitle\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 175,
-  "name": "Make sure elements \"CompareTrayMessage\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 176,
-  "name": "Make sure elements \"CompareTrayClearAll\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 177,
-  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 178,
-  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemImage\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 179,
-  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemNum\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 180,
-  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 181,
-  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayRemoveItem\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 182,
-  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayItemImage\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 183,
-  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayItemNum\u0027",
-  "keyword": "And "
-});
-formatter.step({
   "line": 184,
-  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "name": "Search product by word \"surgical gloves\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
   "line": 185,
-  "name": "Log out of Market application",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 186,
-  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 187,
-  "name": "Search product by word \"surgical gloves\" and get list of related products",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 188,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
+  "line": 186,
+  "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 187,
+  "name": "I must not see compare tray items",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 188,
+  "name": "Add \"2\" items to compare and make sure compare tray appears",
+  "keyword": "Then "
+});
+formatter.step({
   "line": 189,
+  "name": "The count of element \"CompareTrayItem\" is \u00272\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 190,
+  "name": "I see that the \"CompareTrayButton\" button is displayed as enabled",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 191,
+  "name": "Make sure elements \"CompareTrayTitle\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 192,
+  "name": "Make sure elements \"CompareTrayMessage\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 193,
+  "name": "Make sure elements \"CompareTrayClearAll\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 194,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 195,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemImage\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 196,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemNum\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 197,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 198,
+  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 199,
+  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayItemImage\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 200,
+  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayItemNum\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 201,
+  "name": "I must see compare tray item \u00272\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 202,
+  "name": "Log out of Market application",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 203,
+  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 204,
+  "name": "Search product by word \"surgical gloves\" and get list of related products",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 205,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 206,
   "name": "I must not see compare tray items",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 190,
+  "line": 207,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -4233,14 +4224,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 22168177226,
+  "duration": 27097407302,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 954185258,
+  "duration": 1091031229,
   "status": "passed"
 });
 formatter.match({
@@ -4253,7 +4244,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 27128718864,
+  "duration": 26428996566,
   "status": "passed"
 });
 formatter.match({
@@ -4263,10 +4254,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 850928310,
+  "duration": 2038198850,
   "status": "passed"
 });
 formatter.match({
@@ -4280,17 +4271,17 @@ formatter.match({
       "offset": 52
     }
   ],
-  "location": "common_csp.groovy:349"
+  "location": "common_csp.groovy:351"
 });
 formatter.result({
-  "duration": 1277070826,
+  "duration": 1482176521,
   "status": "passed"
 });
 formatter.match({
   "location": "searchresultpage.groovy:761"
 });
 formatter.result({
-  "duration": 5060645067,
+  "duration": 6523950573,
   "status": "passed"
 });
 formatter.match({
@@ -4303,7 +4294,7 @@ formatter.match({
   "location": "searchresultpage.groovy:579"
 });
 formatter.result({
-  "duration": 23428997927,
+  "duration": 23805637978,
   "status": "passed"
 });
 formatter.match({
@@ -4320,7 +4311,7 @@ formatter.match({
   "location": "searchresultpage.groovy:716"
 });
 formatter.result({
-  "duration": 451621274,
+  "duration": 270163661,
   "status": "passed"
 });
 formatter.match({
@@ -4337,7 +4328,7 @@ formatter.match({
   "location": "searchresultpage.groovy:572"
 });
 formatter.result({
-  "duration": 5824616407,
+  "duration": 5058544200,
   "status": "passed"
 });
 formatter.match({
@@ -4351,10 +4342,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1777814884,
+  "duration": 2269821334,
   "status": "passed"
 });
 formatter.match({
@@ -4368,10 +4359,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1874108034,
+  "duration": 1210524696,
   "status": "passed"
 });
 formatter.match({
@@ -4385,10 +4376,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 852733070,
+  "duration": 772810924,
   "status": "passed"
 });
 formatter.match({
@@ -4405,7 +4396,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 562172548,
+  "duration": 833841142,
   "status": "passed"
 });
 formatter.match({
@@ -4422,7 +4413,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 486337345,
+  "duration": 2589669573,
   "status": "passed"
 });
 formatter.match({
@@ -4439,7 +4430,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 814343049,
+  "duration": 439095292,
   "status": "passed"
 });
 formatter.match({
@@ -4456,7 +4447,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 1992747381,
+  "duration": 424355682,
   "status": "passed"
 });
 formatter.match({
@@ -4473,7 +4464,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 472145720,
+  "duration": 465755041,
   "status": "passed"
 });
 formatter.match({
@@ -4490,7 +4481,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 489907989,
+  "duration": 483621171,
   "status": "passed"
 });
 formatter.match({
@@ -4507,7 +4498,7 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 665358854,
+  "duration": 421441286,
   "status": "passed"
 });
 formatter.match({
@@ -4524,14 +4515,14 @@ formatter.match({
   "location": "searchresultpage.groovy:738"
 });
 formatter.result({
-  "duration": 496945234,
+  "duration": 471203163,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9032884531,
+  "duration": 6559190428,
   "status": "passed"
 });
 formatter.match({
@@ -4544,7 +4535,7 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 25386958446,
+  "duration": 23819850652,
   "status": "passed"
 });
 formatter.match({
@@ -4557,7 +4548,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 31636070464,
+  "duration": 31053380386,
   "status": "passed"
 });
 formatter.match({
@@ -4567,36 +4558,36 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 436837788,
+  "duration": 425449183,
   "status": "passed"
 });
 formatter.match({
   "location": "searchresultpage.groovy:761"
 });
 formatter.result({
-  "duration": 5981863703,
+  "duration": 5014925930,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 10182933682,
+  "duration": 8911445808,
   "status": "passed"
 });
 formatter.after({
-  "duration": 641227,
+  "duration": 532314,
   "status": "passed"
 });
 formatter.before({
-  "duration": 40614885,
+  "duration": 23551663,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 198,
+  "line": 215,
   "name": "Catg : Search ; Goto search results of selected product, capture item label of first, Search by itemlabel FULL name and verify details on SEARCH results",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-search-;-goto-search-results-of-selected-product,-capture-item-label-of-first,-search-by-itemlabel-full-name-and-verify-details-on-search-results",
@@ -4604,93 +4595,93 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 192,
+      "line": 209,
       "name": "@market_smoke"
     },
     {
-      "line": 193,
+      "line": 210,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 194,
+      "line": 211,
       "name": "@market_smoke1"
     },
     {
-      "line": 195,
+      "line": 212,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 196,
+      "line": 213,
       "name": "@search"
     },
     {
-      "line": 197,
+      "line": 214,
       "name": "@search_by_full_product_name"
     }
   ]
 });
 formatter.step({
-  "line": 199,
+  "line": 216,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 200,
+  "line": 217,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 201,
+  "line": 218,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 202,
+  "line": 219,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 203,
+  "line": 220,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 204,
+  "line": 221,
   "name": "I am on the \"PlpPage\" Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 205,
+  "line": 222,
   "name": "Save value of element \"itemslabel\" to variable \"temp_product_name\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 206,
+  "line": 223,
   "name": "Search product by word \"temp_product_name\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 207,
+  "line": 224,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 208,
+  "line": 225,
   "name": "Make sure elements \"ResultForm\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 209,
+  "line": 226,
   "name": "Make sure elements \"ResultCategory\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 210,
+  "line": 227,
   "name": "Make sure elements \"ResultItemList\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 211,
+  "line": 228,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -4704,14 +4695,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 18849020640,
+  "duration": 25777670314,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 940653201,
+  "duration": 1842032778,
   "status": "passed"
 });
 formatter.match({
@@ -4721,10 +4712,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 36029670554,
+  "duration": 31727189096,
   "status": "passed"
 });
 formatter.match({
@@ -4734,17 +4725,17 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1285854405,
+  "duration": 890414469,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 57686335741,
+  "duration": 44219128037,
   "status": "passed"
 });
 formatter.match({
@@ -4754,10 +4745,10 @@ formatter.match({
       "offset": 13
     }
   ],
-  "location": "common_csp.groovy:334"
+  "location": "common_csp.groovy:336"
 });
 formatter.result({
-  "duration": 899343432,
+  "duration": 798304966,
   "status": "passed"
 });
 formatter.match({
@@ -4774,7 +4765,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 3786781274,
+  "duration": 5491531922,
   "status": "passed"
 });
 formatter.match({
@@ -4787,7 +4778,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 32601939199,
+  "duration": 26880468482,
   "status": "passed"
 });
 formatter.match({
@@ -4797,10 +4788,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 503078454,
+  "duration": 438470049,
   "status": "passed"
 });
 formatter.match({
@@ -4814,10 +4805,10 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2227750145,
+  "duration": 749623244,
   "status": "passed"
 });
 formatter.match({
@@ -4831,10 +4822,10 @@ formatter.match({
       "offset": 40
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1228683130,
+  "duration": 1057689106,
   "status": "passed"
 });
 formatter.match({
@@ -4848,29 +4839,29 @@ formatter.match({
       "offset": 40
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1026422235,
+  "duration": 1036124949,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 10031085017,
+  "duration": 7895978658,
   "status": "passed"
 });
 formatter.after({
-  "duration": 737050,
+  "duration": 625093,
   "status": "passed"
 });
 formatter.before({
-  "duration": 80373259,
+  "duration": 25798555,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 219,
+  "line": 236,
   "name": "Catg : Search ; Goto search results of selected product, capture item label of first, Search by itemlabel partial name and verify details on SEARCH results",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-search-;-goto-search-results-of-selected-product,-capture-item-label-of-first,-search-by-itemlabel-partial-name-and-verify-details-on-search-results",
@@ -4878,93 +4869,93 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 213,
+      "line": 230,
       "name": "@market_smoke1"
     },
     {
-      "line": 214,
+      "line": 231,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 215,
+      "line": 232,
       "name": "@market_smoke"
     },
     {
-      "line": 216,
+      "line": 233,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 217,
+      "line": 234,
       "name": "@search"
     },
     {
-      "line": 218,
+      "line": 235,
       "name": "@search_by_partialword"
     }
   ]
 });
 formatter.step({
-  "line": 220,
+  "line": 237,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 221,
+  "line": 238,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 222,
+  "line": 239,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 223,
+  "line": 240,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 224,
+  "line": 241,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 225,
+  "line": 242,
   "name": "I am on the \"PlpPage\" Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 226,
+  "line": 243,
   "name": "Save string part of element \"itemslabel\" to variable \"temp_product_name\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 227,
+  "line": 244,
   "name": "Search product by word \"temp_product_name\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 228,
+  "line": 245,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 229,
+  "line": 246,
   "name": "Make sure elements \"ResultForm\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 230,
+  "line": 247,
   "name": "Make sure elements \"ResultCategory\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 231,
+  "line": 248,
   "name": "Make sure elements \"ResultItemList\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 232,
+  "line": 249,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -4978,14 +4969,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 19170488183,
+  "duration": 21378261020,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1066602809,
+  "duration": 959975167,
   "status": "passed"
 });
 formatter.match({
@@ -4995,10 +4986,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 29105170025,
+  "duration": 20728100964,
   "status": "passed"
 });
 formatter.match({
@@ -5008,17 +4999,17 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1324796735,
+  "duration": 846791665,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 58932029599,
+  "duration": 49620555943,
   "status": "passed"
 });
 formatter.match({
@@ -5028,10 +5019,10 @@ formatter.match({
       "offset": 13
     }
   ],
-  "location": "common_csp.groovy:334"
+  "location": "common_csp.groovy:336"
 });
 formatter.result({
-  "duration": 785723213,
+  "duration": 892463206,
   "status": "passed"
 });
 formatter.match({
@@ -5052,7 +5043,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:92"
 });
 formatter.result({
-  "duration": 1795186101,
+  "duration": 1445945563,
   "status": "passed"
 });
 formatter.match({
@@ -5065,7 +5056,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 29279070198,
+  "duration": 26957909715,
   "status": "passed"
 });
 formatter.match({
@@ -5075,10 +5066,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 376817772,
+  "duration": 459700681,
   "status": "passed"
 });
 formatter.match({
@@ -5092,10 +5083,10 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 766310899,
+  "duration": 2019645747,
   "status": "passed"
 });
 formatter.match({
@@ -5109,10 +5100,10 @@ formatter.match({
       "offset": 40
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 967418493,
+  "duration": 873803691,
   "status": "passed"
 });
 formatter.match({
@@ -5126,29 +5117,29 @@ formatter.match({
       "offset": 40
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 973798415,
+  "duration": 1516532261,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 8965450400,
+  "duration": 10089317378,
   "status": "passed"
 });
 formatter.after({
-  "duration": 530639,
+  "duration": 556585,
   "status": "passed"
 });
 formatter.before({
-  "duration": 28970043,
+  "duration": 23471941,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 240,
+  "line": 257,
   "name": "Catg : Search ; Goto search results of selected product, capture material number, Search by material number and verify details on PLP",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-search-;-goto-search-results-of-selected-product,-capture-material-number,-search-by-material-number-and-verify-details-on-plp",
@@ -5156,128 +5147,128 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 234,
+      "line": 251,
       "name": "@market_smoke1"
     },
     {
-      "line": 235,
+      "line": 252,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 236,
+      "line": 253,
       "name": "@market_smoke"
     },
     {
-      "line": 237,
+      "line": 254,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 238,
+      "line": 255,
       "name": "@search"
     },
     {
-      "line": 239,
+      "line": 256,
       "name": "@search_by_material_number"
     }
   ]
 });
 formatter.step({
-  "line": 241,
+  "line": 258,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 242,
+  "line": 259,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 243,
+  "line": 260,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 244,
+  "line": 261,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 245,
+  "line": 262,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 246,
+  "line": 263,
   "name": "I am on the \"PlpPage\" Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 247,
+  "line": 264,
   "name": "Save value of element \"material\" to variable \"temp_materialnum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 248,
+  "line": 265,
   "name": "Save value of element \"manufacturer\" to variable \"temp_manufacturernum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 249,
+  "line": 266,
   "name": "Search product by word \"temp_materialnum\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 250,
+  "line": 267,
   "name": "if \"SearchResultPage\" page returned than hit on item that contains \"temp_materialnum\" and \"temp_manufacturernum\" and get to idp page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 251,
+  "line": 268,
   "name": "I am on \"ItemDetailsPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 252,
+  "line": 269,
   "name": "Make sure elements \"TitleInfo\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 253,
+  "line": 270,
   "name": "Make sure elements \"Image_container\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 254,
+  "line": 271,
   "name": "Make sure elements \"Details\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 255,
+  "line": 272,
   "name": "Make sure elements \"Description\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 256,
+  "line": 273,
   "name": "Make sure elements \"Specification\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 257,
+  "line": 274,
   "name": "Make sure elements \"Packaging\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 258,
+  "line": 275,
   "name": "Make sure elements \"ManufacturerName\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 259,
+  "line": 276,
   "name": "I verify the Text on \u0027materialnum\u0027 is \u0027temp_materialnum\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 260,
+  "line": 277,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -5291,14 +5282,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 19111319589,
+  "duration": 23903408913,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 934303049,
+  "duration": 710110704,
   "status": "passed"
 });
 formatter.match({
@@ -5308,10 +5299,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 29435478217,
+  "duration": 22571998110,
   "status": "passed"
 });
 formatter.match({
@@ -5321,17 +5312,17 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 2248191487,
+  "duration": 864676516,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 55215421620,
+  "duration": 49344708219,
   "status": "passed"
 });
 formatter.match({
@@ -5341,10 +5332,10 @@ formatter.match({
       "offset": 13
     }
   ],
-  "location": "common_csp.groovy:334"
+  "location": "common_csp.groovy:336"
 });
 formatter.result({
-  "duration": 803241791,
+  "duration": 876456683,
   "status": "passed"
 });
 formatter.match({
@@ -5361,7 +5352,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 6361836587,
+  "duration": 3806934027,
   "status": "passed"
 });
 formatter.match({
@@ -5378,7 +5369,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 4775705400,
+  "duration": 6470291656,
   "status": "passed"
 });
 formatter.match({
@@ -5391,7 +5382,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 30350872900,
+  "duration": 46526879491,
   "status": "passed"
 });
 formatter.match({
@@ -5409,10 +5400,10 @@ formatter.match({
       "offset": 91
     }
   ],
-  "location": "common_csp.groovy:442"
+  "location": "common_csp.groovy:445"
 });
 formatter.result({
-  "duration": 152426413,
+  "duration": 159160079,
   "status": "passed"
 });
 formatter.match({
@@ -5422,10 +5413,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 732373852,
+  "duration": 832173547,
   "status": "passed"
 });
 formatter.match({
@@ -5439,10 +5430,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 908412342,
+  "duration": 1026076933,
   "status": "passed"
 });
 formatter.match({
@@ -5456,10 +5447,10 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 948526970,
+  "duration": 1318762560,
   "status": "passed"
 });
 formatter.match({
@@ -5473,10 +5464,10 @@ formatter.match({
       "offset": 33
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 783137983,
+  "duration": 763744809,
   "status": "passed"
 });
 formatter.match({
@@ -5490,10 +5481,10 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 822768926,
+  "duration": 931951628,
   "status": "passed"
 });
 formatter.match({
@@ -5507,10 +5498,10 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 886187165,
+  "duration": 705423037,
   "status": "passed"
 });
 formatter.match({
@@ -5524,10 +5515,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 817730496,
+  "duration": 724339012,
   "status": "passed"
 });
 formatter.match({
@@ -5541,10 +5532,10 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1288525819,
+  "duration": 1901725895,
   "status": "passed"
 });
 formatter.match({
@@ -5558,29 +5549,29 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 34909414835,
+  "duration": 31149314265,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 8771683518,
+  "duration": 12572193481,
   "status": "passed"
 });
 formatter.after({
-  "duration": 641951,
+  "duration": 699085,
   "status": "passed"
 });
 formatter.before({
-  "duration": 29794967,
+  "duration": 24263071,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 268,
+  "line": 285,
   "name": "Catg : Search ; Goto search results of selected product, capture manufacturer number,  Search by manufacturer number and verify details on PLP",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-search-;-goto-search-results-of-selected-product,-capture-manufacturer-number,--search-by-manufacturer-number-and-verify-details-on-plp",
@@ -5588,138 +5579,138 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 262,
+      "line": 279,
       "name": "@market_smoke1"
     },
     {
-      "line": 263,
+      "line": 280,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 264,
+      "line": 281,
       "name": "@market_smoke"
     },
     {
-      "line": 265,
+      "line": 282,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 266,
+      "line": 283,
       "name": "@search"
     },
     {
-      "line": 267,
+      "line": 284,
       "name": "@search_by_manufacturer"
     }
   ]
 });
 formatter.step({
-  "line": 269,
+  "line": 286,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 270,
+  "line": 287,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 271,
+  "line": 288,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 272,
+  "line": 289,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 273,
+  "line": 290,
   "name": "There should be image and title attribute displayed for each item",
   "keyword": "And "
 });
 formatter.step({
-  "line": 274,
+  "line": 291,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 275,
+  "line": 292,
   "name": "I am on the \"PlpPage\" Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 276,
+  "line": 293,
   "name": "Save value of element \"material\" to variable \"temp_materialnum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 277,
+  "line": 294,
   "name": "Save value of element \"manufacturer\" to variable \"temp_manufacturernum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 278,
+  "line": 295,
   "name": "Search product by word \"temp_manufacturernum\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 279,
+  "line": 296,
   "name": "if \"SearchResultPage\" page returned than hit on item that contains \"temp_materialnum\" and \"temp_manufacturernum\" and get to idp page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 280,
+  "line": 297,
   "name": "I am on \"ItemDetailsPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 281,
+  "line": 298,
   "name": "I verify the Text on \u0027materialnum\u0027 is \u0027temp_materialnum\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 282,
+  "line": 299,
   "name": "I verify the Text on \u0027manufacturernum\u0027 is \u0027temp_manufacturernum\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 283,
+  "line": 300,
   "name": "Make sure elements \"TitleInfo\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 284,
+  "line": 301,
   "name": "Make sure elements \"Image_container\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 285,
+  "line": 302,
   "name": "Make sure elements \"Details\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 286,
+  "line": 303,
   "name": "Make sure elements \"Description\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 287,
+  "line": 304,
   "name": "Make sure elements \"Specification\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 288,
+  "line": 305,
   "name": "Make sure elements \"Packaging\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 289,
+  "line": 306,
   "name": "Make sure elements \"ManufacturerName\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 290,
+  "line": 307,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -5733,14 +5724,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 18617622043,
+  "duration": 25611742175,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 950130065,
+  "duration": 829556816,
   "status": "passed"
 });
 formatter.match({
@@ -5750,10 +5741,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 40011820286,
+  "duration": 28534817612,
   "status": "passed"
 });
 formatter.match({
@@ -5763,24 +5754,24 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1314339786,
+  "duration": 816454443,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:58"
 });
 formatter.result({
-  "duration": 113079202143,
+  "duration": 11366381417,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 61780675178,
+  "duration": 48652743352,
   "status": "passed"
 });
 formatter.match({
@@ -5790,10 +5781,10 @@ formatter.match({
       "offset": 13
     }
   ],
-  "location": "common_csp.groovy:334"
+  "location": "common_csp.groovy:336"
 });
 formatter.result({
-  "duration": 887667475,
+  "duration": 946794594,
   "status": "passed"
 });
 formatter.match({
@@ -5810,7 +5801,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 6402044811,
+  "duration": 6979971830,
   "status": "passed"
 });
 formatter.match({
@@ -5827,7 +5818,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 4481220146,
+  "duration": 5126840435,
   "status": "passed"
 });
 formatter.match({
@@ -5840,7 +5831,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 30766969166,
+  "duration": 48801335770,
   "status": "passed"
 });
 formatter.match({
@@ -5858,10 +5849,10 @@ formatter.match({
       "offset": 91
     }
   ],
-  "location": "common_csp.groovy:442"
+  "location": "common_csp.groovy:445"
 });
 formatter.result({
-  "duration": 154818372,
+  "duration": 154538609,
   "status": "passed"
 });
 formatter.match({
@@ -5871,10 +5862,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 705810294,
+  "duration": 700651331,
   "status": "passed"
 });
 formatter.match({
@@ -5888,10 +5879,10 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 39109471090,
+  "duration": 36614086763,
   "status": "passed"
 });
 formatter.match({
@@ -5905,10 +5896,10 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 30455216970,
+  "duration": 38097397169,
   "status": "passed"
 });
 formatter.match({
@@ -5922,10 +5913,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 814199670,
+  "duration": 795010759,
   "status": "passed"
 });
 formatter.match({
@@ -5939,10 +5930,10 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 980340899,
+  "duration": 1761810044,
   "status": "passed"
 });
 formatter.match({
@@ -5956,10 +5947,10 @@ formatter.match({
       "offset": 33
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 889835574,
+  "duration": 762746214,
   "status": "passed"
 });
 formatter.match({
@@ -5973,10 +5964,10 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 981147836,
+  "duration": 732622636,
   "status": "passed"
 });
 formatter.match({
@@ -5990,10 +5981,10 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1324266701,
+  "duration": 863218332,
   "status": "passed"
 });
 formatter.match({
@@ -6007,10 +5998,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2702222773,
+  "duration": 750834008,
   "status": "passed"
 });
 formatter.match({
@@ -6024,29 +6015,29 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 932827167,
+  "duration": 893020005,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 7297866429,
+  "duration": 8457167613,
   "status": "passed"
 });
 formatter.after({
-  "duration": 655573,
+  "duration": 631822,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35004649,
+  "duration": 27288082,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 298,
+  "line": 315,
   "name": "Catg : Search ; TYPEAHEAD CHECK- search results of product, capture item label,Search by itemlabel partial name and verify details on TYPEAHEAD results",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-search-;-typeahead-check--search-results-of-product,-capture-item-label,search-by-itemlabel-partial-name-and-verify-details-on-typeahead-results",
@@ -6054,103 +6045,103 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 292,
+      "line": 309,
       "name": "@market_smoke1"
     },
     {
-      "line": 293,
+      "line": 310,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 294,
+      "line": 311,
       "name": "@market_smoke"
     },
     {
-      "line": 295,
+      "line": 312,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 296,
+      "line": 313,
       "name": "@search"
     },
     {
-      "line": 297,
+      "line": 314,
       "name": "@search_typeahead_product_name"
     }
   ]
 });
 formatter.step({
-  "line": 299,
+  "line": 316,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 300,
+  "line": 317,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 301,
+  "line": 318,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 302,
+  "line": 319,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 303,
+  "line": 320,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 304,
+  "line": 321,
   "name": "I am on the \"PlpPage\" Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 305,
+  "line": 322,
   "name": "Save string part of element \"itemslabel\" to variable \"temp_product_name\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 306,
+  "line": 323,
   "name": "Save string part of element \"ResultCategory\" to variable \"temp_category\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 307,
+  "line": 324,
   "name": "I am on \"BasePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 308,
+  "line": 325,
   "name": "Enter Text \"temp_product_name\" in Text Box field \"SearchBox\" in module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 309,
+  "line": 326,
   "name": "Verify if option with name \"temp_category\" in list \"TypeaheadCategoriesList\" is present on global module",
   "keyword": "And "
 });
 formatter.step({
-  "line": 310,
+  "line": 327,
   "name": "Save current url value in variable \"temp_current_url\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 311,
+  "line": 328,
   "name": "Select option with name \"temp_category\" from \"TypeaheadCategoriesList\" on global module",
   "keyword": "And "
 });
 formatter.step({
-  "line": 312,
+  "line": 329,
   "name": "verify if current url contains \"temp_current_url\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 313,
+  "line": 330,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -6164,14 +6155,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 19625631096,
+  "duration": 24033468495,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 3015327134,
+  "duration": 667603949,
   "status": "passed"
 });
 formatter.match({
@@ -6181,10 +6172,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 32528465636,
+  "duration": 24092321927,
   "status": "passed"
 });
 formatter.match({
@@ -6194,17 +6185,17 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1301124386,
+  "duration": 2017672620,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 55481794315,
+  "duration": 48736420458,
   "status": "passed"
 });
 formatter.match({
@@ -6214,10 +6205,10 @@ formatter.match({
       "offset": 13
     }
   ],
-  "location": "common_csp.groovy:334"
+  "location": "common_csp.groovy:336"
 });
 formatter.result({
-  "duration": 2692426311,
+  "duration": 815163675,
   "status": "passed"
 });
 formatter.match({
@@ -6238,7 +6229,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:92"
 });
 formatter.result({
-  "duration": 1218486337,
+  "duration": 1836269914,
   "status": "passed"
 });
 formatter.match({
@@ -6259,7 +6250,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:92"
 });
 formatter.result({
-  "duration": 3747858622,
+  "duration": 4207146309,
   "status": "passed"
 });
 formatter.match({
@@ -6269,10 +6260,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 842797765,
+  "duration": 918585439,
   "status": "passed"
 });
 formatter.match({
@@ -6293,7 +6284,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 15192600811,
+  "duration": 16683384870,
   "status": "passed"
 });
 formatter.match({
@@ -6311,10 +6302,10 @@ formatter.match({
       "offset": 80
     }
   ],
-  "location": "searchresultpage.groovy:1221"
+  "location": "searchresultpage.groovy:1220"
 });
 formatter.result({
-  "duration": 10930160393,
+  "duration": 18728892074,
   "status": "passed"
 });
 formatter.match({
@@ -6324,10 +6315,10 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "common_csp.groovy:374"
+  "location": "common_csp.groovy:376"
 });
 formatter.result({
-  "duration": 175905033,
+  "duration": 144104700,
   "status": "passed"
 });
 formatter.match({
@@ -6341,10 +6332,10 @@ formatter.match({
       "offset": 46
     }
   ],
-  "location": "searchresultpage.groovy:1182"
+  "location": "searchresultpage.groovy:1181"
 });
 formatter.result({
-  "duration": 5691400140,
+  "duration": 9876654488,
   "status": "passed"
 });
 formatter.match({
@@ -6354,29 +6345,29 @@ formatter.match({
       "offset": 32
     }
   ],
-  "location": "common_csp.groovy:380"
+  "location": "common_csp.groovy:382"
 });
 formatter.result({
-  "duration": 278665826,
+  "duration": 823412724,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 11592334398,
+  "duration": 6489609739,
   "status": "passed"
 });
 formatter.after({
-  "duration": 587856,
+  "duration": 559372,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27711146,
+  "duration": 24362135,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 321,
+  "line": 338,
   "name": "Catg : Search ; TYPEAHEAD CHECK- Search results ,capture material num of first, Search by \u0026 select from typeahead material num and verify result returned",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-search-;-typeahead-check--search-results-,capture-material-num-of-first,-search-by-\u0026-select-from-typeahead-material-num-and-verify-result-returned",
@@ -6384,143 +6375,143 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 315,
+      "line": 332,
       "name": "@market_smoke1"
     },
     {
-      "line": 316,
+      "line": 333,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 317,
+      "line": 334,
       "name": "@market_smoke"
     },
     {
-      "line": 318,
+      "line": 335,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 319,
+      "line": 336,
       "name": "@search"
     },
     {
-      "line": 320,
+      "line": 337,
       "name": "@search_typeahead_material"
     }
   ]
 });
 formatter.step({
-  "line": 322,
+  "line": 339,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 323,
+  "line": 340,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 324,
+  "line": 341,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 325,
+  "line": 342,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 326,
+  "line": 343,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 327,
+  "line": 344,
   "name": "I am on the \"PlpPage\" Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 328,
+  "line": 345,
   "name": "Save whole part of element \"material\" to variable \"temp_materialnum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 329,
+  "line": 346,
   "name": "Save value of element \"manufacturer\" to variable \"temp_manufacturernum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 330,
+  "line": 347,
   "name": "I am on \"BasePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 331,
+  "line": 348,
   "name": "Enter Text \"temp_materialnum\" in Text Box field \"SearchBox\" in module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 332,
+  "line": 349,
   "name": "Verify if option with name \"temp_materialnum\" in list \"TypeaheadMaterialsList\" is present on global module",
   "keyword": "And "
 });
 formatter.step({
-  "line": 333,
+  "line": 350,
   "name": "Select option with name \"temp_materialnum\" from \"TypeaheadMaterialsList\" on global module",
   "keyword": "And "
 });
 formatter.step({
-  "line": 334,
+  "line": 351,
   "name": "if \"SearchResultPage\" page returned than hit on item that contains \"temp_materialnum\" and \"temp_manufacturernum\" and get to idp page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 335,
+  "line": 352,
   "name": "I am on \"ItemDetailsPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 336,
+  "line": 353,
   "name": "I verify the Text on \u0027materialnum\u0027 is \u0027temp_materialnum\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 337,
+  "line": 354,
   "name": "Make sure elements \"TitleInfo\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 338,
+  "line": 355,
   "name": "Make sure elements \"Image_container\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 339,
+  "line": 356,
   "name": "Make sure elements \"Details\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 340,
+  "line": 357,
   "name": "Make sure elements \"Description\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 341,
+  "line": 358,
   "name": "Make sure elements \"Specification\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 342,
+  "line": 359,
   "name": "Make sure elements \"Packaging\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 343,
+  "line": 360,
   "name": "Make sure elements \"ManufacturerName\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 344,
+  "line": 361,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -6534,14 +6525,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 17810051900,
+  "duration": 22802234574,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 955087999,
+  "duration": 1522550009,
   "status": "passed"
 });
 formatter.match({
@@ -6551,10 +6542,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 29004109709,
+  "duration": 28233983977,
   "status": "passed"
 });
 formatter.match({
@@ -6564,17 +6555,17 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1203811874,
+  "duration": 2687179149,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 63105819506,
+  "duration": 56075914297,
   "status": "passed"
 });
 formatter.match({
@@ -6584,10 +6575,10 @@ formatter.match({
       "offset": 13
     }
   ],
-  "location": "common_csp.groovy:334"
+  "location": "common_csp.groovy:336"
 });
 formatter.result({
-  "duration": 788241065,
+  "duration": 1113443455,
   "status": "passed"
 });
 formatter.match({
@@ -6608,7 +6599,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:92"
 });
 formatter.result({
-  "duration": 1099620716,
+  "duration": 2209389501,
   "status": "passed"
 });
 formatter.match({
@@ -6625,7 +6616,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 3383298260,
+  "duration": 4732893416,
   "status": "passed"
 });
 formatter.match({
@@ -6635,10 +6626,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 881236894,
+  "duration": 856435009,
   "status": "passed"
 });
 formatter.match({
@@ -6659,7 +6650,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 13570611261,
+  "duration": 11867434174,
   "status": "passed"
 });
 formatter.match({
@@ -6677,10 +6668,10 @@ formatter.match({
       "offset": 82
     }
   ],
-  "location": "searchresultpage.groovy:1221"
+  "location": "searchresultpage.groovy:1220"
 });
 formatter.result({
-  "duration": 6032953673,
+  "duration": 6561465642,
   "status": "passed"
 });
 formatter.match({
@@ -6694,10 +6685,10 @@ formatter.match({
       "offset": 49
     }
   ],
-  "location": "searchresultpage.groovy:1182"
+  "location": "searchresultpage.groovy:1181"
 });
 formatter.result({
-  "duration": 11530464334,
+  "duration": 18661613092,
   "status": "passed"
 });
 formatter.match({
@@ -6715,10 +6706,10 @@ formatter.match({
       "offset": 91
     }
   ],
-  "location": "common_csp.groovy:442"
+  "location": "common_csp.groovy:445"
 });
 formatter.result({
-  "duration": 148269023,
+  "duration": 132872041,
   "status": "passed"
 });
 formatter.match({
@@ -6728,10 +6719,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 685053809,
+  "duration": 1003243922,
   "status": "passed"
 });
 formatter.match({
@@ -6745,10 +6736,10 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 35879243713,
+  "duration": 28202690531,
   "status": "passed"
 });
 formatter.match({
@@ -6762,10 +6753,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2950369592,
+  "duration": 749504270,
   "status": "passed"
 });
 formatter.match({
@@ -6779,10 +6770,10 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 760931382,
+  "duration": 1063271998,
   "status": "passed"
 });
 formatter.match({
@@ -6796,10 +6787,10 @@ formatter.match({
       "offset": 33
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 688498420,
+  "duration": 741645763,
   "status": "passed"
 });
 formatter.match({
@@ -6813,10 +6804,10 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 698525618,
+  "duration": 839093559,
   "status": "passed"
 });
 formatter.match({
@@ -6830,10 +6821,10 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1251394363,
+  "duration": 735730448,
   "status": "passed"
 });
 formatter.match({
@@ -6847,10 +6838,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 978067342,
+  "duration": 723695761,
   "status": "passed"
 });
 formatter.match({
@@ -6864,29 +6855,29 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1359553703,
+  "duration": 849119495,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 11672606656,
+  "duration": 10190952371,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1610189,
+  "duration": 1436731,
   "status": "passed"
 });
 formatter.before({
-  "duration": 74883619,
+  "duration": 25376097,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 353,
+  "line": 370,
   "name": "Catg : Search ; TYPEAHEAD CHECK- search results ,capture manufacturer num of first, Search by \u0026 select from typeahead manufacturer num and verify result returned",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-search-;-typeahead-check--search-results-,capture-manufacturer-num-of-first,-search-by-\u0026-select-from-typeahead-manufacturer-num-and-verify-result-returned",
@@ -6894,143 +6885,143 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 347,
+      "line": 364,
       "name": "@market_smoke1"
     },
     {
-      "line": 348,
+      "line": 365,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 349,
+      "line": 366,
       "name": "@market_smoke"
     },
     {
-      "line": 350,
+      "line": 367,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 351,
+      "line": 368,
       "name": "@search"
     },
     {
-      "line": 352,
+      "line": 369,
       "name": "@search_typeahead_manufacturer"
     }
   ]
 });
 formatter.step({
-  "line": 354,
+  "line": 371,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 355,
+  "line": 372,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 356,
+  "line": 373,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 357,
+  "line": 374,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 358,
+  "line": 375,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 359,
+  "line": 376,
   "name": "I am on the \"PlpPage\" Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 360,
+  "line": 377,
   "name": "Save whole part of element \"manufacturer\" to variable \"temp_manufacturernum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 361,
+  "line": 378,
   "name": "Save value of element \"material\" to variable \"temp_materialnum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 362,
+  "line": 379,
   "name": "I am on \"BasePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 363,
+  "line": 380,
   "name": "Enter Text \"temp_manufacturernum\" in Text Box field \"SearchBox\" in module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 364,
+  "line": 381,
   "name": "Verify if option with name \"temp_manufacturernum\" in list \"TypeaheadManufacturerList\" is present on global module",
   "keyword": "And "
 });
 formatter.step({
-  "line": 365,
+  "line": 382,
   "name": "Select option with name \"temp_manufacturernum\" from \"TypeaheadManufacturerList\" on global module",
   "keyword": "And "
 });
 formatter.step({
-  "line": 366,
+  "line": 383,
   "name": "if \"SearchResultPage\" page returned than hit on item that contains \"temp_materialnum\" and \"temp_manufacturernum\" and get to idp page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 368,
+  "line": 385,
   "name": "I am on \"ItemDetailsPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 369,
+  "line": 386,
   "name": "I verify the Text on \u0027manufacturernum\u0027 is \u0027temp_manufacturernum\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 370,
+  "line": 387,
   "name": "Make sure elements \"TitleInfo\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 371,
+  "line": 388,
   "name": "Make sure elements \"Image_container\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 372,
+  "line": 389,
   "name": "Make sure elements \"Details\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 373,
+  "line": 390,
   "name": "Make sure elements \"Description\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 374,
+  "line": 391,
   "name": "Make sure elements \"Specification\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 375,
+  "line": 392,
   "name": "Make sure elements \"Packaging\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 376,
+  "line": 393,
   "name": "Make sure elements \"ManufacturerName\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 377,
+  "line": 394,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -7044,14 +7035,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 22834351531,
+  "duration": 20974069330,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 875032003,
+  "duration": 642316055,
   "status": "passed"
 });
 formatter.match({
@@ -7061,10 +7052,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 32398972071,
+  "duration": 25374859150,
   "status": "passed"
 });
 formatter.match({
@@ -7074,17 +7065,17 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1363939094,
+  "duration": 860624148,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 60076170771,
+  "duration": 40051931390,
   "status": "passed"
 });
 formatter.match({
@@ -7094,10 +7085,10 @@ formatter.match({
       "offset": 13
     }
   ],
-  "location": "common_csp.groovy:334"
+  "location": "common_csp.groovy:336"
 });
 formatter.result({
-  "duration": 815911643,
+  "duration": 897172223,
   "status": "passed"
 });
 formatter.match({
@@ -7118,7 +7109,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:92"
 });
 formatter.result({
-  "duration": 1156274702,
+  "duration": 2202325946,
   "status": "passed"
 });
 formatter.match({
@@ -7135,7 +7126,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 3611914915,
+  "duration": 4675384859,
   "status": "passed"
 });
 formatter.match({
@@ -7145,10 +7136,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 917027495,
+  "duration": 2132519072,
   "status": "passed"
 });
 formatter.match({
@@ -7169,7 +7160,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 11760447326,
+  "duration": 14627211596,
   "status": "passed"
 });
 formatter.match({
@@ -7187,10 +7178,10 @@ formatter.match({
       "offset": 89
     }
   ],
-  "location": "searchresultpage.groovy:1221"
+  "location": "searchresultpage.groovy:1220"
 });
 formatter.result({
-  "duration": 7050890119,
+  "duration": 8867863827,
   "status": "passed"
 });
 formatter.match({
@@ -7204,10 +7195,10 @@ formatter.match({
       "offset": 53
     }
   ],
-  "location": "searchresultpage.groovy:1182"
+  "location": "searchresultpage.groovy:1181"
 });
 formatter.result({
-  "duration": 24401388664,
+  "duration": 36408292338,
   "status": "passed"
 });
 formatter.match({
@@ -7225,10 +7216,10 @@ formatter.match({
       "offset": 91
     }
   ],
-  "location": "common_csp.groovy:442"
+  "location": "common_csp.groovy:445"
 });
 formatter.result({
-  "duration": 183905245,
+  "duration": 142759161,
   "status": "passed"
 });
 formatter.match({
@@ -7238,10 +7229,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 707076554,
+  "duration": 1884508112,
   "status": "passed"
 });
 formatter.match({
@@ -7255,10 +7246,10 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 32624277071,
+  "duration": 29534023961,
   "status": "passed"
 });
 formatter.match({
@@ -7272,10 +7263,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 766497978,
+  "duration": 716131331,
   "status": "passed"
 });
 formatter.match({
@@ -7289,10 +7280,10 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 844188615,
+  "duration": 689976974,
   "status": "passed"
 });
 formatter.match({
@@ -7306,10 +7297,10 @@ formatter.match({
       "offset": 33
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 814169444,
+  "duration": 1878263682,
   "status": "passed"
 });
 formatter.match({
@@ -7323,10 +7314,10 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 771311451,
+  "duration": 739552614,
   "status": "passed"
 });
 formatter.match({
@@ -7340,10 +7331,10 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 784462494,
+  "duration": 729421932,
   "status": "passed"
 });
 formatter.match({
@@ -7357,10 +7348,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 802041759,
+  "duration": 722934039,
   "status": "passed"
 });
 formatter.match({
@@ -7374,29 +7365,29 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 934435148,
+  "duration": 1174732898,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 13837459355,
+  "duration": 6952955369,
   "status": "passed"
 });
 formatter.after({
-  "duration": 804473,
+  "duration": 755607,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31862207,
+  "duration": 26286179,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 385,
+  "line": 402,
   "name": "Catg : My Account ; Access My Account options",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-my-account-;-access-my-account-options",
@@ -7404,88 +7395,88 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 379,
+      "line": 396,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 380,
+      "line": 397,
       "name": "@market_smoke1"
     },
     {
-      "line": 381,
+      "line": 398,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 382,
+      "line": 399,
       "name": "@market_smoke"
     },
     {
-      "line": 383,
+      "line": 400,
       "name": "@my_account"
     },
     {
-      "line": 384,
+      "line": 401,
       "name": "@My_Account_options"
     }
   ]
 });
 formatter.step({
-  "line": 386,
+  "line": 403,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 387,
+  "line": 404,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 388,
+  "line": 405,
   "name": "Make sure element \"welcomeUser\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 389,
+  "line": 406,
   "name": "Make sure element \"welcomeUser_Username\" value is not null in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 390,
+  "line": 407,
   "name": "I click element \u0027MyAccount\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
-  "line": 391,
+  "line": 408,
   "name": "Make sure element \"myAccountdropdown\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 392,
+  "line": 409,
   "name": "Make sure element \"myAccount_changeaccount\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 393,
+  "line": 410,
   "name": "Make sure element \"myAccount_logout\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 394,
+  "line": 411,
   "name": "I click element \u0027myAccount_changeaccount\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
-  "line": 395,
+  "line": 412,
   "name": "the system must display an account selection section on the page as Select Account,Sold To,Ship To,Search Sold To\u0027s or Ship To\u0027s,View All Accounts,Cancel,Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 396,
+  "line": 413,
   "name": "Log out of Market application",
   "keyword": "And "
 });
 formatter.step({
-  "line": 397,
+  "line": 414,
   "name": "verify if current url contains \"cardinalhealth.com/login\"",
   "keyword": "Then "
 });
@@ -7499,14 +7490,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 20025973005,
+  "duration": 21333153730,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 5649850958,
+  "duration": 5261800946,
   "status": "passed"
 });
 formatter.match({
@@ -7527,7 +7518,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 11966561328,
+  "duration": 8298867697,
   "status": "passed"
 });
 formatter.match({
@@ -7548,7 +7539,7 @@ formatter.match({
   "location": "common_csp.groovy:130"
 });
 formatter.result({
-  "duration": 27484025031,
+  "duration": 21647703740,
   "status": "passed"
 });
 formatter.match({
@@ -7561,7 +7552,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 17583272514,
+  "duration": 12428575369,
   "status": "passed"
 });
 formatter.match({
@@ -7582,7 +7573,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1379030555,
+  "duration": 2383147273,
   "status": "passed"
 });
 formatter.match({
@@ -7603,7 +7594,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1894381936,
+  "duration": 3044439926,
   "status": "passed"
 });
 formatter.match({
@@ -7624,7 +7615,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1798337498,
+  "duration": 1819126660,
   "status": "passed"
 });
 formatter.match({
@@ -7637,7 +7628,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 6287996929,
+  "duration": 7117944681,
   "status": "passed"
 });
 formatter.match({
@@ -7671,17 +7662,17 @@ formatter.match({
       "offset": 154
     }
   ],
-  "location": "changeaccountdropdown.groovy:23"
+  "location": "changeaccountdropdown.groovy:40"
 });
 formatter.result({
-  "duration": 9616103200,
+  "duration": 10548264020,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 10673263340,
+  "duration": 9589254668,
   "status": "passed"
 });
 formatter.match({
@@ -7691,22 +7682,22 @@ formatter.match({
       "offset": 32
     }
   ],
-  "location": "common_csp.groovy:380"
+  "location": "common_csp.groovy:382"
 });
 formatter.result({
-  "duration": 512768353,
+  "duration": 137984185,
   "status": "passed"
 });
 formatter.after({
-  "duration": 581270,
+  "duration": 387370,
   "status": "passed"
 });
 formatter.before({
-  "duration": 32972461,
+  "duration": 29335829,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 405,
+  "line": 422,
   "name": "Catg : My Account ; My profile info in My Account options",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-my-account-;-my-profile-info-in-my-account-options",
@@ -7714,123 +7705,123 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 399,
+      "line": 416,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 400,
+      "line": 417,
       "name": "@market_smoke1"
     },
     {
-      "line": 401,
+      "line": 418,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 402,
+      "line": 419,
       "name": "@market_smoke"
     },
     {
-      "line": 403,
+      "line": 420,
       "name": "@my_account"
     },
     {
-      "line": 404,
+      "line": 421,
       "name": "@My_Account_profile_info"
     }
   ]
 });
 formatter.step({
-  "line": 406,
+  "line": 423,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 407,
+  "line": 424,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 408,
+  "line": 425,
   "name": "I click element \u0027MyAccount\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
-  "line": 409,
+  "line": 426,
   "name": "I click element \u0027Profileinfo\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
-  "line": 410,
+  "line": 427,
   "name": "I am on \"UserProfilePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 411,
+  "line": 428,
   "name": "Make sure element \"profile_FirstName\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 412,
+  "line": 429,
   "name": "Make sure element \"profile_LastName\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 413,
+  "line": 430,
   "name": "Make sure element \"profile_PhoneNumber1\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 414,
+  "line": 431,
   "name": "Make sure element \"profile_PhoneNumber2\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 415,
+  "line": 432,
   "name": "Make sure element \"profile_PhoneNumber3\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 416,
+  "line": 433,
   "name": "Make sure element \"profile_PhoneExtension\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 417,
+  "line": 434,
   "name": "Make sure element \"profile_EmailAddress\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 418,
+  "line": 435,
   "name": "Make sure element \"profile_SaveChangesButton\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 419,
+  "line": 436,
   "name": "Make sure element \"profile_user_pass_security\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 420,
+  "line": 437,
   "name": "Make sure element \"profile_username\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 421,
+  "line": 438,
   "name": "Make sure element \"profile_password\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 422,
+  "line": 439,
   "name": "Make sure element \"profile_security\" is present in page \"\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 423,
+  "line": 440,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 424,
+  "line": 441,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -7844,14 +7835,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 19629086407,
+  "duration": 22931939812,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 5241966934,
+  "duration": 5481103569,
   "status": "passed"
 });
 formatter.match({
@@ -7864,7 +7855,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 11402746730,
+  "duration": 14999754074,
   "status": "passed"
 });
 formatter.match({
@@ -7877,7 +7868,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 13349161048,
+  "duration": 14663963636,
   "status": "passed"
 });
 formatter.match({
@@ -7887,10 +7878,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 2496641200,
+  "duration": 810892925,
   "status": "passed"
 });
 formatter.match({
@@ -7911,7 +7902,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1306519704,
+  "duration": 1176249288,
   "status": "passed"
 });
 formatter.match({
@@ -7932,7 +7923,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 2296080946,
+  "duration": 1372738013,
   "status": "passed"
 });
 formatter.match({
@@ -7953,7 +7944,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1555055954,
+  "duration": 1817454662,
   "status": "passed"
 });
 formatter.match({
@@ -7974,7 +7965,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1357180368,
+  "duration": 1147859361,
   "status": "passed"
 });
 formatter.match({
@@ -7995,7 +7986,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1494755309,
+  "duration": 1270219070,
   "status": "passed"
 });
 formatter.match({
@@ -8016,7 +8007,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 1215961176,
+  "duration": 2251549915,
   "status": "passed"
 });
 formatter.match({
@@ -8037,7 +8028,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 2407652515,
+  "duration": 1437976147,
   "status": "passed"
 });
 formatter.match({
@@ -8058,7 +8049,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 3165377162,
+  "duration": 1213965114,
   "status": "passed"
 });
 formatter.match({
@@ -8079,7 +8070,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 2042886714,
+  "duration": 2816185859,
   "status": "passed"
 });
 formatter.match({
@@ -8100,7 +8091,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 5300514359,
+  "duration": 4220952108,
   "status": "passed"
 });
 formatter.match({
@@ -8121,7 +8112,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 5967282939,
+  "duration": 3545223681,
   "status": "passed"
 });
 formatter.match({
@@ -8142,33 +8133,33 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 3060067700,
+  "duration": 2832937066,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 7230858510,
+  "duration": 6176144867,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 8051295945,
+  "duration": 11245477802,
   "status": "passed"
 });
 formatter.after({
-  "duration": 399404,
+  "duration": 389976,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26336158,
+  "duration": 23365785,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 432,
+  "line": 449,
   "name": "Catg : My Account ; TEST CASE WILL FAIL- NEW REQUIREMENT, MKT-5645 CREATED for EDITING PROFILE - Edit My profile options",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-my-account-;-test-case-will-fail--new-requirement,-mkt-5645-created-for-editing-profile---edit-my-profile-options",
@@ -8176,279 +8167,219 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 426,
+      "line": 443,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 427,
+      "line": 444,
       "name": "@market_smoke1"
     },
     {
-      "line": 428,
+      "line": 445,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 429,
+      "line": 446,
       "name": "@market_smoke"
     },
     {
-      "line": 430,
+      "line": 447,
       "name": "@my_account"
     },
     {
-      "line": 431,
+      "line": 448,
       "name": "@My_Account_profile_edit"
     }
   ]
 });
 formatter.step({
-  "line": 433,
+  "line": 450,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 434,
+  "line": 451,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 435,
-  "name": "I click element \u0027MyAccount\u0027 on globalHeader",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 436,
-  "name": "I click element \u0027Profileinfo\u0027 on globalHeader",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 437,
-  "name": "I am on \"UserProfilePage\" page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 439,
-  "name": "Save value of element \"profile_FirstName\" to variable \"temp_firstname\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 440,
-  "name": "Save value of element \"profile_LastName\" to variable \"temp_lastname\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 441,
-  "name": "Save value of element \"profile_PhoneNumber1\" to variable \"temp_phonenumber1\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 442,
-  "name": "Save value of element \"profile_PhoneNumber2\" to variable \"temp_phonenumber2\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 443,
-  "name": "Save value of element \"profile_PhoneNumber2\" to variable \"temp_phonenumber2\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 444,
-  "name": "Save value of element \"profile_PhoneExtension\" to variable \"temp_phoneextension\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 445,
-  "name": "Save value of element \"profile_EmailAddress\" to variable \"temp_emailaddress\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 447,
-  "name": "I Enter Text \"profile_FirstName\" in Text Box field \"profile_FirstName\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 448,
-  "name": "I Enter Text \"profile_LastName\" in Text Box field \"profile_LastName\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 449,
-  "name": "I Enter Text \"213\" in Text Box field \"profile_PhoneNumber1\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 450,
-  "name": "I Enter Text \"456\" in Text Box field \"profile_PhoneNumber2\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 451,
-  "name": "I Enter Text \"2341\" in Text Box field \"profile_PhoneNumber3\"",
-  "keyword": "And "
-});
-formatter.step({
   "line": 452,
-  "name": "I Enter Text \"231\" in Text Box field \"profile_PhoneExtension\"",
+  "name": "I click element \u0027MyAccount\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
   "line": 453,
-  "name": "I Enter Text \"test@test.com\" in Text Box field \"profile_EmailAddress\"",
+  "name": "I click element \u0027Profileinfo\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
   "line": 454,
-  "name": "I click at Item \u0027profile_SaveChangesButton\u0027",
+  "name": "I am on \"UserProfilePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 455,
-  "name": "I view the Global Header",
-  "keyword": "When "
-});
-formatter.step({
   "line": 456,
-  "name": "I click element \u0027MyAccount\u0027 on globalHeader",
+  "name": "Save value of element \"profile_FirstName\" to variable \"temp_firstname\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 457,
-  "name": "I click element \u0027Profileinfo\u0027 on globalHeader",
+  "name": "Save value of element \"profile_LastName\" to variable \"temp_lastname\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 458,
-  "name": "I am on \"UserProfilePage\" page",
+  "name": "Save value of element \"profile_PhoneNumber1\" to variable \"temp_phonenumber1\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 459,
-  "name": "I verify the Text on \u0027profile_FirstName\u0027 is \u0027profile_FirstName\u0027",
+  "name": "Save value of element \"profile_PhoneNumber2\" to variable \"temp_phonenumber2\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 460,
-  "name": "I verify the Text on \u0027profile_LastName\u0027 is \u0027profile_LastName\u0027",
+  "name": "Save value of element \"profile_PhoneNumber2\" to variable \"temp_phonenumber2\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 461,
-  "name": "I verify the Text on \u0027profile_PhoneNumber1\u0027 is \u0027213\u0027",
+  "name": "Save value of element \"profile_PhoneExtension\" to variable \"temp_phoneextension\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 462,
-  "name": "I verify the Text on \u0027profile_PhoneNumber2\u0027 is \u0027456\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 463,
-  "name": "I verify the Text on \u0027profile_PhoneNumber2\u0027 is \u00272341\u0027",
+  "name": "Save value of element \"profile_EmailAddress\" to variable \"temp_emailaddress\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 464,
-  "name": "I verify the Text on \u0027profile_PhoneExtension\u0027 is \u0027231\u0027",
+  "name": "I Enter Text \"profile_FirstName\" in Text Box field \"profile_FirstName\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 465,
-  "name": "I verify the Text on \u0027profile_EmailAddress\u0027 is \u0027test@test.com\u0027",
+  "name": "I Enter Text \"profile_LastName\" in Text Box field \"profile_LastName\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 466,
+  "name": "I Enter Text \"213\" in Text Box field \"profile_PhoneNumber1\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 467,
-  "name": "I Enter Text \"temp_firstname\" in Text Box field \"profile_FirstName\"",
+  "name": "I Enter Text \"456\" in Text Box field \"profile_PhoneNumber2\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 468,
-  "name": "I Enter Text \"temp_lastname\" in Text Box field \"profile_LastName\"",
+  "name": "I Enter Text \"2341\" in Text Box field \"profile_PhoneNumber3\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 469,
-  "name": "I Enter Text \"temp_phonenumber1\" in Text Box field \"213\"",
+  "name": "I Enter Text \"231\" in Text Box field \"profile_PhoneExtension\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 470,
-  "name": "I Enter Text \"temp_phonenumber2\" in Text Box field \"456\"",
+  "name": "I Enter Text \"test@test.com\" in Text Box field \"profile_EmailAddress\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 471,
-  "name": "I Enter Text \"temp_phonenumber3\" in Text Box field \"2341\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 472,
-  "name": "I Enter Text \"temp_phoneextension\" in Text Box field \"231\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 473,
-  "name": "I Enter Text \"temp_emailaddress\" in Text Box field \"test@test.com\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 474,
   "name": "I click at Item \u0027profile_SaveChangesButton\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 475,
+  "line": 472,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 476,
+  "line": 473,
   "name": "I click element \u0027MyAccount\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
-  "line": 477,
+  "line": 474,
   "name": "I click element \u0027Profileinfo\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
-  "line": 478,
+  "line": 475,
   "name": "I am on \"UserProfilePage\" page",
   "keyword": "And "
 });
 formatter.step({
+  "line": 476,
+  "name": "I verify the Text on \u0027profile_FirstName\u0027 is \u0027profile_FirstName\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 477,
+  "name": "I verify the Text on \u0027profile_LastName\u0027 is \u0027profile_LastName\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 478,
+  "name": "I verify the Text on \u0027profile_PhoneNumber1\u0027 is \u0027213\u0027",
+  "keyword": "And "
+});
+formatter.step({
   "line": 479,
-  "name": "I verify the Text on \u0027profile_FirstName\u0027 is \u0027temp_firstname\u0027",
+  "name": "I verify the Text on \u0027profile_PhoneNumber2\u0027 is \u0027456\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 480,
-  "name": "I verify the Text on \u0027profile_LastName\u0027 is \u0027temp_lastname\u0027",
+  "name": "I verify the Text on \u0027profile_PhoneNumber2\u0027 is \u00272341\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 481,
-  "name": "I verify the Text on \u0027profile_PhoneNumber1\u0027 is \u0027temp_phonenumber1\u0027",
+  "name": "I verify the Text on \u0027profile_PhoneExtension\u0027 is \u0027231\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 482,
-  "name": "I verify the Text on \u0027profile_PhoneNumber2\u0027 is \u0027temp_phonenumber2\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 483,
-  "name": "I verify the Text on \u0027profile_PhoneNumber3\u0027 is \u0027temp_phonenumber3\u0027",
+  "name": "I verify the Text on \u0027profile_EmailAddress\u0027 is \u0027test@test.com\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 484,
-  "name": "I verify the Text on \u0027profile_PhoneExtension\u0027 is \u0027temp_phoneextension\u0027",
+  "name": "I Enter Text \"temp_firstname\" in Text Box field \"profile_FirstName\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 485,
-  "name": "I verify the Text on \u0027profile_EmailAddress\u0027 is \u0027temp_emailaddress\u0027",
+  "name": "I Enter Text \"temp_lastname\" in Text Box field \"profile_LastName\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 486,
+  "name": "I Enter Text \"temp_phonenumber1\" in Text Box field \"213\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 487,
+  "name": "I Enter Text \"temp_phonenumber2\" in Text Box field \"456\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 488,
+  "name": "I Enter Text \"temp_phonenumber3\" in Text Box field \"2341\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 489,
+  "name": "I Enter Text \"temp_phoneextension\" in Text Box field \"231\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 490,
+  "name": "I Enter Text \"temp_emailaddress\" in Text Box field \"test@test.com\"",
   "keyword": "And "
 });
 formatter.match({
@@ -8461,14 +8392,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 18849406432,
+  "duration": 20141867327,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 4953379540,
+  "duration": 6584883971,
   "status": "passed"
 });
 formatter.match({
@@ -8481,7 +8412,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 18638709348,
+  "duration": 11631115829,
   "status": "passed"
 });
 formatter.match({
@@ -8494,7 +8425,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 14442792730,
+  "duration": 14685590468,
   "status": "passed"
 });
 formatter.match({
@@ -8504,10 +8435,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 915502588,
+  "duration": 1281816552,
   "status": "passed"
 });
 formatter.match({
@@ -8524,7 +8455,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 4567208571,
+  "duration": 4672877060,
   "status": "passed"
 });
 formatter.match({
@@ -8541,7 +8472,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 7279991048,
+  "duration": 3587254469,
   "status": "passed"
 });
 formatter.match({
@@ -8558,7 +8489,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 5352512820,
+  "duration": 5775295652,
   "status": "passed"
 });
 formatter.match({
@@ -8575,7 +8506,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 5370017732,
+  "duration": 4736548266,
   "status": "passed"
 });
 formatter.match({
@@ -8592,7 +8523,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 3865706297,
+  "duration": 6786273954,
   "status": "passed"
 });
 formatter.match({
@@ -8609,7 +8540,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 6011275990,
+  "duration": 3177122828,
   "status": "passed"
 });
 formatter.match({
@@ -8626,7 +8557,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 4151495569,
+  "duration": 4510480814,
   "status": "passed"
 });
 formatter.match({
@@ -8643,7 +8574,7 @@ formatter.match({
   "location": "common_csp.groovy:173"
 });
 formatter.result({
-  "duration": 6635830820,
+  "duration": 4977804981,
   "status": "passed"
 });
 formatter.match({
@@ -8660,7 +8591,7 @@ formatter.match({
   "location": "common_csp.groovy:173"
 });
 formatter.result({
-  "duration": 5005081651,
+  "duration": 12201004998,
   "status": "passed"
 });
 formatter.match({
@@ -8677,7 +8608,7 @@ formatter.match({
   "location": "common_csp.groovy:173"
 });
 formatter.result({
-  "duration": 4467444283,
+  "duration": 5814271234,
   "status": "passed"
 });
 formatter.match({
@@ -8694,7 +8625,7 @@ formatter.match({
   "location": "common_csp.groovy:173"
 });
 formatter.result({
-  "duration": 4972714443,
+  "duration": 5388197252,
   "status": "passed"
 });
 formatter.match({
@@ -8711,7 +8642,7 @@ formatter.match({
   "location": "common_csp.groovy:173"
 });
 formatter.result({
-  "duration": 6037579626,
+  "duration": 4571045980,
   "status": "passed"
 });
 formatter.match({
@@ -8728,7 +8659,7 @@ formatter.match({
   "location": "common_csp.groovy:173"
 });
 formatter.result({
-  "duration": 5023753431,
+  "duration": 5029792619,
   "status": "passed"
 });
 formatter.match({
@@ -8745,7 +8676,7 @@ formatter.match({
   "location": "common_csp.groovy:173"
 });
 formatter.result({
-  "duration": 5787635543,
+  "duration": 6249833277,
   "status": "passed"
 });
 formatter.match({
@@ -8758,8 +8689,8 @@ formatter.match({
   "location": "itemdetailspage.groovy:62"
 });
 formatter.result({
-  "duration": 6286691270,
-  "error_message": "java.lang.AssertionError: pages.UserProfilePage -\u003e profile_SaveChangesButton: geb.navigator.NonEmptyNavigator cannot be interacted and hence cannot be clicked ,exception ...org.openqa.selenium.ElementNotVisibleException: element not interactable\n  (Session info: chrome\u003d70.0.3538.67)\n  (Driver info: chromedriver\u003d2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform\u003dWindows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 881 milliseconds\nBuild info: version: \u0027unknown\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027dab47b40-08ca-4cd1-510f-56cd62d0ee79\u0027, ip: \u002710.254.0.114\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.14.62-65.117.amzn1.x86_64\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:49749}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, takesScreenshot\u003dtrue, browserName\u003dchrome, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir\u003dC:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\scoped_dir3036_14758}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, hasMetadata\u003dtrue, handlesAlerts\u003dtrue, databaseEnabled\u003dfalse, version\u003d70.0.3538.67, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, webdriver.remote.sessionid\u003dc5e19bbd640b4f5fbc9633f68623ff55, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: c5e19bbd640b4f5fbc9633f68623ff55. Expression: false\n\tat functionlib.Elements.click_on_page(Elements.groovy:367)\n\tat functionlib.Elements.click_on_page(Elements.groovy)\n\tat functionlib.Elements$click_on_page$2.call(Unknown Source)\n\tat steps.itemdetails.itemdetailspage$_run_closure7.doCall(itemdetailspage.groovy:66)\n\tat ✽.And I click at Item \u0027profile_SaveChangesButton\u0027(navigation/Common.feature:454)\n",
+  "duration": 5992222344,
+  "error_message": "java.lang.AssertionError: pages.UserProfilePage -\u003e profile_SaveChangesButton: geb.navigator.NonEmptyNavigator cannot be interacted and hence cannot be clicked ,exception ...org.openqa.selenium.ElementNotVisibleException: element not interactable\n  (Session info: chrome\u003d70.0.3538.67)\n  (Driver info: chromedriver\u003d2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform\u003dWindows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 188 milliseconds\nBuild info: version: \u0027unknown\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027132427a1-150e-489a-70b8-d220c7de56c0\u0027, ip: \u002710.254.0.10\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.14.72-68.55.amzn1.x86_64\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:49750}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, takesScreenshot\u003dtrue, browserName\u003dchrome, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir\u003dC:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\scoped_dir2144_24032}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, hasMetadata\u003dtrue, handlesAlerts\u003dtrue, databaseEnabled\u003dfalse, version\u003d70.0.3538.67, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, webdriver.remote.sessionid\u003dc2a03b09b8c14531bcfa4a32de89a2ae, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: c2a03b09b8c14531bcfa4a32de89a2ae. Expression: false\n\tat functionlib.Elements.click_on_page(Elements.groovy:391)\n\tat functionlib.Elements.click_on_page(Elements.groovy)\n\tat functionlib.Elements$click_on_page$2.call(Unknown Source)\n\tat steps.itemdetails.itemdetailspage$_run_closure7.doCall(itemdetailspage.groovy:66)\n\tat ✽.And I click at Item \u0027profile_SaveChangesButton\u0027(navigation/Common.feature:471)\n",
   "status": "failed"
 });
 formatter.match({
@@ -8799,7 +8730,7 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
   "status": "skipped"
@@ -8815,7 +8746,7 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
   "status": "skipped"
@@ -8831,7 +8762,7 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
   "status": "skipped"
@@ -8847,7 +8778,7 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
   "status": "skipped"
@@ -8863,7 +8794,7 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
   "status": "skipped"
@@ -8879,7 +8810,7 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
   "status": "skipped"
@@ -8895,7 +8826,7 @@ formatter.match({
       "offset": 50
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
   "status": "skipped"
@@ -8911,7 +8842,7 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
   "status": "skipped"
@@ -9028,183 +8959,67 @@ formatter.match({
 formatter.result({
   "status": "skipped"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "profile_SaveChangesButton",
-      "offset": 17
-    }
-  ],
-  "location": "itemdetailspage.groovy:62"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "changeaccountlink.groovy:12"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "MyAccount",
-      "offset": 17
-    }
-  ],
-  "location": "searchresultpage.groovy:480"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Profileinfo",
-      "offset": 17
-    }
-  ],
-  "location": "searchresultpage.groovy:480"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "UserProfilePage",
-      "offset": 9
-    }
-  ],
-  "location": "common_csp.groovy:364"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "profile_FirstName",
-      "offset": 22
-    },
-    {
-      "val": "temp_firstname",
-      "offset": 45
-    }
-  ],
-  "location": "common_csp.groovy:389"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "profile_LastName",
-      "offset": 22
-    },
-    {
-      "val": "temp_lastname",
-      "offset": 44
-    }
-  ],
-  "location": "common_csp.groovy:389"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "profile_PhoneNumber1",
-      "offset": 22
-    },
-    {
-      "val": "temp_phonenumber1",
-      "offset": 48
-    }
-  ],
-  "location": "common_csp.groovy:389"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "profile_PhoneNumber2",
-      "offset": 22
-    },
-    {
-      "val": "temp_phonenumber2",
-      "offset": 48
-    }
-  ],
-  "location": "common_csp.groovy:389"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "profile_PhoneNumber3",
-      "offset": 22
-    },
-    {
-      "val": "temp_phonenumber3",
-      "offset": 48
-    }
-  ],
-  "location": "common_csp.groovy:389"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "profile_PhoneExtension",
-      "offset": 22
-    },
-    {
-      "val": "temp_phoneextension",
-      "offset": 50
-    }
-  ],
-  "location": "common_csp.groovy:389"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "profile_EmailAddress",
-      "offset": 22
-    },
-    {
-      "val": "temp_emailaddress",
-      "offset": 48
-    }
-  ],
-  "location": "common_csp.groovy:389"
-});
-formatter.result({
-  "status": "skipped"
-});
 formatter.embedding("image/png", "embedded1.png");
 formatter.after({
-  "duration": 890636920,
+  "duration": 878540053,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36219811,
+  "duration": 29804192,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 493,
+  "comments": [
+    {
+      "line": 491,
+      "value": "#    And I click at Item \u0027profile_SaveChangesButton\u0027"
+    },
+    {
+      "line": 492,
+      "value": "#    When I view the Global Header"
+    },
+    {
+      "line": 493,
+      "value": "#    And I click element \u0027MyAccount\u0027 on globalHeader"
+    },
+    {
+      "line": 494,
+      "value": "#    And I click element \u0027Profileinfo\u0027 on globalHeader"
+    },
+    {
+      "line": 495,
+      "value": "#    And I am on \"UserProfilePage\" page"
+    },
+    {
+      "line": 496,
+      "value": "#    And I verify the Text on \u0027profile_FirstName\u0027 is \u0027temp_firstname\u0027"
+    },
+    {
+      "line": 497,
+      "value": "#    And I verify the Text on \u0027profile_LastName\u0027 is \u0027temp_lastname\u0027"
+    },
+    {
+      "line": 498,
+      "value": "#    And I verify the Text on \u0027profile_PhoneNumber1\u0027 is \u0027temp_phonenumber1\u0027"
+    },
+    {
+      "line": 499,
+      "value": "#    And I verify the Text on \u0027profile_PhoneNumber2\u0027 is \u0027temp_phonenumber2\u0027"
+    },
+    {
+      "line": 500,
+      "value": "#    And I verify the Text on \u0027profile_PhoneNumber3\u0027 is \u0027temp_phonenumber3\u0027"
+    },
+    {
+      "line": 501,
+      "value": "#    And I verify the Text on \u0027profile_PhoneExtension\u0027 is \u0027temp_phoneextension\u0027"
+    },
+    {
+      "line": 502,
+      "value": "#    And I verify the Text on \u0027profile_EmailAddress\u0027 is \u0027temp_emailaddress\u0027"
+    }
+  ],
+  "line": 510,
   "name": "Catg : Check Availability ; Hit on Check availibity on search results and items details page and check current status",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-check-availability-;-hit-on-check-availibity-on-search-results-and-items-details-page-and-check-current-status",
@@ -9212,370 +9027,103 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 487,
+      "line": 504,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 488,
+      "line": 505,
       "name": "@market_smoke1"
     },
     {
-      "line": 489,
+      "line": 506,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 490,
+      "line": 507,
       "name": "@market_smoke"
     },
     {
-      "line": 491,
+      "line": 508,
       "name": "@check_availability"
     },
     {
-      "line": 492,
+      "line": 509,
       "name": "@check_availablity_search_idp"
     }
   ]
 });
 formatter.step({
-  "line": 494,
+  "line": 511,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 495,
+  "line": 512,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 496,
+  "line": 513,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 497,
+  "line": 514,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 498,
+  "line": 515,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 499,
+  "line": 516,
   "name": "Verify items list details related to product",
   "keyword": "And "
 });
 formatter.step({
-  "line": 500,
-  "name": "I should see the Item \u0027checkavailibity\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 501,
-  "name": "I click at Item \u0027checkavailibity\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 502,
-  "name": "I should see the Item \u0027availabilitymsg\u0027",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 503,
-  "name": "I click at Item \u0027itemslabel\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 504,
-  "name": "I must be taken to an \u0027ItemDetailsPage\u0027",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 505,
-  "name": "I should see the Item \u0027checkavailibity\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 506,
-  "name": "I click at Item \u0027checkavailibity\u0027",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 507,
-  "name": "I should see the Item \u0027availabilitymsg\u0027",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "BasePage",
-      "offset": 25
-    }
-  ],
-  "location": "common_csp.groovy:19"
-});
-formatter.result({
-  "duration": 25907590580,
-  "status": "passed"
-});
-formatter.match({
-  "location": "basepage.groovy:11"
-});
-formatter.result({
-  "duration": 926031414,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "0",
-      "offset": 9
-    }
-  ],
-  "location": "categorynavigation.groovy:273"
-});
-formatter.result({
-  "duration": 44544890160,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "CategoryLandingPage",
-      "offset": 23
-    }
-  ],
-  "location": "basepage.groovy:186"
-});
-formatter.result({
-  "duration": 1142422152,
-  "status": "passed"
-});
-formatter.match({
-  "location": "productnavmenudisplayflag.groovy:30"
-});
-formatter.result({
-  "duration": 72849407465,
-  "status": "passed"
-});
-formatter.match({
-  "location": "shoppingcartpage.groovy:421"
-});
-formatter.result({
-  "duration": 7004592261,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "checkavailibity",
-      "offset": 23
-    }
-  ],
-  "location": "itemdetailspage.groovy:19"
-});
-formatter.result({
-  "duration": 1410191131,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "checkavailibity",
-      "offset": 17
-    }
-  ],
-  "location": "itemdetailspage.groovy:62"
-});
-formatter.result({
-  "duration": 33549886725,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "availabilitymsg",
-      "offset": 23
-    }
-  ],
-  "location": "itemdetailspage.groovy:19"
-});
-formatter.result({
-  "duration": 814357043,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "itemslabel",
-      "offset": 17
-    }
-  ],
-  "location": "itemdetailspage.groovy:62"
-});
-formatter.result({
-  "duration": 29790712558,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "ItemDetailsPage",
-      "offset": 23
-    }
-  ],
-  "location": "basepage.groovy:186"
-});
-formatter.result({
-  "duration": 1236317910,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "checkavailibity",
-      "offset": 23
-    }
-  ],
-  "location": "itemdetailspage.groovy:19"
-});
-formatter.result({
-  "duration": 997656492,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "checkavailibity",
-      "offset": 17
-    }
-  ],
-  "location": "itemdetailspage.groovy:62"
-});
-formatter.result({
-  "duration": 29231816129,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "availabilitymsg",
-      "offset": 23
-    }
-  ],
-  "location": "itemdetailspage.groovy:19"
-});
-formatter.result({
-  "duration": 1008770378,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 583157,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 27206525,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 514,
-  "name": "Catg : Search ; Typeahead -Item detail page when hit on item and category landing when hit on category",
-  "description": "",
-  "id": "market-smoke-test-cases;catg-:-search-;-typeahead--item-detail-page-when-hit-on-item-and-category-landing-when-hit-on-category",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 509,
-      "name": "@typeahead_itemdetail"
-    },
-    {
-      "line": 510,
-      "name": "@market_smoke_prod1"
-    },
-    {
-      "line": 511,
-      "name": "@market_smoke1"
-    },
-    {
-      "line": 512,
-      "name": "@market_smoke_prod"
-    },
-    {
-      "line": 513,
-      "name": "@market_smoke"
-    }
-  ]
-});
-formatter.step({
-  "line": 515,
-  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 516,
-  "name": "I am on the Header",
-  "keyword": "And "
-});
-formatter.step({
   "line": 517,
-  "name": "Enter Text \"glov\" in Text Box field \"SearchBox\" in module \"globalHeader\"",
+  "name": "I should see the Item \u0027checkavailibity\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 518,
-  "name": "I click \u0027ONCE\u0027 on 1 item from the \u0027TypeaheadProductsList\u0027 in tablet header navigation",
+  "name": "I click at Item \u0027checkavailibity\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 519,
-  "name": "I must be taken to an \u0027ItemDetailsPage\u0027",
-  "keyword": "And "
+  "name": "I should see the Item \u0027availabilitymsg\u0027",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 520,
-  "name": "I am on \"ItemDetailsPage\" page",
+  "name": "I click at Item \u0027itemslabel\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 521,
-  "name": "Make sure elements \"TitleInfo\" are present",
+  "name": "I must be taken to an \u0027ItemDetailsPage\u0027",
   "keyword": "Then "
 });
 formatter.step({
   "line": 522,
-  "name": "Make sure elements \"Image_container\" are present",
+  "name": "I should see the Item \u0027checkavailibity\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 523,
-  "name": "Make sure elements \"Details\" are present",
+  "name": "I click at Item \u0027checkavailibity\u0027",
   "keyword": "And "
 });
 formatter.step({
   "line": 524,
-  "name": "Make sure elements \"Description\" are present",
-  "keyword": "And "
+  "name": "I should see the Item \u0027availabilitymsg\u0027",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 525,
-  "name": "Make sure elements \"Specification\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 526,
-  "name": "Make sure elements \"Packaging\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 527,
-  "name": "Make sure elements \"ManufacturerName\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 528,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -9589,14 +9137,293 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 23825221511,
+  "duration": 24643997017,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 793920259,
+  "duration": 709947426,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "0",
+      "offset": 9
+    }
+  ],
+  "location": "categorynavigation.groovy:276"
+});
+formatter.result({
+  "duration": 24369337672,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CategoryLandingPage",
+      "offset": 23
+    }
+  ],
+  "location": "basepage.groovy:188"
+});
+formatter.result({
+  "duration": 1259052810,
+  "status": "passed"
+});
+formatter.match({
+  "location": "productnavmenudisplayflag.groovy:30"
+});
+formatter.result({
+  "duration": 39386086672,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:422"
+});
+formatter.result({
+  "duration": 5933472209,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "checkavailibity",
+      "offset": 23
+    }
+  ],
+  "location": "itemdetailspage.groovy:19"
+});
+formatter.result({
+  "duration": 713642111,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "checkavailibity",
+      "offset": 17
+    }
+  ],
+  "location": "itemdetailspage.groovy:62"
+});
+formatter.result({
+  "duration": 35521751851,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "availabilitymsg",
+      "offset": 23
+    }
+  ],
+  "location": "itemdetailspage.groovy:19"
+});
+formatter.result({
+  "duration": 974491403,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "itemslabel",
+      "offset": 17
+    }
+  ],
+  "location": "itemdetailspage.groovy:62"
+});
+formatter.result({
+  "duration": 31777998840,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ItemDetailsPage",
+      "offset": 23
+    }
+  ],
+  "location": "basepage.groovy:188"
+});
+formatter.result({
+  "duration": 1180476561,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "checkavailibity",
+      "offset": 23
+    }
+  ],
+  "location": "itemdetailspage.groovy:19"
+});
+formatter.result({
+  "duration": 1231128739,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "checkavailibity",
+      "offset": 17
+    }
+  ],
+  "location": "itemdetailspage.groovy:62"
+});
+formatter.result({
+  "duration": 31896043107,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "availabilitymsg",
+      "offset": 23
+    }
+  ],
+  "location": "itemdetailspage.groovy:19"
+});
+formatter.result({
+  "duration": 1206677469,
+  "status": "passed"
+});
+formatter.match({
+  "location": "sctrachpad.groovy:82"
+});
+formatter.result({
+  "duration": 9001314431,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 415292,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 24907153,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 533,
+  "name": "Catg : Search ; Typeahead -Item detail page when hit on item and category landing when hit on category",
+  "description": "",
+  "id": "market-smoke-test-cases;catg-:-search-;-typeahead--item-detail-page-when-hit-on-item-and-category-landing-when-hit-on-category",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 528,
+      "name": "@typeahead_itemdetail"
+    },
+    {
+      "line": 529,
+      "name": "@market_smoke_prod1"
+    },
+    {
+      "line": 530,
+      "name": "@market_smoke1"
+    },
+    {
+      "line": 531,
+      "name": "@market_smoke_prod"
+    },
+    {
+      "line": 532,
+      "name": "@market_smoke"
+    }
+  ]
+});
+formatter.step({
+  "line": 534,
+  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 535,
+  "name": "I am on the Header",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 536,
+  "name": "Enter Text \"glov\" in Text Box field \"SearchBox\" in module \"globalHeader\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 537,
+  "name": "I click \u0027ONCE\u0027 on 1 item from the \u0027TypeaheadProductsList\u0027 in tablet header navigation",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 538,
+  "name": "I must be taken to an \u0027ItemDetailsPage\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 539,
+  "name": "I am on \"ItemDetailsPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 540,
+  "name": "Make sure elements \"TitleInfo\" are present",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 541,
+  "name": "Make sure elements \"Image_container\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 542,
+  "name": "Make sure elements \"Details\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 543,
+  "name": "Make sure elements \"Description\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 544,
+  "name": "Make sure elements \"Specification\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 545,
+  "name": "Make sure elements \"Packaging\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 546,
+  "name": "Make sure elements \"ManufacturerName\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 547,
+  "name": "Log out of Market application",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 25
+    }
+  ],
+  "location": "common_csp.groovy:19"
+});
+formatter.result({
+  "duration": 24347370303,
+  "status": "passed"
+});
+formatter.match({
+  "location": "basepage.groovy:11"
+});
+formatter.result({
+  "duration": 2018095947,
   "status": "passed"
 });
 formatter.match({
@@ -9617,7 +9444,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 16009938759,
+  "duration": 18324962840,
   "status": "passed"
 });
 formatter.match({
@@ -9638,7 +9465,7 @@ formatter.match({
   "location": "categorynavigation.groovy:120"
 });
 formatter.result({
-  "duration": 43312502689,
+  "duration": 42917508513,
   "status": "passed"
 });
 formatter.match({
@@ -9648,10 +9475,10 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 2539335188,
+  "duration": 1108467624,
   "status": "passed"
 });
 formatter.match({
@@ -9661,10 +9488,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 744498667,
+  "duration": 787672754,
   "status": "passed"
 });
 formatter.match({
@@ -9678,10 +9505,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 843236631,
+  "duration": 1967102121,
   "status": "passed"
 });
 formatter.match({
@@ -9695,10 +9522,10 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 924812540,
+  "duration": 2262049239,
   "status": "passed"
 });
 formatter.match({
@@ -9712,10 +9539,10 @@ formatter.match({
       "offset": 33
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 888433444,
+  "duration": 925728342,
   "status": "passed"
 });
 formatter.match({
@@ -9729,10 +9556,10 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 739624763,
+  "duration": 799721190,
   "status": "passed"
 });
 formatter.match({
@@ -9746,10 +9573,10 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1431777411,
+  "duration": 1139951287,
   "status": "passed"
 });
 formatter.match({
@@ -9763,10 +9590,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 796631586,
+  "duration": 3484575671,
   "status": "passed"
 });
 formatter.match({
@@ -9780,35 +9607,35 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1469296440,
+  "duration": 2568985325,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 11137194785,
+  "duration": 7630256303,
   "status": "passed"
 });
 formatter.after({
-  "duration": 642415,
+  "duration": 391732,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36270157,
+  "duration": 25468528,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
     {
-      "line": 530,
+      "line": 549,
       "value": "#SE12"
     }
   ],
-  "line": 536,
+  "line": 555,
   "name": "Catg : Search ; Typeahead - category landing when hit on category for searched product",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-search-;-typeahead---category-landing-when-hit-on-category-for-searched-product",
@@ -9816,54 +9643,54 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 531,
+      "line": 550,
       "name": "@typeahead_categorylanding"
     },
     {
-      "line": 532,
+      "line": 551,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 533,
+      "line": 552,
       "name": "@market_smoke1"
     },
     {
-      "line": 534,
+      "line": 553,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 535,
+      "line": 554,
       "name": "@market_smoke"
     }
   ]
 });
 formatter.step({
-  "line": 537,
+  "line": 556,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 538,
+  "line": 557,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 539,
+  "line": 558,
   "name": "Enter Text \"glov\" in Text Box field \"SearchBox\" in module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 540,
+  "line": 559,
   "name": "I click \u0027ONCE\u0027 on 1 item from the \u0027TypeaheadCategoriesList\u0027 in tablet header navigation",
   "keyword": "And "
 });
 formatter.step({
-  "line": 541,
+  "line": 560,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 542,
+  "line": 561,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -9877,14 +9704,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 19422414170,
+  "duration": 21477344829,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 892318514,
+  "duration": 810878583,
   "status": "passed"
 });
 formatter.match({
@@ -9905,7 +9732,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 16909742951,
+  "duration": 16105634108,
   "status": "passed"
 });
 formatter.match({
@@ -9926,7 +9753,7 @@ formatter.match({
   "location": "categorynavigation.groovy:120"
 });
 formatter.result({
-  "duration": 24272381086,
+  "duration": 44781339390,
   "status": "passed"
 });
 formatter.match({
@@ -9936,29 +9763,29 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 958922177,
+  "duration": 1115898585,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9119073558,
+  "duration": 7771841707,
   "status": "passed"
 });
 formatter.after({
-  "duration": 766025,
+  "duration": 418485,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35079400,
+  "duration": 34097752,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 547,
+  "line": 566,
   "name": "Catg : Order Search ; Search orders placed in last few days by filter and searching by PO number",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-order-search-;-search-orders-placed-in-last-few-days-by-filter-and-searching-by-po-number",
@@ -9966,151 +9793,151 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 544,
+      "line": 563,
       "name": "@ordersearch_filter"
     },
     {
-      "line": 545,
+      "line": 564,
       "name": "@market_smoke1"
     },
     {
-      "line": 546,
+      "line": 565,
       "name": "@market_smoke"
     }
   ]
 });
 formatter.step({
-  "line": 548,
+  "line": 567,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 549,
-  "name": "I am on the Header",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 550,
-  "name": "Delete any existing products in cart",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 551,
-  "name": "Search product by word \"surgical gloves\" and get list of related products",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 552,
-  "name": "Select the product that is available",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 553,
-  "name": "Add the product to cart and update the amount to meet minimum requirements",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 554,
-  "name": "Checkout and get order Number",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 555,
-  "name": "Get status and ship to details of order and me sure it is \"In Process\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 556,
-  "name": "Get into details of order and make sure order is correct",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 557,
-  "name": "Go back to search page from invoice details",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 558,
-  "name": "I am on \"BasePage\" page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 559,
-  "name": "I click element \u0027orderManagement\u0027 on globalHeader",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 560,
-  "name": "I click element \u0027ordersLink\u0027 on globalHeader",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 561,
-  "name": "I am on \"OrderSearchPage\" page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 562,
-  "name": "I click on \u0027orderSearchAllShiptos\u0027 element",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 563,
-  "name": "I click on \u0027filterResultsApplyBtn\u0027 element",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 564,
-  "name": "Make sure elements \"numberOfResultsMessage,searchResultsTable,resultsHeader,orderSearchResults\" are present",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 565,
-  "name": "Make sure elements \"poNumberHeader,orderNumberHeader,buyerNameHeader,orderMethodHeader,orderTotalHeader,shipToHeader,dateHeader,statusHeader\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 566,
-  "name": "Save value of element \"ponumbers\" to variable \"temp_ponumber\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 567,
-  "name": "I am on the Header",
-  "keyword": "And "
-});
-formatter.step({
   "line": 568,
-  "name": "I click element \u0027orderManagement\u0027 on globalHeader",
+  "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
   "line": 569,
-  "name": "I click element \u0027ordersLink\u0027 on globalHeader",
+  "name": "Delete any existing products in cart",
   "keyword": "And "
 });
 formatter.step({
   "line": 570,
-  "name": "I am on \"OrderSearchPage\" page",
+  "name": "Search product by word \"surgical gloves\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
   "line": 571,
-  "name": "Select \"PO Number\" from drop down \"Search_Orders\" on page \"\"",
+  "name": "Select the product that is available",
   "keyword": "And "
 });
 formatter.step({
   "line": 572,
-  "name": "I Enter Text \"temp_ponumber\" in Text Box field \"searchByNumber\"",
+  "name": "Add the product to cart and update the amount to meet minimum requirements",
   "keyword": "And "
 });
 formatter.step({
   "line": 573,
+  "name": "Checkout and get order Number",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 574,
+  "name": "Get status and ship to details of order and me sure it is \"In Process\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 575,
+  "name": "Get into details of order and make sure order is correct",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 576,
+  "name": "Go back to search page from invoice details",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 577,
+  "name": "I am on \"BasePage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 578,
+  "name": "I click element \u0027orderManagement\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 579,
+  "name": "I click element \u0027ordersLink\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 580,
+  "name": "I am on \"OrderSearchPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 581,
+  "name": "I click on \u0027orderSearchAllShiptos\u0027 element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 582,
+  "name": "I click on \u0027filterResultsApplyBtn\u0027 element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 583,
+  "name": "Make sure elements \"numberOfResultsMessage,searchResultsTable,resultsHeader,orderSearchResults\" are present",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 584,
+  "name": "Make sure elements \"poNumberHeader,orderNumberHeader,buyerNameHeader,orderMethodHeader,orderTotalHeader,shipToHeader,dateHeader,statusHeader\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 585,
+  "name": "Save value of element \"ponumbers\" to variable \"temp_ponumber\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 586,
+  "name": "I am on the Header",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 587,
+  "name": "I click element \u0027orderManagement\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 588,
+  "name": "I click element \u0027ordersLink\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 589,
+  "name": "I am on \"OrderSearchPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 590,
+  "name": "Select \"PO Number\" from drop down \"Search_Orders\" on page \"\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 591,
+  "name": "I Enter Text \"temp_ponumber\" in Text Box field \"searchByNumber\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 592,
   "name": "I click on \u0027searchButton\u0027 element",
   "keyword": "And "
 });
 formatter.step({
-  "line": 574,
+  "line": 593,
   "name": "I verify the Text on \u0027ponumbers\u0027 is \u0027temp_ponumber\u0027",
   "keyword": "And "
 });
@@ -10124,21 +9951,21 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 19212489740,
+  "duration": 26014666115,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 933568633,
+  "duration": 1387062814,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:12"
+  "location": "shoppingcartpage.groovy:13"
 });
 formatter.result({
-  "duration": 13747655669,
+  "duration": 12875568521,
   "status": "passed"
 });
 formatter.match({
@@ -10151,28 +9978,28 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 30928973833,
+  "duration": 25766442519,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:293"
+  "location": "shoppingcartpage.groovy:294"
 });
 formatter.result({
-  "duration": 58341662501,
+  "duration": 64234126140,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:340"
+  "location": "shoppingcartpage.groovy:341"
 });
 formatter.result({
-  "duration": 67488528131,
+  "duration": 71201308628,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:348"
+  "location": "shoppingcartpage.groovy:349"
 });
 formatter.result({
-  "duration": 18977340809,
+  "duration": 17721322009,
   "status": "passed"
 });
 formatter.match({
@@ -10182,24 +10009,24 @@ formatter.match({
       "offset": 59
     }
   ],
-  "location": "shoppingcartpage.groovy:355"
+  "location": "shoppingcartpage.groovy:356"
 });
 formatter.result({
-  "duration": 29910933899,
+  "duration": 34326762968,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:403"
+  "location": "shoppingcartpage.groovy:404"
 });
 formatter.result({
-  "duration": 15024033317,
+  "duration": 15959943018,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:408"
+  "location": "shoppingcartpage.groovy:409"
 });
 formatter.result({
-  "duration": 8035978103,
+  "duration": 9820888241,
   "status": "passed"
 });
 formatter.match({
@@ -10209,10 +10036,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 896819005,
+  "duration": 832946795,
   "status": "passed"
 });
 formatter.match({
@@ -10225,7 +10052,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 9486702177,
+  "duration": 6912513896,
   "status": "passed"
 });
 formatter.match({
@@ -10238,7 +10065,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 10328714125,
+  "duration": 15849022761,
   "status": "passed"
 });
 formatter.match({
@@ -10248,10 +10075,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 945252452,
+  "duration": 746781169,
   "status": "passed"
 });
 formatter.match({
@@ -10264,7 +10091,7 @@ formatter.match({
   "location": "searchresultpage.groovy:468"
 });
 formatter.result({
-  "duration": 6279334344,
+  "duration": 3180491289,
   "status": "passed"
 });
 formatter.match({
@@ -10277,7 +10104,7 @@ formatter.match({
   "location": "searchresultpage.groovy:468"
 });
 formatter.result({
-  "duration": 4435658518,
+  "duration": 5509733481,
   "status": "passed"
 });
 formatter.match({
@@ -10291,10 +10118,10 @@ formatter.match({
       "offset": 100
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 6670502205,
+  "duration": 3133889363,
   "status": "passed"
 });
 formatter.match({
@@ -10308,10 +10135,10 @@ formatter.match({
       "offset": 146
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 11371488320,
+  "duration": 8988564885,
   "status": "passed"
 });
 formatter.match({
@@ -10328,14 +10155,14 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 18426787655,
+  "duration": 24215141896,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1648917040,
+  "duration": 2147935169,
   "status": "passed"
 });
 formatter.match({
@@ -10348,7 +10175,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 9669621242,
+  "duration": 8014428756,
   "status": "passed"
 });
 formatter.match({
@@ -10361,7 +10188,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 18306558476,
+  "duration": 17679174349,
   "status": "passed"
 });
 formatter.match({
@@ -10371,10 +10198,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 689775815,
+  "duration": 755467020,
   "status": "passed"
 });
 formatter.match({
@@ -10392,10 +10219,10 @@ formatter.match({
       "offset": 59
     }
   ],
-  "location": "common_csp.groovy:467"
+  "location": "common_csp.groovy:470"
 });
 formatter.result({
-  "duration": 5325913457,
+  "duration": 6524026355,
   "status": "passed"
 });
 formatter.match({
@@ -10412,7 +10239,7 @@ formatter.match({
   "location": "common_csp.groovy:173"
 });
 formatter.result({
-  "duration": 7704391404,
+  "duration": 7607485204,
   "status": "passed"
 });
 formatter.match({
@@ -10425,7 +10252,7 @@ formatter.match({
   "location": "searchresultpage.groovy:468"
 });
 formatter.result({
-  "duration": 5899951459,
+  "duration": 6719315443,
   "status": "passed"
 });
 formatter.match({
@@ -10439,28 +10266,28 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 133756250090,
+  "duration": 128375900007,
   "status": "passed"
 });
 formatter.after({
-  "duration": 574445,
+  "duration": 536316,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37469340,
+  "duration": 40300477,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
     {
-      "line": 576,
+      "line": 595,
       "value": "#in process"
     }
   ],
-  "line": 582,
+  "line": 601,
   "name": "Catg : Barcode ; Verify Barcode option",
   "description": "",
   "id": "market-smoke-test-cases;catg-:-barcode-;-verify-barcode-option",
@@ -10468,39 +10295,39 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 577,
+      "line": 596,
       "name": "@barcode"
     },
     {
-      "line": 578,
+      "line": 597,
       "name": "@market_smoke_prod1"
     },
     {
-      "line": 579,
+      "line": 598,
       "name": "@market_smoke1"
     },
     {
-      "line": 580,
+      "line": 599,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 581,
+      "line": 600,
       "name": "@market_smoke"
     }
   ]
 });
 formatter.step({
-  "line": 583,
+  "line": 602,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 584,
+  "line": 603,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 585,
+  "line": 604,
   "name": "I click element \u0027quickorder\u0027 on globalHeader",
   "keyword": "And "
 });
@@ -10514,14 +10341,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 29867956381,
+  "duration": 28831141530,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 845193085,
+  "duration": 695726695,
   "status": "passed"
 });
 formatter.match({
@@ -10534,11 +10361,11 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 7470129605,
+  "duration": 5563563055,
   "status": "passed"
 });
 formatter.after({
-  "duration": 447803,
+  "duration": 532506,
   "status": "passed"
 });
 formatter.uri("navigation/Common_2.feature");
@@ -10550,7 +10377,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 30709111,
+  "duration": 27605508,
   "status": "passed"
 });
 formatter.scenario({
@@ -10602,15 +10429,15 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 27193860661,
+  "duration": 28119959180,
   "status": "passed"
 });
 formatter.after({
-  "duration": 919680,
+  "duration": 569540,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37876456,
+  "duration": 37765366,
   "status": "passed"
 });
 formatter.scenario({
@@ -10682,21 +10509,21 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 23600272173,
+  "duration": 24998258907,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 906661198,
+  "duration": 666526368,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 10804681084,
+  "duration": 6774323188,
   "status": "passed"
 });
 formatter.match({
@@ -10709,7 +10536,7 @@ formatter.match({
   "location": "common_csp.groovy:24"
 });
 formatter.result({
-  "duration": 6799236393,
+  "duration": 6925990718,
   "status": "passed"
 });
 formatter.match({
@@ -10723,18 +10550,18 @@ formatter.match({
       "offset": 28
     }
   ],
-  "location": "common_csp.groovy:431"
+  "location": "common_csp.groovy:434"
 });
 formatter.result({
-  "duration": 4005353734,
+  "duration": 3269765877,
   "status": "passed"
 });
 formatter.after({
-  "duration": 581650,
+  "duration": 418275,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37523223,
+  "duration": 25436741,
   "status": "passed"
 });
 formatter.scenario({
@@ -10811,21 +10638,21 @@ formatter.match({
   "location": "common_csp.groovy:29"
 });
 formatter.result({
-  "duration": 27636928555,
+  "duration": 28002194810,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1010913477,
+  "duration": 679406273,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 8695353235,
+  "duration": 6844157729,
   "status": "passed"
 });
 formatter.match({
@@ -10838,7 +10665,7 @@ formatter.match({
   "location": "common_csp.groovy:24"
 });
 formatter.result({
-  "duration": 8423583755,
+  "duration": 6688826431,
   "status": "passed"
 });
 formatter.match({
@@ -10852,10 +10679,10 @@ formatter.match({
       "offset": 28
     }
   ],
-  "location": "common_csp.groovy:431"
+  "location": "common_csp.groovy:434"
 });
 formatter.result({
-  "duration": 4652100707,
+  "duration": 6437028994,
   "status": "passed"
 });
 formatter.match({
@@ -10868,15 +10695,15 @@ formatter.match({
   "location": "basepage.groovy:104"
 });
 formatter.result({
-  "duration": 2260368650,
+  "duration": 8963278976,
   "status": "passed"
 });
 formatter.after({
-  "duration": 580604,
+  "duration": 426912,
   "status": "passed"
 });
 formatter.before({
-  "duration": 29072735,
+  "duration": 25207181,
   "status": "passed"
 });
 formatter.scenario({
@@ -10938,14 +10765,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 22292015640,
+  "duration": 21635477115,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9991292928,
+  "duration": 8525358113,
   "status": "passed"
 });
 formatter.match({
@@ -10955,18 +10782,18 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 1308625306,
+  "duration": 3069378708,
   "status": "passed"
 });
 formatter.after({
-  "duration": 498748,
+  "duration": 345574,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37859737,
+  "duration": 25514710,
   "status": "passed"
 });
 formatter.scenario({
@@ -11059,15 +10886,16 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 21005066559,
+  "duration": 23394992410,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 2595025968,
-  "status": "passed"
+  "duration": 825654117,
+  "error_message": "geb.error.RequiredPageContentNotPresent: The required page content \u0027pages.BasePage -\u003e globalHeader: modules.header.GlobalHeader -\u003e headerId: geb.navigator.EmptyNavigator\u0027 is not present\n\tat geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:62)\n\tat geb.content.PageContentTemplate$_create_closure1.doCall(PageContentTemplate.groovy:63)\n\tat geb.content.PageContentTemplate$_create_closure1.doCall(PageContentTemplate.groovy)\n\tat geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)\n\tat geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)\n\tat geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)\n\tat geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)\n\tat geb.content.PageContentSupport$propertyMissing.call(Unknown Source)\n\tat geb.Module.propertyMissing(Module.groovy:106)\n\tat geb.Module.getProperty(Module.groovy)\n\tat geb.content.TemplateDerivedPageContent.propertyMissing(TemplateDerivedPageContent.groovy:90)\n\tat geb.content.TemplateDerivedPageContent.getProperty(TemplateDerivedPageContent.groovy)\n\tat steps.basepage.basepage$_run_closure1.doCall(basepage.groovy:14)\n\tat ✽.And I am on the Header(navigation/Common_2.feature:59)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -11079,8 +10907,7 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 3436072802,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -11092,8 +10919,7 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 1748552549,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -11105,8 +10931,7 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 816193630,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -11118,8 +10943,7 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 885573539,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -11131,22 +10955,21 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 4355819545,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 7326996238,
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded2.png");
 formatter.after({
-  "duration": 633974,
+  "duration": 1123429891,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35438326,
+  "duration": 58011044,
   "status": "passed"
 });
 formatter.scenario({
@@ -11238,15 +11061,16 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 23589935531,
+  "duration": 18827083168,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1156874736,
-  "status": "passed"
+  "duration": 1004602786,
+  "error_message": "geb.error.RequiredPageContentNotPresent: The required page content \u0027pages.BasePage -\u003e globalHeader: modules.header.GlobalHeader -\u003e headerId: geb.navigator.EmptyNavigator\u0027 is not present\n\tat geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:62)\n\tat geb.content.PageContentTemplate$_create_closure1.doCall(PageContentTemplate.groovy:63)\n\tat geb.content.PageContentTemplate$_create_closure1.doCall(PageContentTemplate.groovy)\n\tat geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)\n\tat geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)\n\tat geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)\n\tat geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)\n\tat geb.content.PageContentSupport$propertyMissing.call(Unknown Source)\n\tat geb.Module.propertyMissing(Module.groovy:106)\n\tat geb.Module.getProperty(Module.groovy)\n\tat geb.content.TemplateDerivedPageContent.propertyMissing(TemplateDerivedPageContent.groovy:90)\n\tat geb.content.TemplateDerivedPageContent.getProperty(TemplateDerivedPageContent.groovy)\n\tat steps.basepage.basepage$_run_closure1.doCall(basepage.groovy:14)\n\tat ✽.And I am on the Header(navigation/Common_2.feature:75)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -11258,8 +11082,7 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 6518290944,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -11271,8 +11094,7 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 2313699052,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -11284,8 +11106,7 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 3528867738,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -11297,8 +11118,7 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 2012461777,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -11310,8 +11130,7 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 1519401293,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -11323,22 +11142,21 @@ formatter.match({
   "location": "basepage.groovy:34"
 });
 formatter.result({
-  "duration": 1729422068,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 10187743617,
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded3.png");
 formatter.after({
-  "duration": 498230,
+  "duration": 709682904,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30037510,
+  "duration": 27746165,
   "status": "passed"
 });
 formatter.scenario({
@@ -11417,21 +11235,21 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 21399019943,
+  "duration": 21762389609,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 894247928,
+  "duration": 717374179,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:12"
+  "location": "shoppingcartpage.groovy:13"
 });
 formatter.result({
-  "duration": 13477649323,
+  "duration": 12930707018,
   "status": "passed"
 });
 formatter.match({
@@ -11444,43 +11262,43 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 50460633926,
+  "duration": 36672708503,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:293"
+  "location": "shoppingcartpage.groovy:294"
 });
 formatter.result({
-  "duration": 61407941695,
+  "duration": 68715521894,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:340"
+  "location": "shoppingcartpage.groovy:341"
 });
 formatter.result({
-  "duration": 70613673028,
+  "duration": 75409424095,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:348"
+  "location": "shoppingcartpage.groovy:349"
 });
 formatter.result({
-  "duration": 16879086094,
+  "duration": 14147007575,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 7694786151,
+  "duration": 9969326200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 872197,
+  "duration": 669958,
   "status": "passed"
 });
 formatter.before({
-  "duration": 41828320,
+  "duration": 25624303,
   "status": "passed"
 });
 formatter.scenario({
@@ -11544,7 +11362,7 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 23644341236,
+  "duration": 22379216832,
   "status": "passed"
 });
 formatter.match({
@@ -11554,39 +11372,39 @@ formatter.match({
       "offset": 59
     }
   ],
-  "location": "shoppingcartpage.groovy:355"
+  "location": "shoppingcartpage.groovy:356"
 });
 formatter.result({
-  "duration": 32853685701,
+  "duration": 29360149253,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:403"
+  "location": "shoppingcartpage.groovy:404"
 });
 formatter.result({
-  "duration": 13647893789,
+  "duration": 17466946179,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:408"
+  "location": "shoppingcartpage.groovy:409"
 });
 formatter.result({
-  "duration": 5604767938,
+  "duration": 4857409871,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 8786652190,
+  "duration": 12084240245,
   "status": "passed"
 });
 formatter.after({
-  "duration": 600027,
+  "duration": 446545,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36848227,
+  "duration": 27766255,
   "status": "passed"
 });
 formatter.scenario({
@@ -11658,21 +11476,21 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 22490448387,
+  "duration": 21881283543,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 823411527,
+  "duration": 714309808,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:12"
+  "location": "shoppingcartpage.groovy:13"
 });
 formatter.result({
-  "duration": 12332130721,
+  "duration": 10982598974,
   "status": "passed"
 });
 formatter.match({
@@ -11685,22 +11503,22 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 36741368238,
+  "duration": 26802515999,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:293"
+  "location": "shoppingcartpage.groovy:294"
 });
 formatter.result({
-  "duration": 58167138016,
+  "duration": 64084293172,
   "status": "passed"
 });
 formatter.after({
-  "duration": 535076,
+  "duration": 532366,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36610901,
+  "duration": 26084511,
   "status": "passed"
 });
 formatter.scenario({
@@ -11817,21 +11635,21 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 23321846098,
+  "duration": 22781851878,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 3112187555,
+  "duration": 780439163,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:12"
+  "location": "shoppingcartpage.groovy:13"
 });
 formatter.result({
-  "duration": 57162684007,
+  "duration": 63961428194,
   "status": "passed"
 });
 formatter.match({
@@ -11844,14 +11662,14 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 38454176958,
+  "duration": 22845204023,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:293"
+  "location": "shoppingcartpage.groovy:294"
 });
 formatter.result({
-  "duration": 58399738132,
+  "duration": 63702670745,
   "status": "passed"
 });
 formatter.match({
@@ -11861,10 +11679,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 483001495,
+  "duration": 464131424,
   "status": "passed"
 });
 formatter.match({
@@ -11878,10 +11696,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 8421833761,
+  "duration": 5796715784,
   "status": "passed"
 });
 formatter.match({
@@ -11895,10 +11713,10 @@ formatter.match({
       "offset": 47
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 8498742318,
+  "duration": 5453207732,
   "status": "passed"
 });
 formatter.match({
@@ -11911,14 +11729,14 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 46683587062,
+  "duration": 26817767306,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:293"
+  "location": "shoppingcartpage.groovy:294"
 });
 formatter.result({
-  "duration": 59816008560,
+  "duration": 62087926189,
   "status": "passed"
 });
 formatter.match({
@@ -11928,10 +11746,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 453938016,
+  "duration": 477596292,
   "status": "passed"
 });
 formatter.match({
@@ -11945,10 +11763,10 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 7930643147,
+  "duration": 4520188265,
   "status": "passed"
 });
 formatter.match({
@@ -11962,25 +11780,25 @@ formatter.match({
       "offset": 47
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 6012765694,
+  "duration": 7392211215,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 7105221660,
+  "duration": 9330429734,
   "status": "passed"
 });
 formatter.after({
-  "duration": 574452,
+  "duration": 430478,
   "status": "passed"
 });
 formatter.before({
-  "duration": 29599534,
+  "duration": 26161964,
   "status": "passed"
 });
 formatter.scenario({
@@ -12098,7 +11916,7 @@ formatter.step({
 });
 formatter.step({
   "line": 167,
-  "name": "Make sure elements \"cartsummary,CartSummaryItemCount,CartSummaryItemTotal,checkoutButton,poNumberField,pohelptext,POMemo,poMemoField,department,PackingSlipMessage,PackingSliplabel,packingSlipField\" are present",
+  "name": "Make sure elements \"cartsummary,CartSummaryItemCount,CartSummaryItemTotal,checkoutButton,PO,POlabel,poNumberField,pohelptext,POMemolabel,poMemoField,department,PackingSliplabel,packingSlipField\" are present",
   "keyword": "Then "
 });
 formatter.step({
@@ -12136,21 +11954,21 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 24414987394,
+  "duration": 19649524481,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1031946675,
+  "duration": 792921148,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:12"
+  "location": "shoppingcartpage.groovy:13"
 });
 formatter.result({
-  "duration": 44830784245,
+  "duration": 63620447863,
   "status": "passed"
 });
 formatter.match({
@@ -12163,16 +11981,15 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 38881624202,
+  "duration": 24786917871,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:293"
+  "location": "shoppingcartpage.groovy:294"
 });
 formatter.result({
-  "duration": 19003546784,
-  "error_message": "java.lang.AssertionError:  There are NO PRODUCTS that are AVAILABLE, for searched criteria. Expression: false\n\tat steps.shoppingcart.shoppingcartpage$_run_closure53.doCall(shoppingcartpage.groovy:335)\n\tat ✽.And Select the product that is available(navigation/Common_2.feature:158)\n",
-  "status": "failed"
+  "duration": 58729151538,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -12181,10 +11998,11 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 387061772,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -12196,13 +12014,15 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 24367405708,
+  "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:293"
+  "location": "shoppingcartpage.groovy:294"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 57624088029,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -12211,10 +12031,11 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 437687018,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -12227,10 +12048,11 @@ formatter.match({
       "offset": 44
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6996138754,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -12243,10 +12065,11 @@ formatter.match({
       "offset": 47
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4517536558,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -12258,7 +12081,8 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 40553249768,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -12267,26 +12091,28 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 716968220,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "cartsummary,CartSummaryItemCount,CartSummaryItemTotal,checkoutButton,poNumberField,pohelptext,POMemo,poMemoField,department,PackingSlipMessage,PackingSliplabel,packingSlipField",
+      "val": "cartsummary,CartSummaryItemCount,CartSummaryItemTotal,checkoutButton,PO,POlabel,poNumberField,pohelptext,POMemolabel,poMemoField,department,PackingSliplabel,packingSlipField",
       "offset": 20
     },
     {
       "val": "present",
-      "offset": 202
+      "offset": 199
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 13957540101,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -12299,10 +12125,11 @@ formatter.match({
       "offset": 81
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6189384768,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -12315,10 +12142,12 @@ formatter.match({
       "offset": 190
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8822280584,
+  "error_message": "java.lang.AssertionError: each_item_availibity not present on page pages.ShoppingCartPage. Expression: false\n\tat steps.common_csp.common_csp$_run_closure26$_closure92.doCall(common_csp.groovy:319)\n\tat ✽.And Make sure elements \"each_item_check,each_item_image,each_item_title,each_item_material,each_item_manufacturer,each_item_availibity,each_item_qtylabel,each_item_quantity,each_item_price\" are present(navigation/Common_2.feature:169)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -12335,7 +12164,7 @@ formatter.match({
       "offset": 47
     }
   ],
-  "location": "common_csp.groovy:483"
+  "location": "common_csp.groovy:486"
 });
 formatter.result({
   "status": "skipped"
@@ -12355,24 +12184,24 @@ formatter.match({
       "offset": 47
     }
   ],
-  "location": "common_csp.groovy:483"
+  "location": "common_csp.groovy:486"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
   "status": "skipped"
 });
-formatter.embedding("image/png", "embedded2.png");
+formatter.embedding("image/png", "embedded4.png");
 formatter.after({
-  "duration": 950831700,
+  "duration": 884770316,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30713277,
+  "duration": 27109765,
   "status": "passed"
 });
 formatter.scenario({
@@ -12439,14 +12268,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 26672310466,
+  "duration": 25971504375,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 2700472186,
+  "duration": 717338208,
   "status": "passed"
 });
 formatter.match({
@@ -12459,22 +12288,22 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 42732123962,
+  "duration": 22168368613,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 8277495076,
+  "duration": 7753866184,
   "status": "passed"
 });
 formatter.after({
-  "duration": 728818,
+  "duration": 570632,
   "status": "passed"
 });
 formatter.before({
-  "duration": 32646865,
+  "duration": 29273542,
   "status": "passed"
 });
 formatter.scenario({
@@ -12546,7 +12375,7 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 22633244406,
+  "duration": 20557540165,
   "status": "passed"
 });
 formatter.match({
@@ -12559,14 +12388,14 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 35207202202,
+  "duration": 35102665390,
   "status": "passed"
 });
 formatter.match({
   "location": "searchresultpage.groovy:51"
 });
 formatter.result({
-  "duration": 248928780,
+  "duration": 270341735,
   "status": "passed"
 });
 formatter.match({
@@ -12580,25 +12409,25 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1544732223,
+  "duration": 1970300479,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 10325726541,
+  "duration": 12950971349,
   "status": "passed"
 });
 formatter.after({
-  "duration": 542045,
+  "duration": 469726,
   "status": "passed"
 });
 formatter.before({
-  "duration": 29930605,
+  "duration": 22280082,
   "status": "passed"
 });
 formatter.scenario({
@@ -12665,7 +12494,7 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 20879228486,
+  "duration": 22066971681,
   "status": "passed"
 });
 formatter.match({
@@ -12678,7 +12507,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 35553770659,
+  "duration": 16763706709,
   "status": "passed"
 });
 formatter.match({
@@ -12688,10 +12517,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 502668341,
+  "duration": 445682032,
   "status": "passed"
 });
 formatter.match({
@@ -12705,18 +12534,20 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 8079530002,
-  "status": "passed"
+  "duration": 120375461698,
+  "error_message": "geb.waiting.WaitTimeoutException: condition did not pass in 120.0 seconds (failed with exception)\n\tat geb.waiting.Wait.waitFor(Wait.groovy:138)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)\n\tat geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:46)\n\tat geb.waiting.WaitingSupport$waitFor.call(Unknown Source)\n\tat geb.waiting.WaitingSupport$waitFor.call(Unknown Source)\n\tat geb.Page.waitFor(Page.groovy:516)\n\tat geb.Page.waitFor(Page.groovy)\n\tat geb.Browser.methodMissing(Browser.groovy:206)\n\tat geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:73)\n\tat steps.common_csp.common_csp$_run_closure37.doCall(common_csp.groovy:399)\n\tat ✽.And I verify the Text on \u0027ResultCountNumber\u0027 is \u00270\u0027(navigation/Common_2.feature:210)\nCaused by: groovy.lang.MissingPropertyException: Unable to resolve ResultCountNumber as content for pages.SearchResultPage, or as a property on its Navigator context. Is ResultCountNumber a class you forgot to import?\n\tat geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:45)\n\tat geb.content.PageContentSupport$propertyMissing.call(Unknown Source)\n\tat geb.Page.propertyMissing(Page.groovy:99)\n\tat geb.Page.getProperty(Page.groovy)\n\tat steps.common_csp.common_csp$_run_closure37$_closure98.doCall(common_csp.groovy:399)\n\tat steps.common_csp.common_csp$_run_closure37$_closure98.doCall(common_csp.groovy)\n\tat geb.waiting.Wait.waitFor(Wait.groovy:127)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.waiting.Wait$waitFor.call(Unknown Source)\n\tat geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)\n\tat geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:46)\n\tat geb.waiting.WaitingSupport$waitFor.call(Unknown Source)\n\tat geb.waiting.WaitingSupport$waitFor.call(Unknown Source)\n\tat geb.Page.waitFor(Page.groovy:516)\n\tat geb.Page.waitFor(Page.groovy)\n\tat geb.Browser.methodMissing(Browser.groovy:206)\n\tat geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:73)\n\tat steps.common_csp.common_csp$_run_closure37.doCall(common_csp.groovy:399)\n\tat cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)\n\tat cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\n\tat cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:299)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.runtime.Runtime.run(Runtime.java:121)\n\tat cucumber.runtime.Runtime$run.call(Unknown Source)\n\tat com.cardinalhealth.market.config.CucumberRunner.run(CucumberRunner.groovy:29)\n\tat com.cardinalhealth.market.config.CucumberRunner$run$0.callStatic(Unknown Source)\n\tat com.cardinalhealth.market.config.CucumberRunner.runCucumber(CucumberRunner.groovy:19)\n\tat com.cardinalhealth.market.config.CucumberRunner$runCucumber.call(Unknown Source)\n\tat com.cardinalhealth.market.TestRunner.main(TestRunner.groovy:31)\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded5.png");
 formatter.after({
-  "duration": 492137,
+  "duration": 579914367,
   "status": "passed"
 });
 formatter.before({
-  "duration": 32012580,
+  "duration": 22393614,
   "status": "passed"
 });
 formatter.scenario({
@@ -12833,7 +12664,7 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 26633762638,
+  "duration": 26981724961,
   "status": "passed"
 });
 formatter.match({
@@ -12846,7 +12677,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 28330154256,
+  "duration": 23918592865,
   "status": "passed"
 });
 formatter.match({
@@ -12856,10 +12687,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 593775979,
+  "duration": 440061087,
   "status": "passed"
 });
 formatter.match({
@@ -12872,7 +12703,7 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 11847911933,
+  "duration": 9614247334,
   "status": "passed"
 });
 formatter.match({
@@ -12885,7 +12716,7 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 13083920428,
+  "duration": 10209394540,
   "status": "passed"
 });
 formatter.match({
@@ -12898,7 +12729,7 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 12081049958,
+  "duration": 9672089586,
   "status": "passed"
 });
 formatter.match({
@@ -12911,7 +12742,7 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 8866213066,
+  "duration": 12856143187,
   "status": "passed"
 });
 formatter.match({
@@ -12924,7 +12755,7 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 13675712925,
+  "duration": 11302113925,
   "status": "passed"
 });
 formatter.match({
@@ -12937,7 +12768,7 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 15018912799,
+  "duration": 18106312566,
   "status": "passed"
 });
 formatter.match({
@@ -12950,7 +12781,7 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 9977041989,
+  "duration": 9860278041,
   "status": "passed"
 });
 formatter.match({
@@ -12963,7 +12794,7 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 10030636723,
+  "duration": 11801796697,
   "status": "passed"
 });
 formatter.match({
@@ -12976,7 +12807,7 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 16577398391,
+  "duration": 9933889228,
   "status": "passed"
 });
 formatter.match({
@@ -12989,26 +12820,26 @@ formatter.match({
   "location": "searchresultpage.groovy:57"
 });
 formatter.result({
-  "duration": 11023514185,
+  "duration": 10293742501,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9890337984,
+  "duration": 10353251088,
   "status": "passed"
 });
 formatter.after({
-  "duration": 627303,
+  "duration": 379359,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34606201,
+  "duration": 25453783,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 241,
+  "line": 239,
   "name": "Catg : Search ; Item details default attributes",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-search-;-item-details-default-attributes",
@@ -13021,198 +12852,170 @@ formatter.scenario({
     },
     {
       "line": 236,
-      "name": "@market_smoke_prod2"
-    },
-    {
-      "line": 237,
       "name": "@market_smoke"
     },
     {
-      "line": 238,
-      "name": "@market_smoke_prod"
-    },
-    {
-      "line": 239,
+      "line": 237,
       "name": "@search"
     },
     {
-      "line": 240,
+      "line": 238,
       "name": "@item_details_default"
     }
   ]
 });
 formatter.step({
-  "line": 242,
+  "line": 240,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 243,
+  "line": 241,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 244,
+  "line": 242,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 245,
+  "line": 243,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 246,
+  "line": 244,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 247,
+  "line": 245,
   "name": "I am on the \"PlpPage\" Page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 248,
+  "line": 246,
   "name": "Save whole part of element \"manufacturer\" to variable \"temp_manufacturernum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 249,
+  "line": 247,
   "name": "Save value of element \"material\" to variable \"temp_materialnum\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 250,
+  "line": 248,
   "name": "I am on \"BasePage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 251,
+  "line": 249,
   "name": "Enter Text \"temp_manufacturernum\" in Text Box field \"SearchBox\" in module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 252,
+  "line": 250,
   "name": "I click element \u0027SearchBarSubmit\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
-  "line": 253,
+  "line": 251,
   "name": "if \"SearchResultPage\" page returned than hit on item that contains \"temp_materialnum\" and \"temp_manufacturernum\" and get to idp page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 254,
+  "line": 252,
   "name": "I am on \"ItemDetailsPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 255,
+  "line": 253,
   "name": "Make sure elements \"Logo\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 256,
+  "line": 254,
   "name": "Make sure elements \"SearchBox\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 257,
+  "line": 255,
   "name": "Make sure elements \"SearchBarSubmit\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 258,
+  "line": 256,
   "name": "Make sure elements \"SoldToNum\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 259,
+  "line": 257,
   "name": "Make sure elements \"SoldToName\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 260,
+  "line": 258,
   "name": "Make sure elements \"ShipToNum\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 261,
+  "line": 259,
   "name": "Make sure elements \"ShipToName\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 262,
+  "line": 260,
   "name": "Make sure elements \"changeAccountLink\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 263,
+  "line": 261,
   "name": "Make sure elements \"PrintBtn\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 264,
+  "line": 262,
   "name": "I verify the Text on \u0027manufacturernum\u0027 is \u0027temp_manufacturernum\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 265,
+  "line": 263,
   "name": "Make sure elements \"TitleInfo\" are present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 266,
+  "line": 264,
   "name": "Make sure elements \"Image_container\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 267,
+  "line": 265,
   "name": "Make sure elements \"Details\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 268,
+  "line": 266,
   "name": "Make sure elements \"Description\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 269,
-  "name": "Make sure elements \"product_description_label\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 270,
-  "name": "Make sure elements \"product_description\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 271,
-  "name": "Make sure elements \"features_benefits_label\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 272,
-  "name": "Make sure elements \"features_benefits\" are present",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 273,
+  "line": 267,
   "name": "Make sure elements \"Specification\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 274,
+  "line": 268,
   "name": "Make sure elements \"Packaging\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 275,
+  "line": 269,
   "name": "Make sure elements \"ManufacturerName\" are present",
   "keyword": "And "
 });
 formatter.step({
-  "line": 276,
+  "line": 270,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -13226,14 +13029,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 19391834753,
+  "duration": 24401862800,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 1089084580,
+  "duration": 2559930367,
   "status": "passed"
 });
 formatter.match({
@@ -13243,10 +13046,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 31973360522,
+  "duration": 26711162986,
   "status": "passed"
 });
 formatter.match({
@@ -13256,17 +13059,17 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 941261548,
+  "duration": 847745565,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 65507047842,
+  "duration": 58259028273,
   "status": "passed"
 });
 formatter.match({
@@ -13276,10 +13079,10 @@ formatter.match({
       "offset": 13
     }
   ],
-  "location": "common_csp.groovy:334"
+  "location": "common_csp.groovy:336"
 });
 formatter.result({
-  "duration": 1348826643,
+  "duration": 828050175,
   "status": "passed"
 });
 formatter.match({
@@ -13300,7 +13103,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:92"
 });
 formatter.result({
-  "duration": 1269838380,
+  "duration": 2582633354,
   "status": "passed"
 });
 formatter.match({
@@ -13317,7 +13120,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:80"
 });
 formatter.result({
-  "duration": 4110052817,
+  "duration": 4502273338,
   "status": "passed"
 });
 formatter.match({
@@ -13327,10 +13130,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 1071665177,
+  "duration": 765005562,
   "status": "passed"
 });
 formatter.match({
@@ -13351,7 +13154,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 12760738230,
+  "duration": 13438345943,
   "status": "passed"
 });
 formatter.match({
@@ -13364,7 +13167,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 34577908377,
+  "duration": 40905034830,
   "status": "passed"
 });
 formatter.match({
@@ -13382,10 +13185,10 @@ formatter.match({
       "offset": 91
     }
   ],
-  "location": "common_csp.groovy:442"
+  "location": "common_csp.groovy:445"
 });
 formatter.result({
-  "duration": 233668933,
+  "duration": 159826012,
   "status": "passed"
 });
 formatter.match({
@@ -13395,10 +13198,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 650361498,
+  "duration": 675272552,
   "status": "passed"
 });
 formatter.match({
@@ -13412,10 +13215,10 @@ formatter.match({
       "offset": 30
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 762246602,
+  "duration": 1547958825,
   "status": "passed"
 });
 formatter.match({
@@ -13429,10 +13232,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1915135709,
+  "duration": 3054936289,
   "status": "passed"
 });
 formatter.match({
@@ -13446,10 +13249,10 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 3170323330,
+  "duration": 1777980360,
   "status": "passed"
 });
 formatter.match({
@@ -13463,10 +13266,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 4343684305,
+  "duration": 2590556813,
   "status": "passed"
 });
 formatter.match({
@@ -13480,10 +13283,10 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2791593326,
+  "duration": 2237797322,
   "status": "passed"
 });
 formatter.match({
@@ -13497,10 +13300,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 4077746782,
+  "duration": 2911016229,
   "status": "passed"
 });
 formatter.match({
@@ -13514,10 +13317,10 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 5828215287,
+  "duration": 3264844604,
   "status": "passed"
 });
 formatter.match({
@@ -13531,10 +13334,10 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1919055257,
+  "duration": 1408530216,
   "status": "passed"
 });
 formatter.match({
@@ -13548,10 +13351,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 749263025,
+  "duration": 3473633160,
   "status": "passed"
 });
 formatter.match({
@@ -13565,10 +13368,10 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 32629754054,
+  "duration": 36925276535,
   "status": "passed"
 });
 formatter.match({
@@ -13582,10 +13385,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 721216358,
+  "duration": 1095979067,
   "status": "passed"
 });
 formatter.match({
@@ -13599,10 +13402,10 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1644479797,
+  "duration": 756532723,
   "status": "passed"
 });
 formatter.match({
@@ -13616,10 +13419,10 @@ formatter.match({
       "offset": 33
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 896388348,
+  "duration": 775813206,
   "status": "passed"
 });
 formatter.match({
@@ -13633,78 +13436,10 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1138620473,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "product_description_label",
-      "offset": 20
-    },
-    {
-      "val": "present",
-      "offset": 51
-    }
-  ],
-  "location": "common_csp.groovy:308"
-});
-formatter.result({
-  "duration": 1049629866,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "product_description",
-      "offset": 20
-    },
-    {
-      "val": "present",
-      "offset": 45
-    }
-  ],
-  "location": "common_csp.groovy:308"
-});
-formatter.result({
-  "duration": 1127009600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "features_benefits_label",
-      "offset": 20
-    },
-    {
-      "val": "present",
-      "offset": 49
-    }
-  ],
-  "location": "common_csp.groovy:308"
-});
-formatter.result({
-  "duration": 2569044481,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "features_benefits",
-      "offset": 20
-    },
-    {
-      "val": "present",
-      "offset": 43
-    }
-  ],
-  "location": "common_csp.groovy:308"
-});
-formatter.result({
-  "duration": 963080859,
+  "duration": 852202387,
   "status": "passed"
 });
 formatter.match({
@@ -13718,10 +13453,10 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 2432628310,
+  "duration": 696663421,
   "status": "passed"
 });
 formatter.match({
@@ -13735,10 +13470,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 855593861,
+  "duration": 704036045,
   "status": "passed"
 });
 formatter.match({
@@ -13752,25 +13487,31 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "common_csp.groovy:308"
+  "location": "common_csp.groovy:309"
 });
 formatter.result({
-  "duration": 1995962108,
+  "duration": 2204540798,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 10199412386,
+  "duration": 7277615334,
   "status": "passed"
 });
 formatter.after({
-  "duration": 556927,
+  "duration": 522988,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 284,
+  "comments": [
+    {
+      "line": 313,
+      "value": "#---------------------------------------------------------------------------------------------------------------------------------------------------------"
+    }
+  ],
+  "line": 320,
   "name": "Catg : Global Header/Navigation ; Click/Tap Change Account - use view all accounts option",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-click/tap-change-account---use-view-all-accounts-option",
@@ -13778,73 +13519,73 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 278,
-      "name": "@market_smoke_prod2"
+      "line": 314,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 279,
-      "name": "@market_smoke2"
+      "line": 315,
+      "name": "@market_smoke3"
     },
     {
-      "line": 280,
+      "line": 316,
       "name": "@market_smoke"
     },
     {
-      "line": 281,
+      "line": 317,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 282,
+      "line": 318,
       "name": "@global_header"
     },
     {
-      "line": 283,
+      "line": 319,
       "name": "@all_account_view"
     }
   ]
 });
 formatter.step({
-  "line": 285,
+  "line": 321,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 286,
+  "line": 322,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 287,
+  "line": 323,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 288,
+  "line": 324,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 289,
+  "line": 325,
   "name": "the system must display an account selection section on the page as \u003cselectAccountLabel\u003e,\u003csoldToLabel\u003e,\u003cshipToLabel\u003e,\u003csearchBoxDefaultText\u003e,\u003cviewAllAccountsLink\u003e,\u003ccancelLink\u003e,\u003cchangeAccountButtonLabel\u003e",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 290,
+  "line": 326,
   "name": "I click on element \"viewAllAccounts\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 291,
+  "line": 327,
   "name": "I must see display all Sold to/Ship To user associated accounts",
   "keyword": "And "
 });
 formatter.step({
-  "line": 292,
+  "line": 328,
   "name": "Log out of Market application",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 294,
+  "line": 330,
   "name": "",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-click/tap-change-account---use-view-all-accounts-option;",
@@ -13859,7 +13600,7 @@ formatter.examples({
         "cancelLink",
         "changeAccountButtonLabel"
       ],
-      "line": 295,
+      "line": 331,
       "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-click/tap-change-account---use-view-all-accounts-option;;1"
     },
     {
@@ -13872,18 +13613,18 @@ formatter.examples({
         "Cancel",
         "Change Account"
       ],
-      "line": 296,
+      "line": 332,
       "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-click/tap-change-account---use-view-all-accounts-option;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 40538687,
+  "duration": 37952893,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 296,
+  "line": 332,
   "name": "Catg : Global Header/Navigation ; Click/Tap Change Account - use view all accounts option",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-click/tap-change-account---use-view-all-accounts-option;;2",
@@ -13891,53 +13632,53 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 280,
+      "line": 316,
       "name": "@market_smoke"
     },
     {
-      "line": 281,
+      "line": 317,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 279,
-      "name": "@market_smoke2"
+      "line": 315,
+      "name": "@market_smoke3"
     },
     {
-      "line": 283,
+      "line": 319,
       "name": "@all_account_view"
     },
     {
-      "line": 278,
-      "name": "@market_smoke_prod2"
+      "line": 314,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 282,
+      "line": 318,
       "name": "@global_header"
     }
   ]
 });
 formatter.step({
-  "line": 285,
+  "line": 321,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 286,
+  "line": 322,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 287,
+  "line": 323,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 288,
+  "line": 324,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 289,
+  "line": 325,
   "name": "the system must display an account selection section on the page as Select Account,Sold To,Ship To,Search Sold To\u0027s or Ship To\u0027s,View All Accounts,Cancel,Change Account",
   "matchedColumns": [
     0,
@@ -13951,17 +13692,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 290,
+  "line": 326,
   "name": "I click on element \"viewAllAccounts\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 291,
+  "line": 327,
   "name": "I must see display all Sold to/Ship To user associated accounts",
   "keyword": "And "
 });
 formatter.step({
-  "line": 292,
+  "line": 328,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -13975,14 +13716,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 22020384759,
+  "duration": 24573745662,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 5714136733,
+  "duration": 6300908456,
   "status": "passed"
 });
 formatter.match({
@@ -13995,14 +13736,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 1305806622,
+  "duration": 1132139134,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 12089167073,
+  "duration": 10282630198,
   "status": "passed"
 });
 formatter.match({
@@ -14036,10 +13777,10 @@ formatter.match({
       "offset": 154
     }
   ],
-  "location": "changeaccountdropdown.groovy:23"
+  "location": "changeaccountdropdown.groovy:40"
 });
 formatter.result({
-  "duration": 8711576946,
+  "duration": 9366295616,
   "status": "passed"
 });
 formatter.match({
@@ -14053,36 +13794,36 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 11244352973,
+  "duration": 8979448838,
   "status": "passed"
 });
 formatter.match({
   "location": "viewallaccounts.groovy:42"
 });
 formatter.result({
-  "duration": 902325598,
+  "duration": 731452130,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 11919130035,
+  "duration": 6519283479,
   "status": "passed"
 });
 formatter.after({
-  "duration": 429979,
+  "duration": 430955,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27609154,
+  "duration": 23323444,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 305,
+  "line": 341,
   "name": "Catg : Global Header/Navigation ; Get Products details and verify Product landing and Category Landing Page",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-get-products-details-and-verify-product-landing-and-category-landing-page",
@@ -14090,97 +13831,97 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 298,
-      "name": "@market_smoke_prod2"
+      "line": 334,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 299,
-      "name": "@market_smoke2"
+      "line": 335,
+      "name": "@market_smoke3"
     },
     {
-      "line": 300,
+      "line": 336,
       "name": "@market_smoke"
     },
     {
-      "line": 301,
+      "line": 337,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 302,
+      "line": 338,
       "name": "@global_header"
     },
     {
-      "line": 303,
+      "line": 339,
       "name": "@getpoductdetails"
     },
     {
-      "line": 304,
+      "line": 340,
       "name": "@products_plp_clp"
     }
   ]
 });
 formatter.step({
-  "line": 306,
+  "line": 342,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 307,
+  "line": 343,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 308,
+  "line": 344,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 309,
+  "line": 345,
   "name": "I must be taken to an \u0027CategoryLandingPage\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 310,
+  "line": 346,
   "name": "There should be image and title attribute displayed for each item",
   "keyword": "And "
 });
 formatter.step({
-  "line": 311,
+  "line": 347,
   "name": "Reach Product Landing Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 312,
+  "line": 348,
   "name": "Verify items list details related to product",
   "keyword": "And "
 });
 formatter.step({
-  "line": 313,
+  "line": 349,
   "name": "I should see the Item \u0027checkavailibity\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 314,
+  "line": 350,
   "name": "I click at Item \u0027checkavailibity\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 315,
+  "line": 351,
   "name": "I should see the Item \u0027availabilitymsg\u0027",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 316,
+  "line": 352,
   "name": "I click at Item \u0027itemslabel\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 317,
+  "line": 353,
   "name": "I must be taken to an \u0027ItemDetailsPage\u0027",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 318,
+  "line": 354,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -14194,14 +13935,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 21182210242,
+  "duration": 25308351941,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 811477928,
+  "duration": 760424989,
   "status": "passed"
 });
 formatter.match({
@@ -14211,10 +13952,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 34230391479,
+  "duration": 24093978738,
   "status": "passed"
 });
 formatter.match({
@@ -14224,31 +13965,31 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 2662922766,
+  "duration": 883592136,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:58"
 });
 formatter.result({
-  "duration": 106691033037,
+  "duration": 9912512264,
   "status": "passed"
 });
 formatter.match({
   "location": "productnavmenudisplayflag.groovy:30"
 });
 formatter.result({
-  "duration": 63457657558,
+  "duration": 49187143534,
   "status": "passed"
 });
 formatter.match({
-  "location": "shoppingcartpage.groovy:421"
+  "location": "shoppingcartpage.groovy:422"
 });
 formatter.result({
-  "duration": 6490076234,
+  "duration": 5636731249,
   "status": "passed"
 });
 formatter.match({
@@ -14261,7 +14002,7 @@ formatter.match({
   "location": "itemdetailspage.groovy:19"
 });
 formatter.result({
-  "duration": 1202543633,
+  "duration": 819856445,
   "status": "passed"
 });
 formatter.match({
@@ -14274,7 +14015,7 @@ formatter.match({
   "location": "itemdetailspage.groovy:62"
 });
 formatter.result({
-  "duration": 27085057417,
+  "duration": 31332272331,
   "status": "passed"
 });
 formatter.match({
@@ -14287,7 +14028,7 @@ formatter.match({
   "location": "itemdetailspage.groovy:19"
 });
 formatter.result({
-  "duration": 2577961577,
+  "duration": 1173433047,
   "status": "passed"
 });
 formatter.match({
@@ -14300,7 +14041,7 @@ formatter.match({
   "location": "itemdetailspage.groovy:62"
 });
 formatter.result({
-  "duration": 32333986731,
+  "duration": 32288143899,
   "status": "passed"
 });
 formatter.match({
@@ -14310,29 +14051,29 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1161143338,
+  "duration": 1758263956,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 12915454707,
+  "duration": 6966968530,
   "status": "passed"
 });
 formatter.after({
-  "duration": 664302,
+  "duration": 459503,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33593114,
+  "duration": 25677251,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 326,
+  "line": 362,
   "name": "Catg : Global Header/Navigation ; Click/Tap Change Account - CHANGE account to new ship and sold to account",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-click/tap-change-account---change-account-to-new-ship-and-sold-to-account",
@@ -14340,93 +14081,93 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 320,
-      "name": "@market_smoke_prod2"
+      "line": 356,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 321,
-      "name": "@market_smoke2"
+      "line": 357,
+      "name": "@market_smoke3"
     },
     {
-      "line": 322,
+      "line": 358,
       "name": "@market_smoke"
     },
     {
-      "line": 323,
+      "line": 359,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 324,
+      "line": 360,
       "name": "@global_header"
     },
     {
-      "line": 325,
+      "line": 361,
       "name": "@account_change"
     }
   ]
 });
 formatter.step({
-  "line": 327,
+  "line": 363,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 328,
+  "line": 364,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 329,
+  "line": 365,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 330,
+  "line": 366,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 331,
+  "line": 367,
   "name": "I click on element \"viewAllAccounts\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 332,
+  "line": 368,
   "name": "I must see display all Sold to/Ship To user associated accounts",
   "keyword": "And "
 });
 formatter.step({
-  "line": 333,
+  "line": 369,
   "name": "Save value of element \"firstnonselectedrowSoldToValue\" in module \"changeAccountDropDown\" to variable \"temp_newsoldto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 334,
+  "line": 370,
   "name": "Save value of element \"firstnonselectedrowShipToValue\" in module \"changeAccountDropDown\" to variable \"temp_newshipto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 335,
+  "line": 371,
   "name": "I click on element \"accountslistnonselectedrow\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 336,
+  "line": 372,
   "name": "I click on element \"changeButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 337,
+  "line": 373,
   "name": "I verify that \u0027SoldToNum\u0027 displayed with \u0027temp_newsoldto\u0027 text",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 338,
+  "line": 374,
   "name": "I verify that \u0027ShipToNum\u0027 displayed with \u0027temp_newshipto\u0027 text",
   "keyword": "And "
 });
 formatter.step({
-  "line": 339,
+  "line": 375,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -14440,14 +14181,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 20010639148,
+  "duration": 25681004510,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 5259887083,
+  "duration": 7947888722,
   "status": "passed"
 });
 formatter.match({
@@ -14460,14 +14201,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 1218685592,
+  "duration": 3703069814,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 11169317506,
+  "duration": 11579248073,
   "status": "passed"
 });
 formatter.match({
@@ -14481,17 +14222,17 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 12189036792,
+  "duration": 11046726596,
   "status": "passed"
 });
 formatter.match({
   "location": "viewallaccounts.groovy:42"
 });
 formatter.result({
-  "duration": 1071725229,
+  "duration": 2287605613,
   "status": "passed"
 });
 formatter.match({
@@ -14512,7 +14253,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 5050910933,
+  "duration": 4465785898,
   "status": "passed"
 });
 formatter.match({
@@ -14533,7 +14274,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 7222121424,
+  "duration": 3247995812,
   "status": "passed"
 });
 formatter.match({
@@ -14547,10 +14288,10 @@ formatter.match({
       "offset": 59
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 8584293029,
+  "duration": 10310771516,
   "status": "passed"
 });
 formatter.match({
@@ -14564,10 +14305,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 16861308466,
+  "duration": 22698714326,
   "status": "passed"
 });
 formatter.match({
@@ -14584,7 +14325,7 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 15927720621,
+  "duration": 20008900002,
   "status": "passed"
 });
 formatter.match({
@@ -14601,26 +14342,26 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 14225542172,
+  "duration": 13556999531,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 7913934305,
+  "duration": 7550000562,
   "status": "passed"
 });
 formatter.after({
-  "duration": 465074,
+  "duration": 602812,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26307524,
+  "duration": 42593757,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 347,
+  "line": 383,
   "name": "Catg : Global Header/Navigation ; Search by sold to account and make sure search results rows contains that number",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-search-by-sold-to-account-and-make-sure-search-results-rows-contains-that-number",
@@ -14628,133 +14369,133 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 341,
-      "name": "@market_smoke_prod2"
+      "line": 377,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 342,
-      "name": "@market_smoke2"
+      "line": 378,
+      "name": "@market_smoke3"
     },
     {
-      "line": 343,
+      "line": 379,
       "name": "@market_smoke"
     },
     {
-      "line": 344,
+      "line": 380,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 345,
+      "line": 381,
       "name": "@global_header"
     },
     {
-      "line": 346,
+      "line": 382,
       "name": "@searchby_soldto_verifyreturned_changeACCOUNT"
     }
   ]
 });
 formatter.step({
-  "line": 348,
+  "line": 384,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 349,
+  "line": 385,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 350,
+  "line": 386,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 351,
+  "line": 387,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 352,
+  "line": 388,
   "name": "I click on element \"viewAllAccounts\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 353,
+  "line": 389,
   "name": "I must see display all Sold to/Ship To user associated accounts",
   "keyword": "And "
 });
 formatter.step({
-  "line": 354,
+  "line": 390,
   "name": "Save value of element \"firstnonselectedrowSoldToValue\" in module \"changeAccountDropDown\" to variable \"temp_newsoldto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 355,
+  "line": 391,
   "name": "Save value of element \"firstnonselectedrowShipToValue\" in module \"changeAccountDropDown\" to variable \"temp_newshipto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 356,
+  "line": 392,
   "name": "I click on element \"cancelButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 357,
+  "line": 393,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 358,
+  "line": 394,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 359,
+  "line": 395,
   "name": "Enter Text \"temp_newsoldto\" in Text Box field \"search\" in module \"changeAccountDropDown\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 360,
+  "line": 396,
   "name": "I click on element \"searchButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 361,
+  "line": 397,
   "name": "Make sure the search results contains the account \"number\" that is being searched for",
   "keyword": "And "
 });
 formatter.step({
-  "line": 363,
+  "line": 399,
   "name": "Save value of element \"firstnonselectedrowSoldToValue\" in module \"changeAccountDropDown\" to variable \"temp_newsoldto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 364,
+  "line": 400,
   "name": "Save value of element \"firstnonselectedrowShipToValue\" in module \"changeAccountDropDown\" to variable \"temp_newshipto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 365,
+  "line": 401,
   "name": "I click on element \"accountslistnonselectedrow\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 366,
+  "line": 402,
   "name": "I click on element \"changeButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 367,
+  "line": 403,
   "name": "I verify that \u0027SoldToNum\u0027 displayed with \u0027temp_newsoldto\u0027 text",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 368,
+  "line": 404,
   "name": "I verify that \u0027ShipToNum\u0027 displayed with \u0027temp_newshipto\u0027 text",
   "keyword": "And "
 });
 formatter.step({
-  "line": 369,
+  "line": 405,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -14768,14 +14509,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 20548114323,
+  "duration": 26557490834,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 6760772517,
+  "duration": 6434837789,
   "status": "passed"
 });
 formatter.match({
@@ -14788,14 +14529,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 4401016914,
+  "duration": 3357194212,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 11291290827,
+  "duration": 16594741770,
   "status": "passed"
 });
 formatter.match({
@@ -14809,17 +14550,17 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 10056855993,
+  "duration": 9664068402,
   "status": "passed"
 });
 formatter.match({
   "location": "viewallaccounts.groovy:42"
 });
 formatter.result({
-  "duration": 849052271,
+  "duration": 930541822,
   "status": "passed"
 });
 formatter.match({
@@ -14840,7 +14581,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 4149542726,
+  "duration": 5596530510,
   "status": "passed"
 });
 formatter.match({
@@ -14861,7 +14602,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 4176167939,
+  "duration": 2788745342,
   "status": "passed"
 });
 formatter.match({
@@ -14875,10 +14616,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 9525604508,
+  "duration": 6642600071,
   "status": "passed"
 });
 formatter.match({
@@ -14891,14 +14632,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 1348646757,
+  "duration": 1122546851,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 14442890460,
+  "duration": 11105101656,
   "status": "passed"
 });
 formatter.match({
@@ -14919,7 +14660,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 12123212527,
+  "duration": 10575435230,
   "status": "passed"
 });
 formatter.match({
@@ -14933,10 +14674,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 10285635968,
+  "duration": 11088405862,
   "status": "passed"
 });
 formatter.match({
@@ -14946,10 +14687,10 @@ formatter.match({
       "offset": 51
     }
   ],
-  "location": "changeaccountdropdown.groovy:96"
+  "location": "changeaccountdropdown.groovy:257"
 });
 formatter.result({
-  "duration": 174693963043,
+  "duration": 179435264451,
   "status": "passed"
 });
 formatter.match({
@@ -14970,7 +14711,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 5066867450,
+  "duration": 6813068552,
   "status": "passed"
 });
 formatter.match({
@@ -14991,7 +14732,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 4794090171,
+  "duration": 5436176412,
   "status": "passed"
 });
 formatter.match({
@@ -15005,10 +14746,10 @@ formatter.match({
       "offset": 59
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 7971916665,
+  "duration": 10749804314,
   "status": "passed"
 });
 formatter.match({
@@ -15022,10 +14763,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 24964481246,
+  "duration": 20505977647,
   "status": "passed"
 });
 formatter.match({
@@ -15042,7 +14783,7 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 17893064726,
+  "duration": 19953478489,
   "status": "passed"
 });
 formatter.match({
@@ -15059,26 +14800,26 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 12461436406,
+  "duration": 21423487285,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 11435213646,
+  "duration": 9616596631,
   "status": "passed"
 });
 formatter.after({
-  "duration": 514540,
+  "duration": 456273,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34580921,
+  "duration": 40313678,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 377,
+  "line": 413,
   "name": "Catg : Global Header/Navigation ; Search by sold to NAME and make sure search results rows contains that name",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-search-by-sold-to-name-and-make-sure-search-results-rows-contains-that-name",
@@ -15086,133 +14827,133 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 371,
-      "name": "@market_smoke_prod2"
+      "line": 407,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 372,
-      "name": "@market_smoke2"
+      "line": 408,
+      "name": "@market_smoke3"
     },
     {
-      "line": 373,
+      "line": 409,
       "name": "@market_smoke"
     },
     {
-      "line": 374,
+      "line": 410,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 375,
+      "line": 411,
       "name": "@global_header"
     },
     {
-      "line": 376,
+      "line": 412,
       "name": "@searchby_soldto_verifyreturned_changeNAME"
     }
   ]
 });
 formatter.step({
-  "line": 378,
+  "line": 414,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 379,
+  "line": 415,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 380,
+  "line": 416,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 381,
+  "line": 417,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 382,
+  "line": 418,
   "name": "I click on element \"viewAllAccounts\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 383,
+  "line": 419,
   "name": "I must see display all Sold to/Ship To user associated accounts",
   "keyword": "And "
 });
 formatter.step({
-  "line": 384,
+  "line": 420,
   "name": "Save value of element \"firstnonselectedrowSoldToName\" in module \"changeAccountDropDown\" to variable \"temp_newsoldto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 385,
+  "line": 421,
   "name": "Save value of element \"firstnonselectedrowShipToName\" in module \"changeAccountDropDown\" to variable \"temp_newshipto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 386,
+  "line": 422,
   "name": "I click on element \"cancelButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 387,
+  "line": 423,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 388,
+  "line": 424,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 389,
+  "line": 425,
   "name": "Enter Text \"temp_newsoldto\" in Text Box field \"search\" in module \"changeAccountDropDown\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 390,
+  "line": 426,
   "name": "I click on element \"searchButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 391,
+  "line": 427,
   "name": "Make sure the search results contains the account \"name\" that is being searched for",
   "keyword": "And "
 });
 formatter.step({
-  "line": 393,
+  "line": 429,
   "name": "Save value of element \"firstnonselectedrowSoldToName\" in module \"changeAccountDropDown\" to variable \"temp_newsoldto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 394,
+  "line": 430,
   "name": "Save value of element \"firstnonselectedrowShipToName\" in module \"changeAccountDropDown\" to variable \"temp_newshipto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 395,
+  "line": 431,
   "name": "I click on element \"accountslistnonselectedrow\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 396,
+  "line": 432,
   "name": "I click on element \"changeButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 398,
+  "line": 434,
   "name": "I verify that \u0027SoldToName\u0027 displayed with \u0027temp_newsoldto\u0027 text",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 399,
+  "line": 435,
   "name": "I verify that \u0027ShipToName\u0027 displayed with \u0027temp_newshipto\u0027 text",
   "keyword": "And "
 });
 formatter.step({
-  "line": 400,
+  "line": 436,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -15226,14 +14967,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 18569056938,
+  "duration": 28187363886,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 6142668103,
+  "duration": 5507788286,
   "status": "passed"
 });
 formatter.match({
@@ -15246,14 +14987,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 1188560939,
+  "duration": 3963417966,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 8145422513,
+  "duration": 13107353304,
   "status": "passed"
 });
 formatter.match({
@@ -15267,17 +15008,17 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 8322300040,
+  "duration": 10519870037,
   "status": "passed"
 });
 formatter.match({
   "location": "viewallaccounts.groovy:42"
 });
 formatter.result({
-  "duration": 828409767,
+  "duration": 1627983387,
   "status": "passed"
 });
 formatter.match({
@@ -15298,7 +15039,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 12036403785,
+  "duration": 28205335054,
   "status": "passed"
 });
 formatter.match({
@@ -15319,7 +15060,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 19113785448,
+  "duration": 16394806354,
   "status": "passed"
 });
 formatter.match({
@@ -15333,10 +15074,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 8172887866,
+  "duration": 5661136198,
   "status": "passed"
 });
 formatter.match({
@@ -15349,14 +15090,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 1057143897,
+  "duration": 1308664297,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 13030212093,
+  "duration": 13192770456,
   "status": "passed"
 });
 formatter.match({
@@ -15377,7 +15118,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 11327003088,
+  "duration": 11774533130,
   "status": "passed"
 });
 formatter.match({
@@ -15391,10 +15132,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 10547367570,
+  "duration": 12806044759,
   "status": "passed"
 });
 formatter.match({
@@ -15404,10 +15145,10 @@ formatter.match({
       "offset": 51
     }
   ],
-  "location": "changeaccountdropdown.groovy:96"
+  "location": "changeaccountdropdown.groovy:257"
 });
 formatter.result({
-  "duration": 166995062915,
+  "duration": 166513506067,
   "status": "passed"
 });
 formatter.match({
@@ -15428,7 +15169,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 11713218028,
+  "duration": 14377759477,
   "status": "passed"
 });
 formatter.match({
@@ -15449,7 +15190,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 17605101782,
+  "duration": 18031891476,
   "status": "passed"
 });
 formatter.match({
@@ -15463,10 +15204,10 @@ formatter.match({
       "offset": 59
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 10574201555,
+  "duration": 14723558224,
   "status": "passed"
 });
 formatter.match({
@@ -15480,10 +15221,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 20645171964,
+  "duration": 24591492833,
   "status": "passed"
 });
 formatter.match({
@@ -15500,7 +15241,7 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 17394900509,
+  "duration": 14507119311,
   "status": "passed"
 });
 formatter.match({
@@ -15517,26 +15258,26 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 14602801125,
+  "duration": 14586261572,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9085946956,
+  "duration": 11497819243,
   "status": "passed"
 });
 formatter.after({
-  "duration": 434146,
+  "duration": 370432,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30176332,
+  "duration": 26529675,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 408,
+  "line": 444,
   "name": "Catg : Global Header/Navigation ; Search by SHIP to account and make sure search results rows contains that SHIPTO ACT number",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-search-by-ship-to-account-and-make-sure-search-results-rows-contains-that-shipto-act-number",
@@ -15544,133 +15285,133 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 402,
-      "name": "@market_smoke_prod2"
+      "line": 438,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 403,
-      "name": "@market_smoke2"
+      "line": 439,
+      "name": "@market_smoke3"
     },
     {
-      "line": 404,
+      "line": 440,
       "name": "@market_smoke"
     },
     {
-      "line": 405,
+      "line": 441,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 406,
+      "line": 442,
       "name": "@global_header"
     },
     {
-      "line": 407,
+      "line": 443,
       "name": "@searchby_Shipto_verifyreturned_changeACCOUNT"
     }
   ]
 });
 formatter.step({
-  "line": 409,
+  "line": 445,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 410,
+  "line": 446,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 411,
+  "line": 447,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 412,
+  "line": 448,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 413,
+  "line": 449,
   "name": "I click on element \"viewAllAccounts\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 414,
+  "line": 450,
   "name": "I must see display all Sold to/Ship To user associated accounts",
   "keyword": "And "
 });
 formatter.step({
-  "line": 415,
+  "line": 451,
   "name": "Save value of element \"firstnonselectedrowSoldToValue\" in module \"changeAccountDropDown\" to variable \"temp_newsoldto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 416,
+  "line": 452,
   "name": "Save value of element \"firstnonselectedrowShipToValue\" in module \"changeAccountDropDown\" to variable \"temp_newshipto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 417,
+  "line": 453,
   "name": "I click on element \"cancelButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 418,
+  "line": 454,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 419,
+  "line": 455,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 420,
+  "line": 456,
   "name": "Enter Text \"temp_newshipto\" in Text Box field \"search\" in module \"changeAccountDropDown\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 421,
+  "line": 457,
   "name": "I click on element \"searchButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 422,
+  "line": 458,
   "name": "Make sure the search results contains the account \"number\" that is being searched for",
   "keyword": "And "
 });
 formatter.step({
-  "line": 424,
+  "line": 460,
   "name": "Save value of element \"firstnonselectedrowSoldToValue\" in module \"changeAccountDropDown\" to variable \"temp_newsoldto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 425,
+  "line": 461,
   "name": "Save value of element \"firstnonselectedrowShipToValue\" in module \"changeAccountDropDown\" to variable \"temp_newshipto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 426,
+  "line": 462,
   "name": "I click on element \"accountslistnonselectedrow\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 427,
+  "line": 463,
   "name": "I click on element \"changeButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 428,
+  "line": 464,
   "name": "I verify that \u0027SoldToNum\u0027 displayed with \u0027temp_newsoldto\u0027 text",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 429,
+  "line": 465,
   "name": "I verify that \u0027ShipToNum\u0027 displayed with \u0027temp_newshipto\u0027 text",
   "keyword": "And "
 });
 formatter.step({
-  "line": 430,
+  "line": 466,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -15684,14 +15425,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 30871024239,
+  "duration": 23845134315,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 6304986677,
+  "duration": 6046106992,
   "status": "passed"
 });
 formatter.match({
@@ -15704,14 +15445,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 1099245129,
+  "duration": 1114639523,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 10095998795,
+  "duration": 8958991559,
   "status": "passed"
 });
 formatter.match({
@@ -15725,17 +15466,17 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 10223029542,
+  "duration": 11541462380,
   "status": "passed"
 });
 formatter.match({
   "location": "viewallaccounts.groovy:42"
 });
 formatter.result({
-  "duration": 1835350046,
+  "duration": 1001160384,
   "status": "passed"
 });
 formatter.match({
@@ -15756,7 +15497,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 3088325553,
+  "duration": 3149704917,
   "status": "passed"
 });
 formatter.match({
@@ -15777,7 +15518,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 4233787122,
+  "duration": 4916016241,
   "status": "passed"
 });
 formatter.match({
@@ -15791,10 +15532,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 8933875383,
+  "duration": 7296966225,
   "status": "passed"
 });
 formatter.match({
@@ -15807,14 +15548,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 2048961040,
+  "duration": 3664213977,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 12590879898,
+  "duration": 12220332719,
   "status": "passed"
 });
 formatter.match({
@@ -15835,7 +15576,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 8519405046,
+  "duration": 11656681693,
   "status": "passed"
 });
 formatter.match({
@@ -15849,10 +15590,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 8079891392,
+  "duration": 7771519608,
   "status": "passed"
 });
 formatter.match({
@@ -15862,10 +15603,10 @@ formatter.match({
       "offset": 51
     }
   ],
-  "location": "changeaccountdropdown.groovy:96"
+  "location": "changeaccountdropdown.groovy:257"
 });
 formatter.result({
-  "duration": 3034257044,
+  "duration": 1412566655,
   "status": "passed"
 });
 formatter.match({
@@ -15886,7 +15627,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 3710794922,
+  "duration": 6786882114,
   "status": "passed"
 });
 formatter.match({
@@ -15907,7 +15648,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 2822049396,
+  "duration": 4181050405,
   "status": "passed"
 });
 formatter.match({
@@ -15921,10 +15662,10 @@ formatter.match({
       "offset": 59
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 8926279767,
+  "duration": 8461979366,
   "status": "passed"
 });
 formatter.match({
@@ -15938,10 +15679,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 16993618488,
+  "duration": 18947839840,
   "status": "passed"
 });
 formatter.match({
@@ -15958,7 +15699,7 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 15015485243,
+  "duration": 20601866779,
   "status": "passed"
 });
 formatter.match({
@@ -15975,26 +15716,26 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 17398481457,
+  "duration": 17814923320,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9867054401,
+  "duration": 8668360842,
   "status": "passed"
 });
 formatter.after({
-  "duration": 488719,
+  "duration": 338212,
   "status": "passed"
 });
 formatter.before({
-  "duration": 41996935,
+  "duration": 25154873,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 438,
+  "line": 474,
   "name": "Catg : Global Header/Navigation ; Search by ship to NAME and make sure search results rows contains that ship to name",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-search-by-ship-to-name-and-make-sure-search-results-rows-contains-that-ship-to-name",
@@ -16002,138 +15743,138 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 432,
-      "name": "@market_smoke2"
+      "line": 468,
+      "name": "@market_smoke3"
     },
     {
-      "line": 433,
-      "name": "@market_smoke_prod2"
+      "line": 469,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 434,
+      "line": 470,
       "name": "@market_smoke"
     },
     {
-      "line": 435,
+      "line": 471,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 436,
+      "line": 472,
       "name": "@global_header"
     },
     {
-      "line": 437,
+      "line": 473,
       "name": "@searchby_shipto_verifyreturned_changeNAME"
     }
   ]
 });
 formatter.step({
-  "line": 439,
+  "line": 475,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 440,
+  "line": 476,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 441,
+  "line": 477,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 442,
+  "line": 478,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 443,
+  "line": 479,
   "name": "I click on element \"viewAllAccounts\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 444,
+  "line": 480,
   "name": "I must see display all Sold to/Ship To user associated accounts",
   "keyword": "And "
 });
 formatter.step({
-  "line": 445,
+  "line": 481,
   "name": "Save value of element \"firstnonselectedrowSoldToName\" in module \"changeAccountDropDown\" to variable \"temp_newsoldto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 446,
+  "line": 482,
   "name": "Save value of element \"firstnonselectedrowShipToName\" in module \"changeAccountDropDown\" to variable \"temp_newshipto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 447,
+  "line": 483,
   "name": "I click on element \"cancelButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 448,
+  "line": 484,
   "name": "I must see the Change Account link as Change Account",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 449,
+  "line": 485,
   "name": "I have the change account option opened/expanded",
   "keyword": "And "
 });
 formatter.step({
-  "line": 450,
+  "line": 486,
   "name": "Enter Text \"temp_newshipto\" in Text Box field \"search\" in module \"changeAccountDropDown\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 451,
+  "line": 487,
   "name": "I click on element \"searchButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 452,
+  "line": 488,
   "name": "Make sure the search results contains the account \"name\" that is being searched for",
   "keyword": "And "
 });
 formatter.step({
-  "line": 454,
+  "line": 490,
   "name": "Save value of element \"firstnonselectedrowSoldToName\" in module \"changeAccountDropDown\" to variable \"temp_newsoldto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 455,
+  "line": 491,
   "name": "Save value of element \"firstnonselectedrowShipToName\" in module \"changeAccountDropDown\" to variable \"temp_newshipto\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 456,
+  "line": 492,
   "name": "I click on element \"accountslistnonselectedrow\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 457,
+  "line": 493,
   "name": "I click on element \"changeButton\" in module \"changeAccountDropDown\" on tablet header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 458,
+  "line": 494,
   "name": "Wait for 5000 ms",
   "keyword": "And "
 });
 formatter.step({
-  "line": 459,
+  "line": 495,
   "name": "I verify that \u0027SoldToName\u0027 displayed with \u0027temp_newsoldto\u0027 text",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 460,
+  "line": 496,
   "name": "I verify that \u0027ShipToName\u0027 displayed with \u0027temp_newshipto\u0027 text",
   "keyword": "And "
 });
 formatter.step({
-  "line": 461,
+  "line": 497,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -16147,14 +15888,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 36003624677,
+  "duration": 26536483818,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 5277609411,
+  "duration": 6078079597,
   "status": "passed"
 });
 formatter.match({
@@ -16167,14 +15908,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 1095333579,
+  "duration": 1122818403,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 9157967734,
+  "duration": 13639066623,
   "status": "passed"
 });
 formatter.match({
@@ -16188,17 +15929,17 @@ formatter.match({
       "offset": 48
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 13528070540,
+  "duration": 12672158670,
   "status": "passed"
 });
 formatter.match({
   "location": "viewallaccounts.groovy:42"
 });
 formatter.result({
-  "duration": 1420987911,
+  "duration": 2038348536,
   "status": "passed"
 });
 formatter.match({
@@ -16219,7 +15960,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 18342222311,
+  "duration": 14588082780,
   "status": "passed"
 });
 formatter.match({
@@ -16240,7 +15981,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 14936443003,
+  "duration": 18279384203,
   "status": "passed"
 });
 formatter.match({
@@ -16254,10 +15995,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 7107246534,
+  "duration": 8134318845,
   "status": "passed"
 });
 formatter.match({
@@ -16270,14 +16011,14 @@ formatter.match({
   "location": "changeaccountlink.groovy:16"
 });
 formatter.result({
-  "duration": 2850171442,
+  "duration": 1114174991,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountcancellink.groovy:13"
 });
 formatter.result({
-  "duration": 10640883894,
+  "duration": 10263161629,
   "status": "passed"
 });
 formatter.match({
@@ -16298,7 +16039,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 10733574972,
+  "duration": 8511661160,
   "status": "passed"
 });
 formatter.match({
@@ -16312,10 +16053,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 10177240607,
+  "duration": 8312374018,
   "status": "passed"
 });
 formatter.match({
@@ -16325,10 +16066,10 @@ formatter.match({
       "offset": 51
     }
   ],
-  "location": "changeaccountdropdown.groovy:96"
+  "location": "changeaccountdropdown.groovy:257"
 });
 formatter.result({
-  "duration": 2074964387,
+  "duration": 1268224682,
   "status": "passed"
 });
 formatter.match({
@@ -16349,7 +16090,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 20881642913,
+  "duration": 11339880935,
   "status": "passed"
 });
 formatter.match({
@@ -16370,7 +16111,7 @@ formatter.match({
   "location": "changeaccountsubmit.groovy:71"
 });
 formatter.result({
-  "duration": 12632236996,
+  "duration": 16115663357,
   "status": "passed"
 });
 formatter.match({
@@ -16384,10 +16125,10 @@ formatter.match({
       "offset": 59
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 10933987257,
+  "duration": 11274554147,
   "status": "passed"
 });
 formatter.match({
@@ -16401,10 +16142,10 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "common_csp.groovy:524"
+  "location": "common_csp.groovy:527"
 });
 formatter.result({
-  "duration": 18345687491,
+  "duration": 24183449319,
   "status": "passed"
 });
 formatter.match({
@@ -16414,10 +16155,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:346"
+  "location": "common_csp.groovy:348"
 });
 formatter.result({
-  "duration": 5000519698,
+  "duration": 5000458083,
   "status": "passed"
 });
 formatter.match({
@@ -16434,7 +16175,7 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 13900281325,
+  "duration": 13488777590,
   "status": "passed"
 });
 formatter.match({
@@ -16451,26 +16192,26 @@ formatter.match({
   "location": "login.groovy:85"
 });
 formatter.result({
-  "duration": 18149436584,
+  "duration": 15879642646,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9947176537,
+  "duration": 8790146292,
   "status": "passed"
 });
 formatter.after({
-  "duration": 819792,
+  "duration": 553273,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36323025,
+  "duration": 25225863,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 469,
+  "line": 505,
   "name": "Catg : Global Header/Navigation ; Sold to account details",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-sold-to-account-details",
@@ -16478,103 +16219,103 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 463,
-      "name": "@market_smoke2"
+      "line": 499,
+      "name": "@market_smoke3"
     },
     {
-      "line": 464,
-      "name": "@market_smoke_prod2"
+      "line": 500,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 465,
+      "line": 501,
       "name": "@market_smoke"
     },
     {
-      "line": 466,
+      "line": 502,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 467,
+      "line": 503,
       "name": "@global_header"
     },
     {
-      "line": 468,
+      "line": 504,
       "name": "@soldto_shipto_account_details"
     }
   ]
 });
 formatter.step({
-  "line": 470,
+  "line": 506,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 471,
+  "line": 507,
   "name": "I view the Global Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 472,
+  "line": 508,
   "name": "I click element \u0027SoldTo\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
-  "line": 473,
+  "line": 509,
   "name": "Make sure element \"SoldToName\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 474,
+  "line": 510,
   "name": "Make sure element \"SoldToName2\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 475,
+  "line": 511,
   "name": "Make sure element \"SoldToAddress1\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 476,
+  "line": 512,
   "name": "Make sure element \"SoldToState\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 477,
+  "line": 513,
   "name": "Make sure element \"SoldToBaseValue\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 479,
+  "line": 515,
   "name": "I click element \u0027ShipTo\u0027 on globalHeader",
   "keyword": "And "
 });
 formatter.step({
-  "line": 480,
+  "line": 516,
   "name": "Make sure element \"ShipToName\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 481,
+  "line": 517,
   "name": "Make sure element \"ShipToName2\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 482,
+  "line": 518,
   "name": "Make sure element \"ShipToAddress1\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 483,
+  "line": 519,
   "name": "Make sure element \"ShipToState\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 484,
+  "line": 520,
   "name": "Make sure element \"ShipToBaseValue\" is present in page \"global\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 485,
+  "line": 521,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -16588,14 +16329,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 19719678113,
+  "duration": 23037401842,
   "status": "passed"
 });
 formatter.match({
   "location": "changeaccountlink.groovy:12"
 });
 formatter.result({
-  "duration": 5295439302,
+  "duration": 4805244650,
   "status": "passed"
 });
 formatter.match({
@@ -16608,7 +16349,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 10670896613,
+  "duration": 6905434341,
   "status": "passed"
 });
 formatter.match({
@@ -16629,7 +16370,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 4551339694,
+  "duration": 3825938867,
   "status": "passed"
 });
 formatter.match({
@@ -16650,7 +16391,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 5916967909,
+  "duration": 6098178033,
   "status": "passed"
 });
 formatter.match({
@@ -16671,7 +16412,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 5789480021,
+  "duration": 6114323963,
   "status": "passed"
 });
 formatter.match({
@@ -16692,7 +16433,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 4829740822,
+  "duration": 4257259479,
   "status": "passed"
 });
 formatter.match({
@@ -16713,7 +16454,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 4533398018,
+  "duration": 4717965843,
   "status": "passed"
 });
 formatter.match({
@@ -16726,7 +16467,7 @@ formatter.match({
   "location": "searchresultpage.groovy:480"
 });
 formatter.result({
-  "duration": 7339287677,
+  "duration": 6307637115,
   "status": "passed"
 });
 formatter.match({
@@ -16747,7 +16488,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 5819877641,
+  "duration": 5523235912,
   "status": "passed"
 });
 formatter.match({
@@ -16768,7 +16509,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 5524085692,
+  "duration": 6004033140,
   "status": "passed"
 });
 formatter.match({
@@ -16789,7 +16530,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 5993442859,
+  "duration": 4898114846,
   "status": "passed"
 });
 formatter.match({
@@ -16810,7 +16551,7 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 3360692649,
+  "duration": 3212953898,
   "status": "passed"
 });
 formatter.match({
@@ -16831,26 +16572,26 @@ formatter.match({
   "location": "common_csp.groovy:69"
 });
 formatter.result({
-  "duration": 4489953882,
+  "duration": 4747111516,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 8778497680,
+  "duration": 8548867854,
   "status": "passed"
 });
 formatter.after({
-  "duration": 372604,
+  "duration": 405842,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27754378,
+  "duration": 28192681,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 493,
+  "line": 529,
   "name": "Catg : Global Header/Navigation ; Click/Tap logo to go to Home page",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-global-header/navigation-;-click/tap-logo-to-go-to-home-page",
@@ -16858,53 +16599,53 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 487,
-      "name": "@market_smoke2"
+      "line": 523,
+      "name": "@market_smoke3"
     },
     {
-      "line": 488,
-      "name": "@market_smoke_prod2"
+      "line": 524,
+      "name": "@market_smoke_prod3"
     },
     {
-      "line": 489,
+      "line": 525,
       "name": "@market_smoke"
     },
     {
-      "line": 490,
+      "line": 526,
       "name": "@market_smoke_prod"
     },
     {
-      "line": 491,
+      "line": 527,
       "name": "@global_header"
     },
     {
-      "line": 492,
+      "line": 528,
       "name": "@logo_homepage"
     }
   ]
 });
 formatter.step({
-  "line": 494,
+  "line": 530,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 495,
+  "line": 531,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 496,
+  "line": 532,
   "name": "I select 0 item from products menu",
   "keyword": "And "
 });
 formatter.step({
-  "line": 497,
+  "line": 533,
   "name": "I click on \u0027Logo\u0027 in Tablet Header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 498,
+  "line": 534,
   "name": "I am on \"BasePage\" page",
   "keyword": "Then "
 });
@@ -16918,14 +16659,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 20380562620,
+  "duration": 27299642394,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 988314996,
+  "duration": 677077061,
   "status": "passed"
 });
 formatter.match({
@@ -16935,10 +16676,10 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "categorynavigation.groovy:273"
+  "location": "categorynavigation.groovy:276"
 });
 formatter.result({
-  "duration": 36628942198,
+  "duration": 21295876450,
   "status": "passed"
 });
 formatter.match({
@@ -16951,7 +16692,7 @@ formatter.match({
   "location": "basepage.groovy:104"
 });
 formatter.result({
-  "duration": 5262448672,
+  "duration": 10992121881,
   "status": "passed"
 });
 formatter.match({
@@ -16961,32 +16702,32 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 494196941,
+  "duration": 1443784549,
   "status": "passed"
 });
 formatter.after({
-  "duration": 329886,
+  "duration": 301472,
   "status": "passed"
 });
 formatter.before({
-  "duration": 29235724,
+  "duration": 26035472,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
     {
-      "line": 500,
+      "line": 536,
       "value": "##hardcoded"
     },
     {
-      "line": 501,
-      "value": "##not in prod as no customer item # data"
+      "line": 537,
+      "value": "##NOT IN PROD AS NO CUSTOMER ITEM # DATA"
     }
   ],
-  "line": 506,
+  "line": 542,
   "name": "Catg : Search ; Search by Customer Item Number",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-search-;-search-by-customer-item-number",
@@ -16994,55 +16735,55 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 502,
+      "line": 538,
       "name": "@search_customer_item"
     },
     {
-      "line": 503,
-      "name": "@market_smoke2"
+      "line": 539,
+      "name": "@market_smoke3"
     },
     {
-      "line": 504,
+      "line": 540,
       "name": "@market_smoke"
     },
     {
-      "line": 505,
+      "line": 541,
       "name": "@search"
     }
   ]
 });
 formatter.step({
-  "line": 507,
+  "line": 543,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 508,
+  "line": 544,
   "name": "I am on the Header",
   "keyword": "And "
 });
 formatter.step({
-  "line": 509,
+  "line": 545,
   "name": "Enter Text \"106097\" in Text Box field \"SearchBox\" in module \"globalHeader\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 510,
+  "line": 546,
   "name": "I click \u0027ONCE\u0027 on 1 item from the \u0027TypeaheadCustomerItems\u0027 in tablet header navigation",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 511,
+  "line": 547,
   "name": "I must be taken to an \u0027ItemDetailsPage\u0027",
   "keyword": "When "
 });
 formatter.step({
-  "line": 512,
+  "line": 548,
   "name": "I verify the Text on \u0027customernum\u0027 is \u0027106097\u0027",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 513,
+  "line": 549,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -17056,14 +16797,14 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 23058988398,
+  "duration": 27944975624,
   "status": "passed"
 });
 formatter.match({
   "location": "basepage.groovy:11"
 });
 formatter.result({
-  "duration": 987573984,
+  "duration": 667015289,
   "status": "passed"
 });
 formatter.match({
@@ -17084,7 +16825,7 @@ formatter.match({
   "location": "common_csp.groovy:109"
 });
 formatter.result({
-  "duration": 19480463180,
+  "duration": 17555715941,
   "status": "passed"
 });
 formatter.match({
@@ -17105,7 +16846,7 @@ formatter.match({
   "location": "categorynavigation.groovy:120"
 });
 formatter.result({
-  "duration": 39981527946,
+  "duration": 17403701553,
   "status": "passed"
 });
 formatter.match({
@@ -17115,10 +16856,10 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "basepage.groovy:186"
+  "location": "basepage.groovy:188"
 });
 formatter.result({
-  "duration": 1373109299,
+  "duration": 2200149027,
   "status": "passed"
 });
 formatter.match({
@@ -17132,39 +16873,39 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "common_csp.groovy:389"
+  "location": "common_csp.groovy:391"
 });
 formatter.result({
-  "duration": 47713691123,
+  "duration": 43570451209,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 8424505474,
+  "duration": 9851708870,
   "status": "passed"
 });
 formatter.after({
-  "duration": 393078,
+  "duration": 325065,
   "status": "passed"
 });
 formatter.before({
-  "duration": 28560824,
+  "duration": 25432377,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
     {
-      "line": 515,
+      "line": 551,
       "value": "##hardcoded"
     },
     {
-      "line": 516,
+      "line": 552,
       "value": "##no data in prod which has customer item # and value link and core"
     }
   ],
-  "line": 521,
+  "line": 557,
   "name": "Catg : Search ; Verify details of each item returned",
   "description": "",
   "id": "market-smoke-test-cases-second-scenarios;catg-:-search-;-verify-details-of-each-item-returned",
@@ -17172,45 +16913,45 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 517,
-      "name": "@market_smoke2"
+      "line": 553,
+      "name": "@market_smoke3"
     },
     {
-      "line": 518,
+      "line": 554,
       "name": "@market_smoke"
     },
     {
-      "line": 519,
+      "line": 555,
       "name": "@search"
     },
     {
-      "line": 520,
+      "line": 556,
       "name": "@item_valuelink_core_contract_customer"
     }
   ]
 });
 formatter.step({
-  "line": 522,
+  "line": 558,
   "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 523,
+  "line": 559,
   "name": "Search product by word \"30503\" and get list of related products",
   "keyword": "And "
 });
 formatter.step({
-  "line": 524,
+  "line": 560,
   "name": "I am on \"SearchResultPage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 525,
-  "name": "For row item with \"MaterialNum\" as \"30503-015A\" verify elements \"valuelink,core,customernum,contractlabel,contractnumber\" exists",
+  "line": 561,
+  "name": "For row item with \"MaterialNumvalue\" as \"30503-015A\" verify elements \"core,customernum,contractlabel,contractnumber\" exists",
   "keyword": "And "
 });
 formatter.step({
-  "line": 526,
+  "line": 562,
   "name": "Log out of Market application",
   "keyword": "And "
 });
@@ -17224,7 +16965,7 @@ formatter.match({
   "location": "common_csp.groovy:19"
 });
 formatter.result({
-  "duration": 20547188601,
+  "duration": 24828521753,
   "status": "passed"
 });
 formatter.match({
@@ -17237,7 +16978,7 @@ formatter.match({
   "location": "searchresultpage.groovy:1158"
 });
 formatter.result({
-  "duration": 45184713686,
+  "duration": 32597754613,
   "status": "passed"
 });
 formatter.match({
@@ -17247,42 +16988,3297 @@ formatter.match({
       "offset": 9
     }
   ],
-  "location": "common_csp.groovy:364"
+  "location": "common_csp.groovy:366"
 });
 formatter.result({
-  "duration": 602024846,
+  "duration": 1511805884,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "MaterialNum",
+      "val": "MaterialNumvalue",
       "offset": 19
     },
     {
       "val": "30503-015A",
-      "offset": 36
+      "offset": 41
     },
     {
-      "val": "valuelink,core,customernum,contractlabel,contractnumber",
-      "offset": 65
+      "val": "core,customernum,contractlabel,contractnumber",
+      "offset": 70
     }
   ],
-  "location": "searchresultpage.groovy:1256"
+  "location": "searchresultpage.groovy:1255"
 });
 formatter.result({
-  "duration": 13793179725,
+  "duration": 16232805156,
   "status": "passed"
 });
 formatter.match({
-  "location": "sctrachpad.groovy:77"
+  "location": "sctrachpad.groovy:82"
 });
 formatter.result({
-  "duration": 9105136580,
+  "duration": 7665474283,
   "status": "passed"
 });
 formatter.after({
-  "duration": 339797,
+  "duration": 307589,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 25500955,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 570,
+  "name": "Catg : Search ; Number of search results",
+  "description": "",
+  "id": "market-smoke-test-cases-second-scenarios;catg-:-search-;-number-of-search-results",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 564,
+      "name": "@market_smoke_prod3"
+    },
+    {
+      "line": 565,
+      "name": "@market_smoke_prod"
+    },
+    {
+      "line": 566,
+      "name": "@market_smoke3"
+    },
+    {
+      "line": 567,
+      "name": "@market_smoke"
+    },
+    {
+      "line": 568,
+      "name": "@search"
+    },
+    {
+      "line": 569,
+      "name": "@search_results_count"
+    }
+  ]
+});
+formatter.step({
+  "line": 571,
+  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 572,
+  "name": "I am on the Header",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 573,
+  "name": "Search product by word \"surgical gloves\" and get list of related products",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 574,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 575,
+  "name": "The count of element \"ResultItems\" is \u002715\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 576,
+  "name": "Save count of element \"ResultItems\" to variable \"temp_searchresults_count\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 577,
+  "name": "Make sure elements \"TotalproductsCount\" are present",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 578,
+  "name": "Save integer part of element \"TotalproductsCount\" to variable \"temp_totalproductscount\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 579,
+  "name": "If \"temp_totalproductscount\" is more than \"temp_searchresults_count\" than click on \"LoadMoreBtn\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 580,
+  "name": "The count of element \"ResultItems\" is \u002730\u0027",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 581,
+  "name": "Save count of element \"ResultItems\" to variable \"temp_searchresults_count\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 582,
+  "name": "I verify the Text on \u0027Resultsfetchedbottom\u0027 is \u0027temp_searchresults_count\u0027",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 583,
+  "name": "I verify the Text on \u0027Totalresultsbottom\u0027 is \u0027temp_totalproductscount\u0027",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 584,
+  "name": "Log out of Market application",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 25
+    }
+  ],
+  "location": "common_csp.groovy:19"
+});
+formatter.result({
+  "duration": 26621963088,
+  "status": "passed"
+});
+formatter.match({
+  "location": "basepage.groovy:11"
+});
+formatter.result({
+  "duration": 739910391,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "surgical gloves",
+      "offset": 24
+    }
+  ],
+  "location": "searchresultpage.groovy:1158"
+});
+formatter.result({
+  "duration": 37765277939,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SearchResultPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 382691209,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ResultItems",
+      "offset": 22
+    },
+    {
+      "val": "15",
+      "offset": 39
+    }
+  ],
+  "location": "searchresultpage.groovy:716"
+});
+formatter.result({
+  "duration": 2744866128,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ResultItems",
+      "offset": 23
+    },
+    {
+      "val": "temp_searchresults_count",
+      "offset": 49
+    }
+  ],
+  "location": "common_csp.groovy:546"
+});
+formatter.result({
+  "duration": 1175663416,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "TotalproductsCount",
+      "offset": 20
+    },
+    {
+      "val": "present",
+      "offset": 44
+    }
+  ],
+  "location": "common_csp.groovy:309"
+});
+formatter.result({
+  "duration": 1743546209,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "integer",
+      "offset": 5
+    },
+    {
+      "val": "TotalproductsCount",
+      "offset": 30
+    },
+    {
+      "val": "temp_totalproductscount",
+      "offset": 63
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 1481517346,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "temp_totalproductscount",
+      "offset": 4
+    },
+    {
+      "val": "more",
+      "offset": 32
+    },
+    {
+      "val": "temp_searchresults_count",
+      "offset": 43
+    },
+    {
+      "val": "click",
+      "offset": 74
+    },
+    {
+      "val": "LoadMoreBtn",
+      "offset": 84
+    }
+  ],
+  "location": "common_csp.groovy:554"
+});
+formatter.result({
+  "duration": 21262600880,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ResultItems",
+      "offset": 22
+    },
+    {
+      "val": "30",
+      "offset": 39
+    }
+  ],
+  "location": "searchresultpage.groovy:716"
+});
+formatter.result({
+  "duration": 2601732261,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ResultItems",
+      "offset": 23
+    },
+    {
+      "val": "temp_searchresults_count",
+      "offset": 49
+    }
+  ],
+  "location": "common_csp.groovy:546"
+});
+formatter.result({
+  "duration": 1185012782,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Resultsfetchedbottom",
+      "offset": 22
+    },
+    {
+      "val": "temp_searchresults_count",
+      "offset": 48
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 8059912316,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Totalresultsbottom",
+      "offset": 22
+    },
+    {
+      "val": "temp_totalproductscount",
+      "offset": 46
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 8668726527,
+  "status": "passed"
+});
+formatter.match({
+  "location": "sctrachpad.groovy:82"
+});
+formatter.result({
+  "duration": 9638902676,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 307915,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 29563379,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 586,
+      "value": "##no data in prod which has customer item # and value link and core"
+    }
+  ],
+  "line": 591,
+  "name": "Catg : Search ; Verify details of each item returned",
+  "description": "",
+  "id": "market-smoke-test-cases-second-scenarios;catg-:-search-;-verify-details-of-each-item-returned",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 587,
+      "name": "@market_smoke3"
+    },
+    {
+      "line": 588,
+      "name": "@market_smoke"
+    },
+    {
+      "line": 589,
+      "name": "@search"
+    },
+    {
+      "line": 590,
+      "name": "@searchcustomer_valuelink_compare_alternative"
+    }
+  ]
+});
+formatter.step({
+  "line": 592,
+  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 593,
+  "name": "Search product by word \"30503\" and get list of related products",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 594,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 595,
+  "name": "I click on \u0027valuelinkfilter\u0027 element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 596,
+  "name": "I click on \u0027valuelinkcheckbox\u0027 element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 597,
+  "name": "Wait for 200 ms",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 598,
+  "name": "For row item with \"MaterialNumvalue\" as \"30503-015A\" verify elements \"core,customernum,contractlabel,contractnumber\" exists",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 599,
+  "name": "For row item with \"MaterialNumvalue\" as \"30503-015A\" save whole part of element \"uom_price_dropdown_value\" to variable \"temp_price_default\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 600,
+  "name": "For row item with \"MaterialNumvalue\" as \"30503-015A\" save whole part of element \"uom_price_dropdown_value\" to variable \"temp_quantity\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 601,
+  "name": "For row item with \"MaterialNumvalue\" as \"30503-015A\" save whole part of element \"ManufacturerNum\" to variable \"temp_manufacturernum\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 602,
+  "name": "For row item with \"MaterialNumvalue\" as \"30503-015A\" save whole part of element \"MaterialNum\" to variable \"temp_materialnum\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 603,
+  "name": "Update Price and quantity of product",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 604,
+  "name": "For row item with \"MaterialNumvalue\" as \"30503-015A\" save whole part of element \"uom_price_dropdown_value\" to variable \"temp_price_changed\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 605,
+  "name": "For row item with \"MaterialNumvalue\" as \"30503-015A\" save whole part of element \"uom_price_dropdown_value\" to variable \"temp_quantity_changed\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 606,
+  "name": "I click on \u0027uom_price_dropdown_value\u0027 element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 607,
+  "name": "Wait for 200 ms",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 608,
+  "name": "I click on \u0027CheckAvailibity\u0027 element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 609,
+  "name": "Make sure elements \"availibile_not,AvailabilityMsg\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 610,
+  "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 611,
+  "name": "I must not see compare tray items",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 612,
+  "name": "Add \"1\" items to compare and make sure compare tray appears",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 613,
+  "name": "The count of element \"CompareTrayItem\" is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 614,
+  "name": "Make sure elements \"CompareTrayTitle\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 615,
+  "name": "Make sure elements \"CompareTrayMessage\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 616,
+  "name": "Make sure elements \"CompareTrayClearAll\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 617,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 618,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemImage\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 619,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayItemNum\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 620,
+  "name": "I must see compare tray item \u00271\u0027 has \u0027CompareTrayRemoveItem\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 621,
+  "name": "If element \"CompareTrayTitle\" exists than click on \"CompareTrayClearAll\" element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 622,
+  "name": "if \"SearchResultPage\" page returned than hit on item that contains \"temp_materialnum\" and \"temp_manufacturernum\" and get to idp page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 623,
+  "name": "I am on \"ItemDetailsPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 624,
+  "name": "I click on \u0027ItemViewAlternativeLink\u0027 element",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 625,
+  "name": "I must be taken to an \u0027ShopAlternativesPage\u0027",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 626,
+  "name": "Element \"alternativesTitle\" has value \"Shop Alternatives\" in page \"ShopAlternativesPage\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 627,
+  "name": "Make sure elements \"orig_prod_manufacturername,orig_prod_material,orig_prod_title,orig_prod_selectbutton\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 628,
+  "name": "Make sure elements \"orig_prod_price,orig_prod_availibity,orig_prod_description,orig_prod_manufacturernumber\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 629,
+  "name": "Log out of Market application",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 25
+    }
+  ],
+  "location": "common_csp.groovy:19"
+});
+formatter.result({
+  "duration": 37816616847,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "30503",
+      "offset": 24
+    }
+  ],
+  "location": "searchresultpage.groovy:1158"
+});
+formatter.result({
+  "duration": 28424675617,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SearchResultPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 655751883,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "valuelinkfilter",
+      "offset": 12
+    }
+  ],
+  "location": "searchresultpage.groovy:468"
+});
+formatter.result({
+  "duration": 33626151535,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "valuelinkcheckbox",
+      "offset": 12
+    }
+  ],
+  "location": "searchresultpage.groovy:468"
+});
+formatter.result({
+  "duration": 35358317309,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "200",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:348"
+});
+formatter.result({
+  "duration": 200281231,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "MaterialNumvalue",
+      "offset": 19
+    },
+    {
+      "val": "30503-015A",
+      "offset": 41
+    },
+    {
+      "val": "core,customernum,contractlabel,contractnumber",
+      "offset": 70
+    }
+  ],
+  "location": "searchresultpage.groovy:1255"
+});
+formatter.result({
+  "duration": 3388544938,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "MaterialNumvalue",
+      "offset": 19
+    },
+    {
+      "val": "30503-015A",
+      "offset": 41
+    },
+    {
+      "val": "whole",
+      "offset": 58
+    },
+    {
+      "val": "uom_price_dropdown_value",
+      "offset": 81
+    },
+    {
+      "val": "temp_price_default",
+      "offset": 120
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:121"
+});
+formatter.result({
+  "duration": 2886591535,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "MaterialNumvalue",
+      "offset": 19
+    },
+    {
+      "val": "30503-015A",
+      "offset": 41
+    },
+    {
+      "val": "whole",
+      "offset": 58
+    },
+    {
+      "val": "uom_price_dropdown_value",
+      "offset": 81
+    },
+    {
+      "val": "temp_quantity",
+      "offset": 120
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:121"
+});
+formatter.result({
+  "duration": 5757327343,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "MaterialNumvalue",
+      "offset": 19
+    },
+    {
+      "val": "30503-015A",
+      "offset": 41
+    },
+    {
+      "val": "whole",
+      "offset": 58
+    },
+    {
+      "val": "ManufacturerNum",
+      "offset": 81
+    },
+    {
+      "val": "temp_manufacturernum",
+      "offset": 111
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:121"
+});
+formatter.result({
+  "duration": 3338178876,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "MaterialNumvalue",
+      "offset": 19
+    },
+    {
+      "val": "30503-015A",
+      "offset": 41
+    },
+    {
+      "val": "whole",
+      "offset": 58
+    },
+    {
+      "val": "MaterialNum",
+      "offset": 81
+    },
+    {
+      "val": "temp_materialnum",
+      "offset": 107
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:121"
+});
+formatter.result({
+  "duration": 4375039461,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:436"
+});
+formatter.result({
+  "duration": 9630390623,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "MaterialNumvalue",
+      "offset": 19
+    },
+    {
+      "val": "30503-015A",
+      "offset": 41
+    },
+    {
+      "val": "whole",
+      "offset": 58
+    },
+    {
+      "val": "uom_price_dropdown_value",
+      "offset": 81
+    },
+    {
+      "val": "temp_price_changed",
+      "offset": 120
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:121"
+});
+formatter.result({
+  "duration": 4417990094,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "MaterialNumvalue",
+      "offset": 19
+    },
+    {
+      "val": "30503-015A",
+      "offset": 41
+    },
+    {
+      "val": "whole",
+      "offset": 58
+    },
+    {
+      "val": "uom_price_dropdown_value",
+      "offset": 81
+    },
+    {
+      "val": "temp_quantity_changed",
+      "offset": 120
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:121"
+});
+formatter.result({
+  "duration": 4460181468,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "uom_price_dropdown_value",
+      "offset": 12
+    }
+  ],
+  "location": "searchresultpage.groovy:468"
+});
+formatter.result({
+  "duration": 4788501334,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "200",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:348"
+});
+formatter.result({
+  "duration": 200198950,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CheckAvailibity",
+      "offset": 12
+    }
+  ],
+  "location": "searchresultpage.groovy:468"
+});
+formatter.result({
+  "duration": 4268298083,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "availibile_not,AvailabilityMsg",
+      "offset": 20
+    },
+    {
+      "val": "present",
+      "offset": 56
+    }
+  ],
+  "location": "common_csp.groovy:309"
+});
+formatter.result({
+  "duration": 1174627217,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CompareTrayTitle",
+      "offset": 12
+    },
+    {
+      "val": "CompareTrayClearAll",
+      "offset": 52
+    }
+  ],
+  "location": "common_csp.groovy:351"
+});
+formatter.result({
+  "duration": 1061938366,
+  "status": "passed"
+});
+formatter.match({
+  "location": "searchresultpage.groovy:761"
+});
+formatter.result({
+  "duration": 5777558263,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 5
+    }
+  ],
+  "location": "searchresultpage.groovy:579"
+});
+formatter.result({
+  "duration": 12693799286,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CompareTrayItem",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 43
+    }
+  ],
+  "location": "searchresultpage.groovy:716"
+});
+formatter.result({
+  "duration": 278660714,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CompareTrayTitle",
+      "offset": 20
+    },
+    {
+      "val": "present",
+      "offset": 42
+    }
+  ],
+  "location": "common_csp.groovy:309"
+});
+formatter.result({
+  "duration": 874792819,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CompareTrayMessage",
+      "offset": 20
+    },
+    {
+      "val": "present",
+      "offset": 44
+    }
+  ],
+  "location": "common_csp.groovy:309"
+});
+formatter.result({
+  "duration": 740813213,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CompareTrayClearAll",
+      "offset": 20
+    },
+    {
+      "val": "present",
+      "offset": 45
+    }
+  ],
+  "location": "common_csp.groovy:309"
+});
+formatter.result({
+  "duration": 747052393,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 30
+    },
+    {
+      "val": "CompareTrayRemoveItem",
+      "offset": 38
+    }
+  ],
+  "location": "searchresultpage.groovy:738"
+});
+formatter.result({
+  "duration": 425083711,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 30
+    },
+    {
+      "val": "CompareTrayItemImage",
+      "offset": 38
+    }
+  ],
+  "location": "searchresultpage.groovy:738"
+});
+formatter.result({
+  "duration": 424414133,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 30
+    },
+    {
+      "val": "CompareTrayItemNum",
+      "offset": 38
+    }
+  ],
+  "location": "searchresultpage.groovy:738"
+});
+formatter.result({
+  "duration": 436581396,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 30
+    },
+    {
+      "val": "CompareTrayRemoveItem",
+      "offset": 38
+    }
+  ],
+  "location": "searchresultpage.groovy:738"
+});
+formatter.result({
+  "duration": 411429924,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CompareTrayTitle",
+      "offset": 12
+    },
+    {
+      "val": "CompareTrayClearAll",
+      "offset": 52
+    }
+  ],
+  "location": "common_csp.groovy:351"
+});
+formatter.result({
+  "duration": 7982001512,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SearchResultPage",
+      "offset": 4
+    },
+    {
+      "val": "temp_materialnum",
+      "offset": 68
+    },
+    {
+      "val": "temp_manufacturernum",
+      "offset": 91
+    }
+  ],
+  "location": "common_csp.groovy:445"
+});
+formatter.result({
+  "duration": 1989929090,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ItemDetailsPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 5030060001,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ItemViewAlternativeLink",
+      "offset": 12
+    }
+  ],
+  "location": "searchresultpage.groovy:468"
+});
+formatter.result({
+  "duration": 6208301500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ShopAlternativesPage",
+      "offset": 23
+    }
+  ],
+  "location": "basepage.groovy:188"
+});
+formatter.result({
+  "duration": 890428447,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "alternativesTitle",
+      "offset": 9
+    },
+    {
+      "val": "Shop Alternatives",
+      "offset": 39
+    },
+    {
+      "val": "ShopAlternativesPage",
+      "offset": 67
+    }
+  ],
+  "location": "common_csp.groovy:264"
+});
+formatter.result({
+  "duration": 1252183101,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "orig_prod_manufacturername,orig_prod_material,orig_prod_title,orig_prod_selectbutton",
+      "offset": 20
+    },
+    {
+      "val": "present",
+      "offset": 110
+    }
+  ],
+  "location": "common_csp.groovy:309"
+});
+formatter.result({
+  "duration": 3590055647,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "orig_prod_price,orig_prod_availibity,orig_prod_description,orig_prod_manufacturernumber",
+      "offset": 20
+    },
+    {
+      "val": "present",
+      "offset": 113
+    }
+  ],
+  "location": "common_csp.groovy:309"
+});
+formatter.result({
+  "duration": 20307749304,
+  "status": "passed"
+});
+formatter.match({
+  "location": "sctrachpad.groovy:82"
+});
+formatter.result({
+  "duration": 7769235115,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 325929,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 26727498,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 638,
+  "name": "Catg : Shopping Cart ; Change price and quantity and try to navigate out of shopping cart to get update/discard changes messages",
+  "description": "",
+  "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-change-price-and-quantity-and-try-to-navigate-out-of-shopping-cart-to-get-update/discard-changes-messages",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 632,
+      "name": "@market_smoke_prod3"
+    },
+    {
+      "line": 633,
+      "name": "@market_smoke_prod"
+    },
+    {
+      "line": 634,
+      "name": "@market_smoke3"
+    },
+    {
+      "line": 635,
+      "name": "@market_smoke"
+    },
+    {
+      "line": 636,
+      "name": "@shopping"
+    },
+    {
+      "line": 637,
+      "name": "@shiopping_price_quantity_update"
+    }
+  ]
+});
+formatter.step({
+  "line": 639,
+  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 640,
+  "name": "I am on the Header",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 641,
+  "name": "Delete any existing products in cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 642,
+  "name": "Search product by word \"surgical gloves\" and get list of related products",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 643,
+  "name": "Select the product that is available",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 644,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 645,
+  "name": "I verify the Text on \u0027itemsaddedtocart\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 646,
+  "name": "I verify the Text on \u0027HeaderCartItemCount\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 647,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 648,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 649,
+  "name": "Save whole part of element \"uom_price_dropdown_value\" to variable \"temp_price_default\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 650,
+  "name": "Save whole part of element \"each_item_quantity\" to variable \"temp_quantity\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 651,
+  "name": "Update Price and quantity of product",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 652,
+  "name": "Make sure element \"update\" is enabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 653,
+  "name": "Save whole part of element \"uom_price_dropdown_value\" to variable \"temp_price_changed\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 654,
+  "name": "Save whole part of element \"each_item_quantity\" to variable \"temp_quantity_changed\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 655,
+  "name": "I am on \"BasePage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 656,
+  "name": "I select 0 item from products menu",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 657,
+  "name": "Make sure elements \"dialogdiscard\" are present",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 658,
+  "name": "I click on element \"dialogdiscard\" in module \"globalHeader\" on tablet header",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 659,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 660,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 661,
+  "name": "Make sure element \"update\" is disabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 662,
+  "name": "I verify the Text on \u0027uom_price_dropdown_value\u0027 is \u0027temp_price_default\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 663,
+  "name": "I verify the Text on \u0027each_item_quantity\u0027 is \u0027temp_quantity\u0027",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 25
+    }
+  ],
+  "location": "common_csp.groovy:19"
+});
+formatter.result({
+  "duration": 24267439447,
+  "status": "passed"
+});
+formatter.match({
+  "location": "basepage.groovy:11"
+});
+formatter.result({
+  "duration": 739245603,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:13"
+});
+formatter.result({
+  "duration": 121491436585,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "surgical gloves",
+      "offset": 24
+    }
+  ],
+  "location": "searchresultpage.groovy:1158"
+});
+formatter.result({
+  "duration": 26350395015,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:294"
+});
+formatter.result({
+  "duration": 75356794917,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SearchResultPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 440052008,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "itemsaddedtocart",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 44
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 10240653532,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HeaderCartItemCount",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 47
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 9702157515,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cartItemIcon",
+      "offset": 17
+    }
+  ],
+  "location": "searchresultpage.groovy:480"
+});
+formatter.result({
+  "duration": 35358963200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ShoppingCartPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 876064547,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "uom_price_dropdown_value",
+      "offset": 28
+    },
+    {
+      "val": "temp_price_default",
+      "offset": 67
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 5584932350,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "each_item_quantity",
+      "offset": 28
+    },
+    {
+      "val": "temp_quantity",
+      "offset": 61
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 5488654316,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:436"
+});
+formatter.result({
+  "duration": 23324169692,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "update",
+      "offset": 19
+    },
+    {
+      "val": "enabled",
+      "offset": 30
+    },
+    {
+      "val": "\u003cstring\u003e",
+      "offset": 47
+    }
+  ],
+  "location": "common_csp.groovy:253"
+});
+formatter.result({
+  "duration": 10226914744,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "uom_price_dropdown_value",
+      "offset": 28
+    },
+    {
+      "val": "temp_price_changed",
+      "offset": 67
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 6377378162,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "each_item_quantity",
+      "offset": 28
+    },
+    {
+      "val": "temp_quantity_changed",
+      "offset": 61
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 3686412222,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 857547000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "0",
+      "offset": 9
+    }
+  ],
+  "location": "categorynavigation.groovy:276"
+});
+formatter.result({
+  "duration": 22448870903,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dialogdiscard",
+      "offset": 20
+    },
+    {
+      "val": "present",
+      "offset": 39
+    }
+  ],
+  "location": "common_csp.groovy:309"
+});
+formatter.result({
+  "duration": 5699059924,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dialogdiscard",
+      "offset": 20
+    },
+    {
+      "val": "globalHeader",
+      "offset": 46
+    }
+  ],
+  "location": "common_csp.groovy:527"
+});
+formatter.result({
+  "duration": 20128703270,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cartItemIcon",
+      "offset": 17
+    }
+  ],
+  "location": "searchresultpage.groovy:480"
+});
+formatter.result({
+  "duration": 34735290447,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ShoppingCartPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 646149121,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "update",
+      "offset": 19
+    },
+    {
+      "val": "disabled",
+      "offset": 30
+    },
+    {
+      "val": "\u003cstring\u003e",
+      "offset": 48
+    }
+  ],
+  "location": "common_csp.groovy:253"
+});
+formatter.result({
+  "duration": 3718390395,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "uom_price_dropdown_value",
+      "offset": 22
+    },
+    {
+      "val": "temp_price_default",
+      "offset": 52
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 25023959993,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "each_item_quantity",
+      "offset": 22
+    },
+    {
+      "val": "temp_quantity",
+      "offset": 46
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 24962230635,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 348130,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 671,
+  "name": "Catg : Shopping Cart ; Run THREE TIMEs --Change PO NUMBER,MEMO,PACKAGE SLIP and navigate out of shopping cart",
+  "description": "",
+  "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-run-three-times---change-po-number,memo,package-slip-and-navigate-out-of-shopping-cart",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 665,
+      "name": "@market_smoke_prod3"
+    },
+    {
+      "line": 666,
+      "name": "@market_smoke_prod"
+    },
+    {
+      "line": 667,
+      "name": "@market_smoke3"
+    },
+    {
+      "line": 668,
+      "name": "@market_smoke"
+    },
+    {
+      "line": 669,
+      "name": "@shopping"
+    },
+    {
+      "line": 670,
+      "name": "@shiopping_po_package_update"
+    }
+  ]
+});
+formatter.step({
+  "line": 672,
+  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 673,
+  "name": "I am on the Header",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 674,
+  "name": "Delete any existing products in cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 675,
+  "name": "Search product by word \"surgical gloves\" and get list of related products",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 676,
+  "name": "Select the product that is available",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 677,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 678,
+  "name": "I verify the Text on \u0027itemsaddedtocart\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 679,
+  "name": "I verify the Text on \u0027HeaderCartItemCount\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 680,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 681,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 682,
+  "name": "Save whole part of element \"\u003cfield\u003e\" to variable \"temp_po_current_field_value\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 683,
+  "name": "I Enter Text \"TEST NUMBER AND TEXT\" in Text Box field \"\u003cfield\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 684,
+  "name": "Make sure element \"update\" is enabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 685,
+  "name": "Save whole part of element \"\u003cfield\u003e\" to variable \"temp_po_changed_field_value\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 686,
+  "name": "I am on \"BasePage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 687,
+  "name": "I select 0 item from products menu",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 688,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 689,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 690,
+  "name": "Make sure element \"update\" is disabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 691,
+  "name": "I verify the Text on \u0027\u003cfield\u003e\u0027 is \u0027temp_po_current_field_value\u0027",
+  "keyword": "And "
+});
+formatter.examples({
+  "line": 693,
+  "name": "",
+  "description": "",
+  "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-run-three-times---change-po-number,memo,package-slip-and-navigate-out-of-shopping-cart;",
+  "rows": [
+    {
+      "cells": [
+        "field"
+      ],
+      "line": 694,
+      "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-run-three-times---change-po-number,memo,package-slip-and-navigate-out-of-shopping-cart;;1"
+    },
+    {
+      "cells": [
+        "poNumberField"
+      ],
+      "line": 695,
+      "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-run-three-times---change-po-number,memo,package-slip-and-navigate-out-of-shopping-cart;;2"
+    },
+    {
+      "cells": [
+        "poMemoField"
+      ],
+      "line": 696,
+      "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-run-three-times---change-po-number,memo,package-slip-and-navigate-out-of-shopping-cart;;3"
+    },
+    {
+      "cells": [
+        "packingSlipField"
+      ],
+      "line": 697,
+      "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-run-three-times---change-po-number,memo,package-slip-and-navigate-out-of-shopping-cart;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 26530417,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 695,
+  "name": "Catg : Shopping Cart ; Run THREE TIMEs --Change PO NUMBER,MEMO,PACKAGE SLIP and navigate out of shopping cart",
+  "description": "",
+  "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-run-three-times---change-po-number,memo,package-slip-and-navigate-out-of-shopping-cart;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 666,
+      "name": "@market_smoke_prod"
+    },
+    {
+      "line": 668,
+      "name": "@market_smoke"
+    },
+    {
+      "line": 667,
+      "name": "@market_smoke3"
+    },
+    {
+      "line": 669,
+      "name": "@shopping"
+    },
+    {
+      "line": 665,
+      "name": "@market_smoke_prod3"
+    },
+    {
+      "line": 670,
+      "name": "@shiopping_po_package_update"
+    }
+  ]
+});
+formatter.step({
+  "line": 672,
+  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 673,
+  "name": "I am on the Header",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 674,
+  "name": "Delete any existing products in cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 675,
+  "name": "Search product by word \"surgical gloves\" and get list of related products",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 676,
+  "name": "Select the product that is available",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 677,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 678,
+  "name": "I verify the Text on \u0027itemsaddedtocart\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 679,
+  "name": "I verify the Text on \u0027HeaderCartItemCount\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 680,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 681,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 682,
+  "name": "Save whole part of element \"poNumberField\" to variable \"temp_po_current_field_value\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 683,
+  "name": "I Enter Text \"TEST NUMBER AND TEXT\" in Text Box field \"poNumberField\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 684,
+  "name": "Make sure element \"update\" is enabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 685,
+  "name": "Save whole part of element \"poNumberField\" to variable \"temp_po_changed_field_value\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 686,
+  "name": "I am on \"BasePage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 687,
+  "name": "I select 0 item from products menu",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 688,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 689,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 690,
+  "name": "Make sure element \"update\" is disabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 691,
+  "name": "I verify the Text on \u0027poNumberField\u0027 is \u0027temp_po_current_field_value\u0027",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 25
+    }
+  ],
+  "location": "common_csp.groovy:19"
+});
+formatter.result({
+  "duration": 27451459388,
+  "status": "passed"
+});
+formatter.match({
+  "location": "basepage.groovy:11"
+});
+formatter.result({
+  "duration": 2784326984,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:13"
+});
+formatter.result({
+  "duration": 62154884710,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "surgical gloves",
+      "offset": 24
+    }
+  ],
+  "location": "searchresultpage.groovy:1158"
+});
+formatter.result({
+  "duration": 24206086558,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:294"
+});
+formatter.result({
+  "duration": 60260446080,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SearchResultPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 906546388,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "itemsaddedtocart",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 44
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 5281901093,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HeaderCartItemCount",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 47
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 7784675509,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cartItemIcon",
+      "offset": 17
+    }
+  ],
+  "location": "searchresultpage.groovy:480"
+});
+formatter.result({
+  "duration": 36751702473,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ShoppingCartPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 1006661861,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "poNumberField",
+      "offset": 28
+    },
+    {
+      "val": "temp_po_current_field_value",
+      "offset": 56
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 2615843179,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "TEST NUMBER AND TEXT",
+      "offset": 14
+    },
+    {
+      "val": "poNumberField",
+      "offset": 55
+    }
+  ],
+  "location": "common_csp.groovy:173"
+});
+formatter.result({
+  "duration": 4896233338,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "update",
+      "offset": 19
+    },
+    {
+      "val": "enabled",
+      "offset": 30
+    },
+    {
+      "val": "\u003cstring\u003e",
+      "offset": 47
+    }
+  ],
+  "location": "common_csp.groovy:253"
+});
+formatter.result({
+  "duration": 12477616496,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "poNumberField",
+      "offset": 28
+    },
+    {
+      "val": "temp_po_changed_field_value",
+      "offset": 56
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 3210917263,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 1108523619,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "0",
+      "offset": 9
+    }
+  ],
+  "location": "categorynavigation.groovy:276"
+});
+formatter.result({
+  "duration": 23341578254,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cartItemIcon",
+      "offset": 17
+    }
+  ],
+  "location": "searchresultpage.groovy:480"
+});
+formatter.result({
+  "duration": 33418117248,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ShoppingCartPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 602476317,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "update",
+      "offset": 19
+    },
+    {
+      "val": "disabled",
+      "offset": 30
+    },
+    {
+      "val": "\u003cstring\u003e",
+      "offset": 48
+    }
+  ],
+  "location": "common_csp.groovy:253"
+});
+formatter.result({
+  "duration": 1768413580,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "poNumberField",
+      "offset": 22
+    },
+    {
+      "val": "temp_po_current_field_value",
+      "offset": 41
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 9123547179,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 311896,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 43285654,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 696,
+  "name": "Catg : Shopping Cart ; Run THREE TIMEs --Change PO NUMBER,MEMO,PACKAGE SLIP and navigate out of shopping cart",
+  "description": "",
+  "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-run-three-times---change-po-number,memo,package-slip-and-navigate-out-of-shopping-cart;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 666,
+      "name": "@market_smoke_prod"
+    },
+    {
+      "line": 668,
+      "name": "@market_smoke"
+    },
+    {
+      "line": 667,
+      "name": "@market_smoke3"
+    },
+    {
+      "line": 669,
+      "name": "@shopping"
+    },
+    {
+      "line": 665,
+      "name": "@market_smoke_prod3"
+    },
+    {
+      "line": 670,
+      "name": "@shiopping_po_package_update"
+    }
+  ]
+});
+formatter.step({
+  "line": 672,
+  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 673,
+  "name": "I am on the Header",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 674,
+  "name": "Delete any existing products in cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 675,
+  "name": "Search product by word \"surgical gloves\" and get list of related products",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 676,
+  "name": "Select the product that is available",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 677,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 678,
+  "name": "I verify the Text on \u0027itemsaddedtocart\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 679,
+  "name": "I verify the Text on \u0027HeaderCartItemCount\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 680,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 681,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 682,
+  "name": "Save whole part of element \"poMemoField\" to variable \"temp_po_current_field_value\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 683,
+  "name": "I Enter Text \"TEST NUMBER AND TEXT\" in Text Box field \"poMemoField\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 684,
+  "name": "Make sure element \"update\" is enabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 685,
+  "name": "Save whole part of element \"poMemoField\" to variable \"temp_po_changed_field_value\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 686,
+  "name": "I am on \"BasePage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 687,
+  "name": "I select 0 item from products menu",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 688,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 689,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 690,
+  "name": "Make sure element \"update\" is disabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 691,
+  "name": "I verify the Text on \u0027poMemoField\u0027 is \u0027temp_po_current_field_value\u0027",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 25
+    }
+  ],
+  "location": "common_csp.groovy:19"
+});
+formatter.result({
+  "duration": 25860876528,
+  "status": "passed"
+});
+formatter.match({
+  "location": "basepage.groovy:11"
+});
+formatter.result({
+  "duration": 713771561,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:13"
+});
+formatter.result({
+  "duration": 59858768891,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "surgical gloves",
+      "offset": 24
+    }
+  ],
+  "location": "searchresultpage.groovy:1158"
+});
+formatter.result({
+  "duration": 22444538878,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:294"
+});
+formatter.result({
+  "duration": 58006864109,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SearchResultPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 417055893,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "itemsaddedtocart",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 44
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 7465982572,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HeaderCartItemCount",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 47
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 7260045827,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cartItemIcon",
+      "offset": 17
+    }
+  ],
+  "location": "searchresultpage.groovy:480"
+});
+formatter.result({
+  "duration": 32350335868,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ShoppingCartPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 653286853,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "poMemoField",
+      "offset": 28
+    },
+    {
+      "val": "temp_po_current_field_value",
+      "offset": 54
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 2983884101,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "TEST NUMBER AND TEXT",
+      "offset": 14
+    },
+    {
+      "val": "poMemoField",
+      "offset": 55
+    }
+  ],
+  "location": "common_csp.groovy:173"
+});
+formatter.result({
+  "duration": 6582883994,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "update",
+      "offset": 19
+    },
+    {
+      "val": "enabled",
+      "offset": 30
+    },
+    {
+      "val": "\u003cstring\u003e",
+      "offset": 47
+    }
+  ],
+  "location": "common_csp.groovy:253"
+});
+formatter.result({
+  "duration": 9847621408,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "poMemoField",
+      "offset": 28
+    },
+    {
+      "val": "temp_po_changed_field_value",
+      "offset": 54
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 2401396304,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 1098749554,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "0",
+      "offset": 9
+    }
+  ],
+  "location": "categorynavigation.groovy:276"
+});
+formatter.result({
+  "duration": 23299445213,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cartItemIcon",
+      "offset": 17
+    }
+  ],
+  "location": "searchresultpage.groovy:480"
+});
+formatter.result({
+  "duration": 32184794993,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ShoppingCartPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 668178323,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "update",
+      "offset": 19
+    },
+    {
+      "val": "disabled",
+      "offset": 30
+    },
+    {
+      "val": "\u003cstring\u003e",
+      "offset": 48
+    }
+  ],
+  "location": "common_csp.groovy:253"
+});
+formatter.result({
+  "duration": 2658206633,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "poMemoField",
+      "offset": 22
+    },
+    {
+      "val": "temp_po_current_field_value",
+      "offset": 39
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 6413913247,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 407758,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 22903128,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 697,
+  "name": "Catg : Shopping Cart ; Run THREE TIMEs --Change PO NUMBER,MEMO,PACKAGE SLIP and navigate out of shopping cart",
+  "description": "",
+  "id": "market-smoke-test-cases-second-scenarios;catg-:-shopping-cart-;-run-three-times---change-po-number,memo,package-slip-and-navigate-out-of-shopping-cart;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 666,
+      "name": "@market_smoke_prod"
+    },
+    {
+      "line": 668,
+      "name": "@market_smoke"
+    },
+    {
+      "line": 667,
+      "name": "@market_smoke3"
+    },
+    {
+      "line": 669,
+      "name": "@shopping"
+    },
+    {
+      "line": 665,
+      "name": "@market_smoke_prod3"
+    },
+    {
+      "line": 670,
+      "name": "@shiopping_po_package_update"
+    }
+  ]
+});
+formatter.step({
+  "line": 672,
+  "name": "I am on CAH Market site \u0027BasePage\u0027 page and logged in with valid credentials",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 673,
+  "name": "I am on the Header",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 674,
+  "name": "Delete any existing products in cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 675,
+  "name": "Search product by word \"surgical gloves\" and get list of related products",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 676,
+  "name": "Select the product that is available",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 677,
+  "name": "I am on \"SearchResultPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 678,
+  "name": "I verify the Text on \u0027itemsaddedtocart\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 679,
+  "name": "I verify the Text on \u0027HeaderCartItemCount\u0027 is \u00271\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 680,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 681,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 682,
+  "name": "Save whole part of element \"packingSlipField\" to variable \"temp_po_current_field_value\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 683,
+  "name": "I Enter Text \"TEST NUMBER AND TEXT\" in Text Box field \"packingSlipField\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 684,
+  "name": "Make sure element \"update\" is enabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 685,
+  "name": "Save whole part of element \"packingSlipField\" to variable \"temp_po_changed_field_value\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 686,
+  "name": "I am on \"BasePage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 687,
+  "name": "I select 0 item from products menu",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 688,
+  "name": "I click element \u0027cartItemIcon\u0027 on globalHeader",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 689,
+  "name": "I am on \"ShoppingCartPage\" page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 690,
+  "name": "Make sure element \"update\" is disabled in page \"\u003cstring\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 691,
+  "name": "I verify the Text on \u0027packingSlipField\u0027 is \u0027temp_po_current_field_value\u0027",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 25
+    }
+  ],
+  "location": "common_csp.groovy:19"
+});
+formatter.result({
+  "duration": 26486464653,
+  "status": "passed"
+});
+formatter.match({
+  "location": "basepage.groovy:11"
+});
+formatter.result({
+  "duration": 720666833,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:13"
+});
+formatter.result({
+  "duration": 52783897638,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "surgical gloves",
+      "offset": 24
+    }
+  ],
+  "location": "searchresultpage.groovy:1158"
+});
+formatter.result({
+  "duration": 22124065924,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shoppingcartpage.groovy:294"
+});
+formatter.result({
+  "duration": 57237217544,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SearchResultPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 399079845,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "itemsaddedtocart",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 44
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 5495742442,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HeaderCartItemCount",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 47
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 4468179258,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cartItemIcon",
+      "offset": 17
+    }
+  ],
+  "location": "searchresultpage.groovy:480"
+});
+formatter.result({
+  "duration": 33352669950,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ShoppingCartPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 978290368,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "packingSlipField",
+      "offset": 28
+    },
+    {
+      "val": "temp_po_current_field_value",
+      "offset": 59
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 2223980865,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "TEST NUMBER AND TEXT",
+      "offset": 14
+    },
+    {
+      "val": "packingSlipField",
+      "offset": 55
+    }
+  ],
+  "location": "common_csp.groovy:173"
+});
+formatter.result({
+  "duration": 6650194020,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "update",
+      "offset": 19
+    },
+    {
+      "val": "enabled",
+      "offset": 30
+    },
+    {
+      "val": "\u003cstring\u003e",
+      "offset": 47
+    }
+  ],
+  "location": "common_csp.groovy:253"
+});
+formatter.result({
+  "duration": 9706083039,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "whole",
+      "offset": 5
+    },
+    {
+      "val": "packingSlipField",
+      "offset": 28
+    },
+    {
+      "val": "temp_po_changed_field_value",
+      "offset": 59
+    }
+  ],
+  "location": "changeaccountsubmit.groovy:92"
+});
+formatter.result({
+  "duration": 1736109420,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BasePage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 758759324,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "0",
+      "offset": 9
+    }
+  ],
+  "location": "categorynavigation.groovy:276"
+});
+formatter.result({
+  "duration": 20380228942,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cartItemIcon",
+      "offset": 17
+    }
+  ],
+  "location": "searchresultpage.groovy:480"
+});
+formatter.result({
+  "duration": 35506388607,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ShoppingCartPage",
+      "offset": 9
+    }
+  ],
+  "location": "common_csp.groovy:366"
+});
+formatter.result({
+  "duration": 691489941,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "update",
+      "offset": 19
+    },
+    {
+      "val": "disabled",
+      "offset": 30
+    },
+    {
+      "val": "\u003cstring\u003e",
+      "offset": 48
+    }
+  ],
+  "location": "common_csp.groovy:253"
+});
+formatter.result({
+  "duration": 3117027883,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "packingSlipField",
+      "offset": 22
+    },
+    {
+      "val": "temp_po_current_field_value",
+      "offset": 44
+    }
+  ],
+  "location": "common_csp.groovy:391"
+});
+formatter.result({
+  "duration": 4707046242,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 360148,
   "status": "passed"
 });
 });
